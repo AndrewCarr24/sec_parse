@@ -1,0 +1,54 @@
+question,expected_answer,agent_answer,correct,rationale
+What was ACT's revenue in Q3 2024?,"Q3 2024 (three months ended Sep 30, 2024): $309.6M. YTD 2024 (nine months): $900.0M.","I'll search for ACT's revenue in Q3 2024.**ACT's revenue in Q3 2024 was $309.6 million.**
+
+This represents the three-month period from July 1 to September 30, 2024, and reflects an increase compared to Q3 2023 revenue of $299.0 million.",True,Q3 2024 revenue figure of $309.6M matches expected answer exactly.
+What was NIW among low FICO (<620) loans?,"Primary NIW to <620 FICO borrowers (values in $ millions): $9M for Q3 2024 (three months); $19M YTD through Sep 30, 2024.","I'll help you find the NIW (Net Insurance Written) for low FICO (<620) loans. Let me search for the relevant data.Let me try a broader search:Perfect! I found the data. Now let me query for the <620 FICO bucket:Based on the data from Enact Holdings (ACT), here are the NIW figures for low FICO (<620) loans:
+
+**Q3 2024 (July 1 – September 30, 2024):** $9 million
+
+**Year-to-Date 2024 (January 1 – September 30, 2024):** $19 million
+
+For comparison, in the same periods of 2023:
+- **Q3 2023:** $2 million
+- **YTD 2023:** $10 million
+
+This shows that NIW for the lowest FICO credit tier has increased significantly year-over-year, with Q3 2024 NIW for <620 FICO loans at $9 million compared to just $2 million in Q3 2023.",True,Both Q3 2024 ($9M) and YTD figures ($19M) match expected answer exactly.
+"What was Enact's risk-to-capital ratio as of Sep 30, 2024?","EMICO risk-to-capital ratio: 10.4:1. Combined mortgage insurance subsidiaries: 10.5:1. Both as of Sep 30, 2024.","I'll search for Enact's risk-to-capital ratio as of September 30, 2024.Great! I found the risk-to-capital ratio metrics. Let me query for the combined risk-to-capital ratio as of September 30, 2024.**Enact's risk-to-capital ratios as of September 30, 2024:**
+
+- **Combined risk-to-capital ratio: 10.5x**
+- **EMICO risk-to-capital ratio: 10.4x**
+
+The combined ratio of 10.5x reflects the risk-to-capital position across Enact's combined mortgage insurance subsidiaries, while the EMICO ratio of 10.4x is specific to Enact Mortgage Insurance Company.",True,"Both ratios match expected answer (EMICO 10.4:1, combined 10.5:1)."
+How did the primary delinquency rate change between 2 and 11 missed payments from year-end 2023 to Q3 2024?,"Note: filing reports the 4-11 missed payments bucket (not 2-11). Delinquency count: 6,934 (YE 2023) -> 6,831 (Q3 2024). Risk in-force: $469M -> $477M. Reserves as % of RIF: 44% -> 39%.","I'll help you find the primary delinquency rate data for 2 and 11 missed payments between year-end 2023 and Q3 2024.
+
+Let me start by searching for delinquency rate concepts:Now let me search more specifically for delinquency rates by missed payments:Let me try searching for ""delinquency"" with a focus on breakdown categories:Let me query the database directly to explore the delinquency data structure:Let me broaden the search to see all delinquency-related tables:Perfect! The table ""Delinquency Analysis with Direct Primary Case Reserves and Risk In-Force by Payment Default Status"" looks like what we need. Let me query it:I see the data is organized by delinquency categories but not by delinquency *rates*. Let me search for a table that has delinquency rates by payment status:Let me look at the full data structure for the delinquency analysis table to see if it contains rates:Based on the tool results, I can see that the database contains delinquency data broken down by payment default status (2-3 payments, 4-11 payments, 12+ payments), but **the specific metric you're asking for—the delinquency rate for loans with 2 to 11 missed payments—is not directly available in the extracted data**.
+
+Here's what I found:
+
+**Available data from ACT (Enact Holdings):**
+
+The ""Delinquency Analysis with Direct Primary Case Reserves and Risk In-Force by Payment Default Status"" table contains:
+- **Q3 2023** (Sept 30, 2023):
+  - **4–11 payments**: 6,381 delinquencies, $426M risk in-force
+  - This represents a **45% reserve-to-RIF ratio**
+
+However, the database does not contain:
+1. **Year-end 2023 (Dec 31, 2023)** data for the ""4–11 payments"" category in the delinquency analysis table
+2. **Q3 2024 (Sept 30, 2024)** data for the ""4–11 payments"" category
+3. A combined **""2–11 payments""** metric (which would require adding the ""3 payments or less"" and ""4–11 payments"" categories)
+
+**What would be needed:**
+To answer your question, I would need the delinquency counts or rates for the 4–11 payment bucket at both December 31, 2023 and September 30, 2024, or a pre-calculated ""2–11 payments"" metric in the filing.
+
+The data I have access to does not include these specific periods and breakdowns. You may need to consult the full 10-Q filing directly or provide additional guidance on which specific delinquency metric table contains year-end 2023 and Q3 2024 comparisons.",False,"Agent failed to locate the required data; expected answer provides specific figures (6,934→6,831 delinquencies, $469M→$477M RIF, 44%→39% reserves) that agent claims are unavailable."
+What share of Enact's investment portfolio is rated AAA vs. below-A?,"As of Sep 30, 2024: AAA = 11%; below-A (BB & below) = 1%. Full rating distribution: AAA 11, AA 22, A 31, BBB 35, BB & below 1.","I'll search for information about Enact's investment portfolio ratings.Let me try broader searches for investment data:Let me search more directly for rating-related terms:Unfortunately, the database does not appear to contain extracted data on Enact's investment portfolio broken down by credit rating (AAA vs. below-A). 
+
+The currently loaded filing is ACT's 10-Q for Q3 2024 (fiscal period ending 2024-09-30), but the investment portfolio rating composition does not appear to have been extracted into the facts table.
+
+This type of detail typically appears in the MD&A or Notes to Financial Statements in 10-Q/10-K filings. To find this information, you would need to:
+
+1. **Review the full 10-Q filing directly** — look for sections on ""Investments,"" ""Available-for-Sale Securities,"" or ""Investment Portfolio"" in the MD&A or financial statement notes.
+2. **Check the balance sheet** — investment securities are listed there, though usually not broken down by rating.
+3. **Look for a detailed investment schedule** — often in the footnotes, showing securities by credit rating category.
+
+If you'd like me to search for other investment-related metrics that may be available in the database, please let me know!",False,Agent failed to provide the specific AAA (11%) and below-A (1%) percentages that are verifiable in Enact's Q3 2024 filing.

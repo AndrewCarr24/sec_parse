@@ -1,0 +1,149 @@
+[
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260420T151600Z",
+    "accuracy": 0.8,
+    "n": 5,
+    "n_correct": 4,
+    "results_file": "results/questions_20260420T151600Z.csv",
+    "orchestrator_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260420T153049Z",
+    "accuracy": 0.8,
+    "n": 5,
+    "n_correct": 4,
+    "results_file": "results/questions_20260420T153049Z.csv",
+    "orchestrator_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260420T153234Z",
+    "accuracy": 0.6,
+    "n": 5,
+    "n_correct": 3,
+    "results_file": "results/questions_20260420T153234Z.csv",
+    "orchestrator_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260420T165318Z",
+    "accuracy": 0.6,
+    "n": 5,
+    "n_correct": 3,
+    "results_file": "results/questions_20260420T165318Z.csv",
+    "orchestrator_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260420T165816Z",
+    "accuracy": 0.8,
+    "n": 5,
+    "n_correct": 4,
+    "results_file": "results/questions_20260420T165816Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260420T170900Z",
+    "accuracy": 1.0,
+    "n": 4,
+    "n_correct": 4,
+    "results_file": "results/questions_20260420T170900Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260420T172034Z",
+    "accuracy": 1.0,
+    "n": 4,
+    "n_correct": 4,
+    "results_file": "results/questions_20260420T172034Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-6"
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260420T173634Z",
+    "accuracy": 0.75,
+    "n": 4,
+    "n_correct": 3,
+    "results_file": "results/questions_20260420T173634Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-6",
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 2905,
+        "output_tokens": 152,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 8,
+        "cost_usd": 0.003665
+      },
+      "us.anthropic.claude-sonnet-4-6": {
+        "input_tokens": 38132,
+        "output_tokens": 1162,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 11,
+        "cost_usd": 0.131826
+      }
+    },
+    "total_cost_usd": 0.135491
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260420T174046Z",
+    "accuracy": 1.0,
+    "n": 4,
+    "n_correct": 4,
+    "results_file": "results/questions_20260420T174046Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-6",
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 3202,
+        "output_tokens": 172,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 8,
+        "cost_usd": 0.004062
+      },
+      "us.anthropic.claude-sonnet-4-6": {
+        "input_tokens": 47494,
+        "output_tokens": 1612,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 13,
+        "cost_usd": 0.166662
+      }
+    },
+    "total_cost_usd": 0.170724
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260420T175100Z",
+    "accuracy": 1.0,
+    "n": 4,
+    "n_correct": 4,
+    "results_file": "results/questions_20260420T175100Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-6",
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 3117,
+        "output_tokens": 145,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 8,
+        "cost_usd": 0.003842
+      },
+      "us.anthropic.claude-sonnet-4-6": {
+        "input_tokens": 16111,
+        "output_tokens": 1480,
+        "cache_read_tokens": 25168,
+        "cache_creation_tokens": 2288,
+        "calls": 12,
+        "cost_usd": 0.03833
+      }
+    },
+    "total_cost_usd": 0.042172
+  }
+]

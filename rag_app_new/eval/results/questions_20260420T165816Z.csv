@@ -1,0 +1,65 @@
+question,expected_answer,agent_answer,correct,rationale
+What was ACT's revenue in Q3 2024?,"Q3 2024 (three months ended Sep 30, 2024): $309.6M. YTD 2024 (nine months): $900.0M.","**ACT's revenue in Q3 2024 was $309.6 million.**
+
+This represents the three-month period from July 1 to September 30, 2024. For context, year-to-date revenue through Q3 2024 was $900.0 million.",True,Q3 2024 revenue of $309.6M and YTD $900.0M match expected answer exactly.
+What was NIW among low FICO (<620) loans?,"Primary NIW to <620 FICO borrowers (values in $ millions): $9M for Q3 2024 (three months); $19M YTD through Sep 30, 2024.","Perfect! I can see there's a table ""Primary Net Insurance Written (NIW) by FICO Score"" with a label ""<620"" for low FICO loans. Let me query that data.Let me check the table title to confirm the scale, as these values appear to be in millions:Let me check a sample row with all metadata to see if there's a scale indicator:Based on the data, for **ACT (Enact Holdings), Q3 2024**:
+
+**NIW among low FICO (<620) loans:**
+- **Q3 2024** (July 1 - Sept 30, 2024): **$9 million**
+- **Nine months ended Sept 30, 2024**: **$19 million**
+
+For comparison:
+- Q3 2023: $2 million
+- Nine months ended Sept 30, 2023: $10 million
+
+This represents a very small portion of total NIW. In Q3 2024, total Primary NIW was $13,591 million, so the <620 FICO segment represented less than 0.1% of new business written.",True,Both Q3 2024 ($9M) and YTD values ($19M) match expected answer exactly.
+"What was Enact's risk-to-capital ratio as of Sep 30, 2024?","EMICO risk-to-capital ratio: 10.4:1. Combined mortgage insurance subsidiaries: 10.5:1. Both as of Sep 30, 2024.","I'll help you find Enact's risk-to-capital ratio as of September 30, 2024.As of September 30, 2024, **Enact's combined risk-to-capital ratio was 10.5:1** for its combined mortgage insurance subsidiaries.
+
+Additionally, EMICO (Enact Mortgage Insurance Corporation), their primary insurance subsidiary, had a risk-to-capital ratio of **10.4:1** as of the same date.
+
+Both ratios are well below the regulatory maximum of 25:1 for mortgage insurers, indicating strong capital adequacy.",True,Both ratios match expected answer with proper subsidiary breakdown provided.
+How did the primary delinquency rate change between 2 and 11 missed payments from year-end 2023 to Q3 2024?,"Note: filing reports the 4-11 missed payments bucket (not 2-11). Delinquency count: 6,934 (YE 2023) -> 6,831 (Q3 2024). Risk in-force: $469M -> $477M. Reserves as % of RIF: 44% -> 39%.","I'll help you find the change in primary delinquency rates for loans with 2-11 missed payments between year-end 2023 and Q3 2024.Now let me query for the specific delinquency data for 2-11 missed payments:Let me search more specifically for the table structure:Good! Now let me get the delinquency rate data for the specific buckets. The question asks about ""2 and 11 missed payments"" which likely refers to the ""3 payments or less"" and ""4-11 payments"" buckets:Let me check what periods are available:I see the data is from Q3 2023, not year-end 2023 or Q3 2024. Let me check all available periods in the database:I see that the ""Delinquency Analysis with Direct Primary Case Reserves and Risk In-Force by Payment Default Status"" table only has data for Q3 2023. Let me check if there's a similar table for Q3 2024 or year-end 2023 with a slightly different name:Perfect! I found the relevant tables. Let me query both periods:Let me check what labels are available in these tables:Great! Now I can see the structure. The delinquency rate would be calculated from the delinquencies count and risk in-force. Let me get the data for both periods:Perfect! Now I have the data. Let me calculate the delinquency rates for the 2-11 missed payments category. Based on the data, I need to combine the ""3 payments or less"" and ""4-11 payments"" categories to get the total for 2-11 missed payments.
+
+For **Year-end 2023 (December 31, 2023)**:
+- 3 payments or less: 10,166 delinquencies
+- 4-11 payments: 6,934 delinquencies
+- Combined (2-11 payments): 17,100 delinquencies
+- Total delinquencies: 20,432
+- Delinquency rate for 2-11 payments: 17,100 / 20,432 = 83.7%
+
+For **Q3 2024 (September 30, 2024)**:
+- 3 payments or less: 11,132 delinquencies
+- 4-11 payments: 6,831 delinquencies
+- Combined (2-11 payments): 17,963 delinquencies
+- Total delinquencies: 21,027
+- Delinquency rate for 2-11 payments: 17,963 / 21,027 = 85.4%
+
+Based on the data from **ACT (Enact Holdings)**, the primary delinquency rate for loans with 2-11 missed payments changed as follows:
+
+**Year-end 2023 (December 31, 2023):**
+- 3 payments or less: 10,166 delinquencies
+- 4-11 payments: 6,934 delinquencies
+- **Combined 2-11 payments: 17,100 delinquencies (83.7% of total delinquencies)**
+
+**Q3 2024 (September 30, 2024):**
+- 3 payments or less: 11,132 delinquencies
+- 4-11 payments: 6,831 delinquencies
+- **Combined 2-11 payments: 17,963 delinquencies (85.4% of total delinquencies)**
+
+**Change:** The proportion of delinquencies in the 2-11 missed payments category increased by **1.7 percentage points** (from 83.7% to 85.4%) between year-end 2023 and Q3 2024.
+
+In absolute terms, the number of loans with 2-11 missed payments increased by 863 loans (from 17,100 to 17,963), while the total delinquency count increased by 595 loans (from 20,432 to 21,027). This indicates that the early-to-mid stage delinquencies (2-11 payments) grew faster than the severely delinquent category (12+ payments).",False,"Agent calculated combined 2-11 rate (83.7%→85.4%) instead of focusing on 4-11 bucket metrics (count, RIF, reserves %) as specified."
+What share of Enact's investment portfolio is rated AAA vs. below-A?,"As of Sep 30, 2024: AAA = 11%; below-A (BB & below) = 1%. Full rating distribution: AAA 11, AA 22, A 31, BBB 35, BB & below 1.","I'll help you find the breakdown of Enact's investment portfolio by credit rating.Great! I found that there's a table on security ratings. Let me query the investment portfolio breakdown by rating:Based on Enact's Q3 2024 fixed maturity securities portfolio:
+
+**AAA-rated securities:** 11% of the portfolio
+
+**Below-A rated securities:** 1% (BB & below)
+
+For context, here's the full credit rating breakdown:
+- **AAA:** 11%
+- **AA:** 22%
+- **A:** 31%
+- **BBB:** 35%
+- **BB & below:** 1%
+
+So Enact's investment portfolio is heavily weighted toward investment-grade securities, with 99% rated BBB or higher. The AAA portion represents 11% while below-A (sub-investment grade) securities make up just 1% of the portfolio.",True,"All figures match expected answer exactly, including full rating distribution breakdown."
