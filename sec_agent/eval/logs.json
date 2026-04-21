@@ -145,5 +145,61 @@
       }
     },
     "total_cost_usd": 0.042172
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260421T011605Z",
+    "accuracy": 1.0,
+    "n": 7,
+    "n_correct": 7,
+    "results_file": "results/questions_20260421T011605Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-6",
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 5514,
+        "output_tokens": 250,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 14,
+        "cost_usd": 0.006764
+      },
+      "us.anthropic.claude-sonnet-4-6": {
+        "input_tokens": 27810,
+        "output_tokens": 2837,
+        "cache_read_tokens": 57981,
+        "cache_creation_tokens": 2761,
+        "calls": 22,
+        "cost_usd": 0.070303
+      }
+    },
+    "total_cost_usd": 0.077067
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260421T011731Z",
+    "accuracy": 1.0,
+    "n": 7,
+    "n_correct": 7,
+    "results_file": "results/questions_20260421T011731Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-6",
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 5746,
+        "output_tokens": 256,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 14,
+        "cost_usd": 0.007026
+      },
+      "us.anthropic.claude-sonnet-4-6": {
+        "input_tokens": 21862,
+        "output_tokens": 3010,
+        "cache_read_tokens": 55220,
+        "cache_creation_tokens": 0,
+        "calls": 20,
+        "cost_usd": 0.061716
+      }
+    },
+    "total_cost_usd": 0.068742
   }
 ]

@@ -23,6 +23,9 @@ cdk.out/
 # Large/external data — re-downloadable from SEC
 data/raw/
 
+# Regenerable vector store (rebuild with data_pipeline/narrative_indexer.py)
+data/narrative_store/
+
 # Env / secrets
 .env
 .env.*

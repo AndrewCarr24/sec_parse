@@ -19,7 +19,7 @@ parse_sec/
 │   ├── raw/                    # EDGAR downloads (gitignored)
 │   └── parsed/                 # docling-rendered markdown of each filing
 ├── test_output/                # facts CSVs + XBRL metadata (DB input)
-└── rag_app_new/                # LangGraph agent
+└── sec_agent/                 # LangGraph agent
     ├── src/
     │   ├── application/orchestrator/   # router → agent → tools graph
     │   ├── domain/prompts.py
@@ -48,12 +48,12 @@ uv venv && source .venv/bin/activate
 uv pip install sec-edgar-downloader docling arelle-release
 
 # agent deps
-cd rag_app_new
+cd sec_agent
 uv venv && source .venv/bin/activate
 uv pip install -e .
 ```
 
-Optional `.env` in `rag_app_new/` to override defaults:
+Optional `.env` in `sec_agent/` to override defaults:
 
 ```
 ORCHESTRATOR_MODEL_ID=us.anthropic.claude-sonnet-4-6
@@ -124,7 +124,7 @@ The agent's DuckDB loader reads both `xbrl_facts.csv` and
 ## Running the agent
 
 ```bash
-cd rag_app_new
+cd sec_agent
 python scripts/test_local.py "What was ACT's revenue in Q3 2024?"
 ```
 
@@ -143,7 +143,7 @@ The agent is a LangGraph ReAct loop:
 ## Running the eval
 
 ```bash
-cd rag_app_new
+cd sec_agent
 python eval/run_eval.py                  # uses eval/questions.csv
 python eval/run_eval.py eval/other.csv   # custom input
 ```
@@ -153,8 +153,8 @@ For each `(question, expected_answer)` row:
 1. Run the agent, capture the final answer.
 2. Judge with Haiku — binary correct/incorrect with a ≤20-word rationale.
 3. Accumulate tokens by model via a LangChain callback
-   ([eval/usage.py](rag_app_new/eval/usage.py)) and price them with
-   [eval/pricing.py](rag_app_new/eval/pricing.py).
+   ([eval/usage.py](sec_agent/eval/usage.py)) and price them with
+   [eval/pricing.py](sec_agent/eval/pricing.py).
 
 Outputs:
 

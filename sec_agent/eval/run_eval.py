@@ -1,7 +1,7 @@
 """Run the agent over a CSV of (question, expected_answer) pairs and grade.
 
 Usage:
-    cd rag_app_new
+    cd sec_agent
     python eval/run_eval.py                  # uses eval/questions.csv
     python eval/run_eval.py eval/other.csv   # custom input CSV
 
@@ -19,7 +19,7 @@ from pathlib import Path
 
 _HERE = Path(__file__).resolve()
 sys.path.insert(0, str(_HERE.parent))  # eval/
-sys.path.insert(0, str(_HERE.parents[1]))  # rag_app_new/
+sys.path.insert(0, str(_HERE.parents[1]))  # sec_agent/
 
 from langchain_aws import ChatBedrockConverse  # noqa: E402
 from loguru import logger  # noqa: E402

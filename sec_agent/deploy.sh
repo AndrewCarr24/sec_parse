@@ -31,14 +31,14 @@ aws ecr get-login-password --region "${REGION}" | \
 
 echo "==> Building Docker image..."
 cd "$(dirname "$0")/.."  # back to project root
-docker build -f rag_app_new/Dockerfile -t "${IMAGE_URI}" .
+docker build -f sec_agent/Dockerfile -t "${IMAGE_URI}" .
 
 echo "==> Pushing Docker image..."
 docker push "${IMAGE_URI}"
 
 # ─── Step 5: Deploy AgentCore stack ─────────────────────────────────────────
 echo "==> Deploying AgentCore stack..."
-cd rag_app_new/infra
+cd sec_agent/infra
 npx cdk deploy "${APP_NAME}-AgentCoreStack" \
   -c "imageUri=${IMAGE_URI}" \
   --require-approval never

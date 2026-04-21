@@ -158,6 +158,39 @@ def _jsonable(v):
 
 
 @tool
+def search_narrative(query: str) -> str:
+    """
+    Semantic search over the narrative (prose) sections of SEC filings —
+    MD&A business discussion, risk factors, strategic commentary, M&A and
+    regulatory narrative. Use this for questions about management's views,
+    strategy, outlook, risks, or any context NOT expressed as a number in
+    a table.
+
+    Do NOT use this for numeric lookups — those live in the `facts` table,
+    accessed via `search_concepts` / `query_financials`. For hybrid
+    questions (e.g. "what does management say about the decline in NIW?"),
+    use this alongside the SQL tools.
+
+    Currently indexed: ACT 10-Q 2024-09-30 only.
+
+    Args:
+        query: Natural-language query.
+
+    Returns:
+        JSON list of {company, filing_type, period_label, source, text}.
+    """
+    from src.infrastructure.narrative_search import search
+
+    logger.info(f"search_narrative invoked: {query!r}")
+    try:
+        results = search(query, top_k=4)
+    except Exception as e:
+        logger.warning(f"search_narrative failed: {e}")
+        return json.dumps({"error": str(e)})
+    return json.dumps(results, indent=2, default=str)
+
+
+@tool
 async def memory_retrieval_tool(
     query: str,
     memory_types: list[Literal["preferences", "facts", "summaries"]],
@@ -199,7 +232,7 @@ async def memory_retrieval_tool(
 
 
 def get_tools() -> list:
-    tools = [search_concepts, query_financials]
+    tools = [search_concepts, query_financials, search_narrative]
     if settings.MEMORY_ID:
         tools.append(memory_retrieval_tool)
     return tools
