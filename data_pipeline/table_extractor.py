@@ -41,9 +41,9 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-# Reuse the SGML-submission unpacker from the XBRL parser — same logic.
+# Reuse the SGML-submission unpacker and filing-id derivation from the XBRL parser.
 sys.path.insert(0, str(Path(__file__).parent))
-from ixbrl_parser import extract_submission  # noqa: E402
+from ixbrl_parser import default_output_dir, derive_filing_id, extract_submission  # noqa: E402
 
 
 MODEL = "claude-haiku-4-5-20251001"
@@ -253,13 +253,18 @@ def _call_llm(client, candidate: Candidate, filing_meta: dict) -> dict:
 
 def extract_filing(
     accession_dir: Path,
-    output_dir: Path,
+    output_dir: Path | None = None,
     dry_run: bool = False,
     limit: int | None = None,
 ) -> None:
     accession_dir = Path(accession_dir)
-    output_dir = Path(output_dir)
+    ticker, filing_type, filing_period_end = derive_filing_id(accession_dir)
+    if output_dir is None:
+        output_dir = default_output_dir(accession_dir)
+    else:
+        output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
+    print(f"Filing: {ticker} {filing_type} {filing_period_end} → {output_dir}")
 
     filing_meta: dict = {}
     meta_file = output_dir / "xbrl_metadata.json"
@@ -283,7 +288,7 @@ def extract_filing(
         for c in candidates:
             print(f"[{c.index:>3}] rows={c.num_rows:>3} numbers={c.num_numbers:>4}  "
                   f"heading={c.heading[:70]!r}")
-        print(f"\nCost estimate: ~{len(candidates)} LLM calls (sonnet-4-6).")
+        print(f"\nCost estimate: ~{len(candidates)} LLM calls ({MODEL}).")
         return
 
     if not os.environ.get("ANTHROPIC_API_KEY"):
@@ -324,6 +329,9 @@ def extract_filing(
         if is_data:
             for r in rows:
                 all_rows.append({
+                    "ticker": ticker,
+                    "filing_type": filing_type,
+                    "filing_period_end": filing_period_end,
                     "source": "extracted",
                     "source_table_index": cand.index,
                     "source_heading": cand.heading,
@@ -342,6 +350,7 @@ def extract_filing(
     # Emit outputs.
     facts_path = output_dir / "extracted_facts.csv"
     fieldnames = [
+        "ticker", "filing_type", "filing_period_end",
         "source", "source_table_index", "source_heading", "source_title",
         "concept", "label", "raw_display", "value", "unit",
         "period_type", "period_start", "period_end", "dimensions",
@@ -362,13 +371,19 @@ def extract_filing(
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("accession_dir")
-    ap.add_argument("output_dir")
+    ap.add_argument(
+        "output_dir",
+        nargs="?",
+        default=None,
+        help="Defaults to data/extracted_facts_and_tables/<TICKER>/<FORM>_<YYYY-MM-DD>/.",
+    )
     ap.add_argument("--dry-run", action="store_true",
                     help="List candidate tables; do not call the LLM.")
     ap.add_argument("--limit", type=int, default=None,
                     help="Process at most N tables (for cost-controlled testing).")
     args = ap.parse_args()
-    extract_filing(Path(args.accession_dir), Path(args.output_dir),
+    out = Path(args.output_dir) if args.output_dir else None
+    extract_filing(Path(args.accession_dir), out,
                    dry_run=args.dry_run, limit=args.limit)
 
 

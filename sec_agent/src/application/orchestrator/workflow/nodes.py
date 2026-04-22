@@ -9,6 +9,7 @@ from src.application.orchestrator.workflow.chains import (
     get_finalize_chain,
     get_router_chain,
     get_simple_response_chain,
+    with_cache_on_last,
 )
 from src.application.orchestrator.workflow.state import AgentState, IntentType
 from src.config import settings
@@ -52,7 +53,9 @@ async def agent_node(state: AgentState, config: RunnableConfig) -> dict:
     customer_name = configurable.get("customer_name", "Guest")
 
     chain = get_agent_chain(customer_name=customer_name)
-    response = await chain.ainvoke({"messages": messages}, config)
+    response = await chain.ainvoke(
+        {"messages": with_cache_on_last(messages)}, config
+    )
 
     has_tool_calls = bool(getattr(response, "tool_calls", None))
     new_count = tool_call_count + (len(response.tool_calls) if has_tool_calls else 0)

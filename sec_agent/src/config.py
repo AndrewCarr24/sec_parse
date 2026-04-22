@@ -1,9 +1,5 @@
-from pathlib import Path
-
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
-
-_REPO_ROOT = Path(__file__).resolve().parents[2]
 
 
 class Settings(BaseSettings):
@@ -30,16 +26,6 @@ class Settings(BaseSettings):
     MEMORY_ID: str = Field(
         default="",
         description="AgentCore Memory ID (from CDK stack output).",
-    )
-
-    EMBEDDING_PROVIDER: str = Field(
-        default="local",
-        description="Embedding provider: 'local' (BGE) or 'bedrock' (Titan).",
-    )
-
-    TEST_OUTPUT_DIR: Path = Field(
-        default=_REPO_ROOT / "test_output",
-        description="Directory containing xbrl_facts.csv, extracted_facts.csv, and xbrl_metadata.json.",
     )
 
 

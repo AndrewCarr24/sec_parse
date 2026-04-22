@@ -201,5 +201,89 @@
       }
     },
     "total_cost_usd": 0.068742
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260421T131436Z",
+    "accuracy": 1.0,
+    "n": 7,
+    "n_correct": 7,
+    "results_file": "results/questions_20260421T131436Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-6",
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 6027,
+        "output_tokens": 241,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 14,
+        "cost_usd": 0.007232
+      },
+      "us.anthropic.claude-sonnet-4-6": {
+        "input_tokens": 34447,
+        "output_tokens": 3467,
+        "cache_read_tokens": 71169,
+        "cache_creation_tokens": 3389,
+        "calls": 22,
+        "cost_usd": 0.086064
+      }
+    },
+    "total_cost_usd": 0.093296
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260422T002403Z",
+    "accuracy": 1.0,
+    "n": 9,
+    "n_correct": 9,
+    "results_file": "results/questions_20260422T002403Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-6",
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 10123,
+        "output_tokens": 450,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 18,
+        "cost_usd": 0.012373
+      },
+      "us.anthropic.claude-sonnet-4-6": {
+        "input_tokens": 1132664,
+        "output_tokens": 7603,
+        "cache_read_tokens": 94892,
+        "cache_creation_tokens": 3389,
+        "calls": 29,
+        "cost_usd": 3.25837
+      }
+    },
+    "total_cost_usd": 3.270743
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260422T012523Z",
+    "accuracy": 1.0,
+    "n": 9,
+    "n_correct": 9,
+    "results_file": "results/questions_20260422T012523Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-6",
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 9899,
+        "output_tokens": 354,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 18,
+        "cost_usd": 0.011669
+      },
+      "us.anthropic.claude-sonnet-4-6": {
+        "input_tokens": 46,
+        "output_tokens": 6460,
+        "cache_read_tokens": 122130,
+        "cache_creation_tokens": 38859,
+        "calls": 28,
+        "cost_usd": 0.27926
+      }
+    },
+    "total_cost_usd": 0.290929
   }
 ]

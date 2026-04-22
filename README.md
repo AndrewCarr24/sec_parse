@@ -14,16 +14,23 @@ parse_sec/
 │   ├── fetchers.py             # download filings from EDGAR
 │   ├── parsers.py              # HTML → markdown via Docling
 │   ├── ixbrl_parser.py         # iXBRL → xbrl_facts.csv (Arelle)
-│   └── table_extractor.py      # MD&A tables → extracted_facts.csv (LLM)
+│   ├── table_extractor.py      # MD&A tables → extracted_facts.csv (LLM)
+│   └── narrative_indexer.py    # parsed markdown → Chroma vector store (Titan v2)
 ├── data/
-│   ├── raw/                    # EDGAR downloads (gitignored)
-│   └── parsed/                 # docling-rendered markdown of each filing
-├── test_output/                # facts CSVs + XBRL metadata (DB input)
+│   ├── raw/                              # EDGAR downloads (gitignored)
+│   ├── parsed/                           # docling-rendered markdown of each filing
+│   ├── narrative_store/                  # Chroma vector store (gitignored)
+│   └── extracted_facts_and_tables/       # per-filing facts CSVs (DB input)
+│       └── {TICKER}/{FORM}_{YYYY-MM-DD}/
+├── test_output/                # legacy single-filing output (validation reference only)
 └── sec_agent/                 # LangGraph agent
     ├── src/
-    │   ├── application/orchestrator/   # router → agent → tools graph
+    │   ├── application/orchestrator/     # router → agent → tools graph
     │   ├── domain/prompts.py
-    │   └── infrastructure/financials_db.py  # DuckDB loader
+    │   └── infrastructure/
+    │       ├── financials_db.py          # DuckDB loader (globs facts tree)
+    │       ├── narrative_search.py       # Chroma + Titan v2 retrieval
+    │       └── catalog.py                # filings-catalog for agent prompt
     ├── scripts/test_local.py   # one-shot interactive query
     ├── eval/                   # eval harness
     │   ├── questions.csv       # gold Q/A pairs
@@ -63,7 +70,7 @@ AWS_REGION=us-east-1
 
 ## Data pipeline
 
-The pipeline is four stages; each script is runnable standalone.
+The pipeline is five stages; each script is runnable standalone.
 
 ### 1. Fetch filings from EDGAR
 
@@ -89,17 +96,20 @@ skips any filing already parsed.
 ### 3. Extract iXBRL facts
 
 ```bash
-python data_pipeline/ixbrl_parser.py <accession_dir> <output_dir>
+python data_pipeline/ixbrl_parser.py <accession_dir> [<output_dir>]
 # e.g.
 python data_pipeline/ixbrl_parser.py \
-    data/raw/sec-edgar-filings/ACT/10-Q/2024-09-30/0001324404-24-000017 \
-    test_output
+    data/raw/sec-edgar-filings/ACT/10-Q/2024-09-30/0001324404-24-000017
 ```
 
-Unpacks the SGML submission into a temp dir, points Arelle at the primary
-iXBRL doc, and writes to `<output_dir>/`:
+When `output_dir` is omitted, it's derived from the accession path as
+`data/extracted_facts_and_tables/{TICKER}/{FORM}_{YYYY-MM-DD}/`. Unpacks
+the SGML submission into a temp dir, points Arelle at the primary iXBRL
+doc, and writes to `<output_dir>/`:
 
-- `xbrl_facts.csv` — one row per reported fact (concept, value, unit, period, dimensions)
+- `xbrl_facts.csv` — one row per reported fact; includes `ticker`,
+  `filing_type`, `filing_period_end` columns so the DuckDB loader can
+  filter by filing across the globbed tree
 - `xbrl_contexts.json` — period + dimension definitions
 - `xbrl_units.json` — unit definitions
 - `xbrl_metadata.json` — filing-level DEI (CIK, form, period, entity)
@@ -107,19 +117,36 @@ iXBRL doc, and writes to `<output_dir>/`:
 ### 4. Extract MD&A / narrative tables
 
 ```bash
-python data_pipeline/table_extractor.py <accession_dir> <output_dir> [--dry-run] [--limit N]
+python data_pipeline/table_extractor.py <accession_dir> [<output_dir>] [--dry-run] [--limit N]
 ```
 
 LLM-driven extraction of tables that aren't iXBRL-tagged (operational metrics
-like NIW by FICO, IIF by LTV, etc.). Writes to `<output_dir>/`:
+like NIW by FICO, IIF by LTV, etc.). `output_dir` defaults to the same
+per-filing path used by `ixbrl_parser.py`. Writes:
 
-- `extracted_facts.csv` — one row per (table, row, column) value
+- `extracted_facts.csv` — one row per (table, row, column) value; also
+  carries `ticker`/`filing_type`/`filing_period_end`
 - `extracted_tables.json` — per-table audit: LLM classification + schema
 - `extraction_log.txt` — run log
 
-The agent's DuckDB loader reads both `xbrl_facts.csv` and
-`extracted_facts.csv` from `test_output/` and folds them into a single
-`facts` table.
+The agent's DuckDB loader globs every `xbrl_facts.csv` + `extracted_facts.csv`
+under `data/extracted_facts_and_tables/` and folds them into a single
+`facts` table; the agent filters by `ticker` AND `fiscal_period_end` to
+scope queries to a specific filing.
+
+### 5. Index narrative sections
+
+```bash
+python data_pipeline/narrative_indexer.py
+```
+
+Reads `data/parsed/*.md`, strips markdown tables (prose only — tabular
+data lives in the `facts` table from stage 4), chunks with 1500/200
+`RecursiveCharacterTextSplitter`, embeds each chunk via Amazon Titan v2
+through Bedrock, and persists a Chroma collection to
+`data/narrative_store/`. The agent's `search_narrative` tool reads this
+store for qualitative/contextual questions (MD&A discussion, risk factors,
+strategic commentary).
 
 ## Running the agent
 
@@ -128,15 +155,18 @@ cd sec_agent
 python scripts/test_local.py "What was ACT's revenue in Q3 2024?"
 ```
 
-Streams the answer to stdout. On first invocation the DuckDB loader reads
-the CSVs in `test_output/`, normalizes units/period-ends, and builds the
-`facts` table in-memory.
+Streams the answer to stdout. On first invocation the DuckDB loader globs
+every filing under `data/extracted_facts_and_tables/`, normalizes
+units/period-ends, and builds the `facts` table in-memory. A filings
+catalog is also injected into the agent's system prompt so it can pick
+the right ticker + period for a given question.
 
 The agent is a LangGraph ReAct loop:
 
 1. **Router** (Haiku) — classifies intent (`rag_query` / `simple` / `off_topic`)
-2. **Agent** (Sonnet 4.6, prompt-cached) — calls `search_concepts` and
-   `query_financials` tools against DuckDB until it has enough context
+2. **Agent** (Sonnet 4.6, prompt-cached) — calls `search_concepts`,
+   `query_financials`, and `search_narrative` tools, scoping SQL queries
+   by `ticker` AND `fiscal_period_end`, until it has enough context
 3. **Finalize** — if the 12-call tool budget is hit, produce a best-effort
    answer from tool results already gathered
 

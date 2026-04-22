@@ -1,6 +1,6 @@
 """Chains for the router, the RAG agent, and the simple-response path."""
 
-from langchain_core.messages import SystemMessage
+from langchain_core.messages import BaseMessage, SystemMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables import Runnable
 
@@ -10,6 +10,7 @@ from src.domain.prompts import (
     ROUTER_PROMPT,
     SIMPLE_RESPONSE_PROMPT,
 )
+from src.infrastructure.catalog import format_for_prompt as format_catalog
 from src.infrastructure.model import get_model
 
 
@@ -29,9 +30,47 @@ def _cached_system(text: str) -> SystemMessage:
     )
 
 
+def with_cache_on_last(messages: list[BaseMessage]) -> list[BaseMessage]:
+    """Append a Bedrock cachePoint to the content of the last message.
+
+    On each ReAct turn, the agent node calls the LLM with a growing list
+    of messages. By marking the end of the current history as a cache
+    point, Bedrock caches the prefix; the next turn reads the same prefix
+    at ~10% of input-token price. Cache writes are a one-time ~25% markup
+    that amortizes after the first reuse.
+
+    The mutation is per-invocation only — we return a new list with a
+    copied last message so graph state keeps a clean, cache-point-free
+    message history.
+    """
+    if not messages:
+        return messages
+    last = messages[-1]
+    content = last.content
+    cp_block = {"cachePoint": {"type": "default"}}
+    if isinstance(content, str):
+        new_content = [{"type": "text", "text": content}, cp_block]
+    elif isinstance(content, list):
+        if any(isinstance(b, dict) and "cachePoint" in b for b in content):
+            return messages
+        new_content = list(content) + [cp_block]
+    else:
+        return messages
+    new_last = last.model_copy(update={"content": new_content})
+    return list(messages[:-1]) + [new_last]
+
+
+def _build_agent_system(customer_name: str) -> str:
+    return (
+        AGENT_SYSTEM_PROMPT
+        .replace("{customer_name}", customer_name)
+        .replace("{filings_catalog}", format_catalog())
+    )
+
+
 def get_agent_chain(customer_name: str = "Guest") -> Runnable:
     model = get_model(temperature=0.3).bind_tools(get_tools())
-    system = AGENT_SYSTEM_PROMPT.replace("{customer_name}", customer_name)
+    system = _build_agent_system(customer_name)
     prompt = ChatPromptTemplate.from_messages(
         [_cached_system(system), MessagesPlaceholder(variable_name="messages")]
     )
@@ -42,7 +81,7 @@ def get_finalize_chain(customer_name: str = "Guest") -> Runnable:
     """Agent chain WITHOUT tools bound — used to force a text answer
     when the ReAct tool-call budget is exhausted."""
     model = get_model(temperature=0.3)
-    system = AGENT_SYSTEM_PROMPT.replace("{customer_name}", customer_name) + (
+    system = _build_agent_system(customer_name) + (
         "\n\nYou have already gathered research via tool calls and your tool "
         "budget is now exhausted. Do NOT attempt any more tool calls. Produce "
         "the best final answer you can from the tool results already in the "

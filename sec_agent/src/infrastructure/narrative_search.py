@@ -58,23 +58,41 @@ def _embed(text: str) -> list[float]:
     return body["embedding"]
 
 
-def search(query: str, top_k: int = 4) -> list[dict]:
+def search(
+    query: str,
+    top_k: int = 4,
+    exclude_ids: set[str] | None = None,
+) -> list[dict]:
+    """Semantic search over indexed narrative chunks.
+
+    When `exclude_ids` is provided we over-fetch (3× top_k) and filter out
+    already-seen chunk IDs, preserving `top_k` fresh results — so repeated
+    calls within one agent run don't re-send the same chunks.
+    """
     collection = _get_collection()
     vec = _embed(query)
+    exclude = exclude_ids or set()
+    n_fetch = top_k * 3 if exclude else top_k
     res = collection.query(
         query_embeddings=[vec],
-        n_results=top_k,
+        n_results=n_fetch,
         include=["documents", "metadatas"],
     )
+    ids = res["ids"][0]
     docs = res["documents"][0]
     metas = res["metadatas"][0]
-    return [
-        {
+    out: list[dict] = []
+    for cid, d, m in zip(ids, docs, metas):
+        if cid in exclude:
+            continue
+        out.append({
+            "id": cid,
             "company": m.get("company", "unknown"),
             "filing_type": m.get("filing_type", ""),
             "period_label": m.get("period_label", ""),
             "source": m.get("source", ""),
             "text": d,
-        }
-        for d, m in zip(docs, metas)
-    ]
+        })
+        if len(out) >= top_k:
+            break
+    return out

@@ -101,11 +101,16 @@ def query_financials(sql: str) -> str:
         )
 
     Tips:
+        - Always scope to one filing (or a chosen set) with
+          `WHERE ticker = '...' AND fiscal_period_end = DATE '...'`.
+          Available filings are listed in the system prompt's filings_catalog.
+        - `fiscal_period_end` picks the filing; `period_end` picks the fact's
+          own period within that filing (a 10-Q carries 3- and 9-month facts
+          plus prior-year comparatives).
         - For total (un-disaggregated) values, filter `dimensions IS NULL OR dimensions = '{}'`.
         - Balance-sheet values have period_type='instant'; P&L values 'duration'.
         - Prefer `source='xbrl'` for GAAP line items; use 'extracted' for
           MD&A operational metrics (IIF, NIW, persistency, delinquencies by LTV, etc.).
-        - Currently only one filing is loaded (ACT 10-Q 2024-09-30).
 
     Args:
         sql: A SELECT statement. Only SELECTs are allowed.
@@ -157,8 +162,18 @@ def _jsonable(v):
     return str(v)
 
 
+# Per-thread set of chunk IDs already returned to the agent. Same thread_id
+# across multiple search_narrative calls means the same agent run — we skip
+# duplicate chunks and backfill with fresh ones so the model doesn't pay to
+# re-read the same paragraph.
+_SEEN_CHUNKS: dict[str, set[str]] = {}
+
+
 @tool
-def search_narrative(query: str) -> str:
+def search_narrative(
+    query: str,
+    config: Annotated[RunnableConfig, InjectedToolArg],
+) -> str:
     """
     Semantic search over the narrative (prose) sections of SEC filings —
     MD&A business discussion, risk factors, strategic commentary, M&A and
@@ -171,7 +186,14 @@ def search_narrative(query: str) -> str:
     questions (e.g. "what does management say about the decline in NIW?"),
     use this alongside the SQL tools.
 
-    Currently indexed: ACT 10-Q 2024-09-30 only.
+    Narrative retrieval is currently single-corpus and not scoped by
+    filing — the top-k chunks may come from any indexed filing. Cross-check
+    the returned `company`/`period_label` metadata against what the user asked.
+
+    Within a single agent run, chunks already returned by earlier calls are
+    excluded and replaced by the next-best fresh chunks, so repeated calls
+    with similar queries yield new content rather than re-sending the same
+    paragraphs.
 
     Args:
         query: Natural-language query.
@@ -182,12 +204,18 @@ def search_narrative(query: str) -> str:
     from src.infrastructure.narrative_search import search
 
     logger.info(f"search_narrative invoked: {query!r}")
+    thread_id = ((config or {}).get("configurable") or {}).get("thread_id", "_default")
+    seen = _SEEN_CHUNKS.setdefault(thread_id, set())
     try:
-        results = search(query, top_k=4)
+        results = search(query, top_k=4, exclude_ids=seen)
     except Exception as e:
         logger.warning(f"search_narrative failed: {e}")
         return json.dumps({"error": str(e)})
-    return json.dumps(results, indent=2, default=str)
+    for r in results:
+        seen.add(r["id"])
+    # Drop the internal id from what we send to the agent — it's only for dedup.
+    payload = [{k: v for k, v in r.items() if k != "id"} for r in results]
+    return json.dumps(payload, indent=2, default=str)
 
 
 @tool

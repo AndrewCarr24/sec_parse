@@ -2,8 +2,9 @@
 
 MVP scope: only data/parsed/ACT_10-Q_2024-09-30.md. Markdown tables are
 stripped before chunking so the vector store holds prose only — tabular
-data is already structured in test_output/xbrl_facts.csv +
-test_output/extracted_facts.csv and served via the agent's SQL tools.
+data is already structured in data/extracted_facts_and_tables/{TICKER}/
+{FORM}_{YYYY-MM-DD}/{xbrl,extracted}_facts.csv and served via the agent's
+SQL tools.
 
 Embeddings: Amazon Titan v2 via Bedrock (no local torch/sentence-transformers
 required). Requires AWS creds with Bedrock access.

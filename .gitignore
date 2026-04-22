@@ -39,3 +39,13 @@ credentials.*
 .idea/
 .vscode/
 *.swp
+
+# Claude Code local state
+.claude/
+
+# Local reference data (FinanceBench etc.) — not for repo
+ref_data/
+
+# Ad-hoc scratch
+tmp.txt
+tmp.*.txt

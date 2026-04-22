@@ -33,8 +33,8 @@ COPY sec_agent/src/ src/
 COPY sec_agent/agentcore.py agentcore.py
 
 # NOTE: For deployment the agent needs access to structured facts
-# (test_output/ CSVs) and the narrative Chroma store (data/narrative_store/).
-# These are not copied here — wire them in via volume mount, EFS, or explicit
-# COPY when finalizing the deploy path.
+# (data/extracted_facts_and_tables/) and the narrative Chroma store
+# (data/narrative_store/). These are not copied here — wire them in via
+# volume mount, EFS, or explicit COPY when finalizing the deploy path.
 
 CMD ["opentelemetry-instrument", "python", "-m", "src.main"]
