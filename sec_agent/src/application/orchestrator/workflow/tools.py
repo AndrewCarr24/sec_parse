@@ -104,6 +104,8 @@ def query_financials(sql: str) -> str:
         - Always scope to one filing (or a chosen set) with
           `WHERE ticker = '...' AND fiscal_period_end = DATE '...'`.
           Available filings are listed in the system prompt's filings_catalog.
+        - Select only the columns you need; avoid SELECT *. Include a LIMIT
+          that matches the result size you expect.
         - `fiscal_period_end` picks the filing; `period_end` picks the fact's
           own period within that filing (a 10-Q carries 3- and 9-month facts
           plus prior-year comparatives).

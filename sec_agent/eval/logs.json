@@ -285,5 +285,33 @@
       }
     },
     "total_cost_usd": 0.290929
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260422T234859Z",
+    "accuracy": 1.0,
+    "n": 9,
+    "n_correct": 9,
+    "results_file": "results/questions_20260422T234859Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-6",
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 9859,
+        "output_tokens": 390,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 18,
+        "cost_usd": 0.011809
+      },
+      "us.anthropic.claude-sonnet-4-6": {
+        "input_tokens": 47,
+        "output_tokens": 6486,
+        "cache_read_tokens": 129534,
+        "cache_creation_tokens": 34745,
+        "calls": 29,
+        "cost_usd": 0.266444
+      }
+    },
+    "total_cost_usd": 0.278253
   }
 ]
