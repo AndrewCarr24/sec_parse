@@ -8,6 +8,7 @@ from langchain_core.tools import InjectedToolArg, tool
 from loguru import logger
 
 from src.config import settings
+from src.infrastructure.compressor import compress_tool_output
 from src.infrastructure.financials_db import get_connection
 
 
@@ -16,8 +17,20 @@ from src.infrastructure.financials_db import get_connection
 _MAX_ROWS = 100
 
 
+def _maybe_compress(
+    tool_name: str, raw: str, config: RunnableConfig | None
+) -> str:
+    """Feature-flagged pass-through (see src/infrastructure/compressor.py)."""
+    configurable = (config or {}).get("configurable") or {}
+    question = configurable.get("user_question") or ""
+    return compress_tool_output(tool_name, question, raw, config=config)
+
+
 @tool
-def search_concepts(keyword: str) -> str:
+def search_concepts(
+    keyword: str,
+    config: Annotated[RunnableConfig, InjectedToolArg],
+) -> str:
     """
     Discover facts matching a keyword across concept, label, and
     source_table_title. Use this first to find the right filter for
@@ -73,11 +86,15 @@ def search_concepts(keyword: str) -> str:
         }
         for r in rows
     ]
-    return json.dumps(results, indent=2, default=str)
+    raw = json.dumps(results, indent=2, default=str)
+    return _maybe_compress("search_concepts", raw, config)
 
 
 @tool
-def query_financials(sql: str) -> str:
+def query_financials(
+    sql: str,
+    config: Annotated[RunnableConfig, InjectedToolArg],
+) -> str:
     """
     Run a read-only SQL query against the `facts` table (DuckDB).
 
@@ -144,7 +161,7 @@ def query_financials(sql: str) -> str:
     rows = cur.fetchmany(_MAX_ROWS)
     truncated = len(rows) == _MAX_ROWS and len(cur.fetchmany(1)) > 0
 
-    return json.dumps(
+    raw = json.dumps(
         {
             "columns": columns,
             "rows": [[_jsonable(v) for v in row] for row in rows],
@@ -154,6 +171,7 @@ def query_financials(sql: str) -> str:
         indent=2,
         default=str,
     )
+    return _maybe_compress("query_financials", raw, config)
 
 
 def _jsonable(v):
@@ -217,7 +235,8 @@ def search_narrative(
         seen.add(r["id"])
     # Drop the internal id from what we send to the agent — it's only for dedup.
     payload = [{k: v for k, v in r.items() if k != "id"} for r in results]
-    return json.dumps(payload, indent=2, default=str)
+    raw = json.dumps(payload, indent=2, default=str)
+    return _maybe_compress("search_narrative", raw, config)
 
 
 @tool

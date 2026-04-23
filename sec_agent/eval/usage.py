@@ -22,10 +22,19 @@ class ModelUsage:
     calls: int = 0
 
 
+@dataclass
+class ToolCall:
+    tool_name: str
+    result_tokens_est: int
+    result_chars: int
+
+
 class UsageCollector(BaseCallbackHandler):
     def __init__(self) -> None:
         self.by_model: dict[str, ModelUsage] = defaultdict(ModelUsage)
         self._run_models: dict[UUID, str] = {}
+        self.tool_calls: list[ToolCall] = []
+        self._tool_starts: dict[UUID, str] = {}
 
     def on_chat_model_start(
         self, serialized: dict, messages, *, run_id: UUID, **kwargs: Any
@@ -47,6 +56,24 @@ class UsageCollector(BaseCallbackHandler):
                 if msg is not None:
                     self._record(model_id, msg)
 
+    def on_tool_start(
+        self, serialized: dict, input_str: str, *, run_id: UUID, **kwargs: Any
+    ) -> None:
+        name = (serialized or {}).get("name") or "unknown"
+        self._tool_starts[run_id] = name
+
+    def on_tool_end(self, output: Any, *, run_id: UUID, **kwargs: Any) -> None:
+        name = self._tool_starts.pop(run_id, "unknown")
+        s = output if isinstance(output, str) else str(output)
+        # Rough estimate; tiktoken would be more accurate but adds a dep.
+        # ~4 chars per token is the conventional approximation.
+        self.tool_calls.append(
+            ToolCall(
+                tool_name=name,
+                result_tokens_est=len(s) // 4,
+                result_chars=len(s),
+            )
+        )
 
     def _record(self, model_id: str, msg: BaseMessage) -> None:
         meta = getattr(msg, "usage_metadata", None) or {}

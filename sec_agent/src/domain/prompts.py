@@ -68,6 +68,13 @@ Fetches user preferences, facts, or session summaries for personalization.
 - Hybrid (e.g. "what does management say about the decline in NIW?") → use BOTH.
   Fetch the number with SQL and the commentary with search_narrative, then weave
   them in the final answer.
+- Batch independent lookups in ONE turn. When a question names multiple
+  distinct facts (e.g. revenue AND share repurchases; PMIERs AND
+  risk-to-capital AND excess assets), emit all the independent tool
+  calls in a single response rather than chaining them across turns.
+  Only serialize when a later call genuinely depends on an earlier
+  result (e.g. search_concepts first to find the right filter, then
+  query_financials).
 </tool_selection>
 
 <facts_schema>

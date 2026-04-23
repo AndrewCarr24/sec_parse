@@ -14,6 +14,7 @@ import asyncio
 import csv
 import json
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -102,25 +103,56 @@ async def main(csv_path: Path) -> None:
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     collector = UsageCollector()
 
+    def _total_cost() -> float:
+        return sum(
+            cost_usd(m, u.input_tokens, u.output_tokens,
+                     u.cache_read_tokens, u.cache_creation_tokens)
+            for m, u in collector.by_model.items()
+        )
+
     results = []
+    run_start = time.perf_counter()
     for i, row in enumerate(rows, 1):
         q = row["question"]
         expected = row["expected_answer"]
         logger.info(f"[{i}/{len(rows)}] {q}")
+        c0 = _total_cost()
+        tc0 = len(collector.tool_calls)
+        t0 = time.perf_counter()
         try:
             actual = await run_agent(q, run_id=f"{ts}-{i}", collector=collector)
         except Exception as e:
             logger.error(f"agent error on row {i}: {e}")
             actual = f"[agent error: {type(e).__name__}: {e}]"
+        agent_seconds = time.perf_counter() - t0
+        c1 = _total_cost()
+        per_q_tools = collector.tool_calls[tc0:]
         correct, rationale = judge(q, expected, actual, collector)
-        logger.info(f"  -> {'OK' if correct else 'MISS'} | {rationale}")
+        c2 = _total_cost()
+        tools_summary = [
+            {"tool": t.tool_name, "tokens_est": t.result_tokens_est}
+            for t in per_q_tools
+        ]
+        total_tool_tokens = sum(t.result_tokens_est for t in per_q_tools)
+        logger.info(
+            f"  -> {'OK' if correct else 'MISS'} | ${c1 - c0:.4f} agent / "
+            f"${c2 - c1:.4f} judge | {len(per_q_tools)} tool calls, "
+            f"{total_tool_tokens:,} tool-result tokens | "
+            f"{agent_seconds:.1f}s | {rationale}"
+        )
         results.append({
             "question": q,
             "expected_answer": expected,
             "agent_answer": actual,
             "correct": correct,
             "rationale": rationale,
+            "agent_cost_usd": round(c1 - c0, 6),
+            "judge_cost_usd": round(c2 - c1, 6),
+            "tool_calls": json.dumps(tools_summary),
+            "tool_result_tokens_est": total_tool_tokens,
+            "agent_seconds": round(agent_seconds, 2),
         })
+    run_seconds = time.perf_counter() - run_start
 
     out_csv = RESULTS_DIR / f"{csv_path.stem}_{ts}.csv"
     with out_csv.open("w", newline="") as f:
@@ -161,14 +193,17 @@ async def main(csv_path: Path) -> None:
         "n_correct": n_correct,
         "results_file": str(out_csv.relative_to(EVAL_DIR)),
         "orchestrator_model": settings.ORCHESTRATOR_MODEL_ID,
+        "compress_tool_outputs": settings.COMPRESS_TOOL_OUTPUTS,
         "usage": usage_summary,
         "total_cost_usd": total_cost,
+        "run_seconds": round(run_seconds, 2),
     })
 
     print(f"\nAccuracy: {accuracy:.1%} ({n_correct}/{len(results)})")
     print(f"Results:  {out_csv}")
     print(f"Log:      {LOG_FILE}")
     print(f"Cost:     ${total_cost:.4f}")
+    print(f"Time:     {run_seconds:.1f}s  (compressor={'on' if settings.COMPRESS_TOOL_OUTPUTS else 'off'})")
     for mid, m in usage_summary.items():
         print(
             f"  {mid}: {m['input_tokens']:,} in / {m['output_tokens']:,} out "

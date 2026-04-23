@@ -28,5 +28,14 @@ class Settings(BaseSettings):
         description="AgentCore Memory ID (from CDK stack output).",
     )
 
+    COMPRESS_TOOL_OUTPUTS: bool = Field(
+        default=False,
+        description=(
+            "When true, tool outputs are passed through a Haiku filter "
+            "that keeps only content relevant to the current user question "
+            "before being returned to the orchestrator LLM."
+        ),
+    )
+
 
 settings = Settings()

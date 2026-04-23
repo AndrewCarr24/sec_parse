@@ -27,6 +27,9 @@ async def get_streaming_response(
             "thread_id": thread_id,
             "customer_name": customer_name,
             "actor_id": actor_id,
+            # Read by the tool-output compressor (src/infrastructure/compressor.py)
+            # so it can filter raw tool payloads against the user's question.
+            "user_question": messages,
         }
     }
     if callbacks:
