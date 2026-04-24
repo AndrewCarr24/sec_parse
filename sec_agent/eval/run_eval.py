@@ -2,15 +2,16 @@
 
 Usage:
     cd sec_agent
-    python eval/run_eval.py                        # default (3-tool) mode
-    python eval/run_eval.py --mode dsrag           # single dsrag_kb tool
-    python eval/run_eval.py --mode dsrag eval/alt.csv  # custom input CSV
+    python eval/run_eval.py                              # questions.csv, config default mode
+    python eval/run_eval.py eval/other.csv               # custom input CSV
+    python eval/run_eval.py --mode tools                 # force three-tool stack
+    python eval/run_eval.py --mode dsrag                 # force single dsrag_kb tool
+    python eval/run_eval.py --mode tools eval/other.csv  # combine
 
-Modes:
-    default  — search_concepts + query_financials + search_narrative
-    dsrag    — single dsrag_kb tool over the dsRAG KnowledgeBase
-               (requires data/dsrag_store/ built by
-                data_pipeline_dsrag/build_kb.py)
+Modes (default is `dsrag` per settings.USE_DSRAG_ONLY):
+    dsrag  — single dsrag_kb tool over the dsRAG KnowledgeBase
+             (requires data/dsrag_store/ built by data_pipeline_dsrag/build_kb.py).
+    tools  — search_concepts + query_financials + search_narrative.
 
 Outputs:
     eval/results/<input_stem>_<ts>.csv       # per-question results
@@ -96,13 +97,15 @@ def _append_log(entry: dict) -> None:
     LOG_FILE.write_text(json.dumps(existing, indent=2))
 
 
-def _apply_mode(mode: str) -> None:
-    """Switch retrieval stack for the rest of the process.
+def _resolve_mode(mode: str | None) -> str:
+    """Resolve CLI --mode into a canonical mode string ('dsrag' or 'tools').
 
-    settings is a pydantic-settings singleton; its attributes are read at
-    call time by get_tools() and _build_agent_system(), so mutating here
-    before the graph builds is sufficient — no re-import dance needed.
+    A value of None falls back to the config default (settings.USE_DSRAG_ONLY).
+    Mutates the settings singleton so get_tools() and _build_agent_system()
+    see the right value at call time.
     """
+    if mode is None:
+        mode = "dsrag" if settings.USE_DSRAG_ONLY else "tools"
     if mode == "dsrag":
         settings.USE_DSRAG_ONLY = True
         # Pre-flight: bail loudly if the KB hasn't been built yet.
@@ -114,9 +117,10 @@ def _apply_mode(mode: str) -> None:
             )
     else:
         settings.USE_DSRAG_ONLY = False
+    return mode
 
 
-async def main(csv_path: Path, mode: str) -> None:
+async def main(csv_path: Path, mode: str | None) -> None:
     if not csv_path.exists():
         raise FileNotFoundError(csv_path)
 
@@ -126,7 +130,7 @@ async def main(csv_path: Path, mode: str) -> None:
     if not rows:
         raise ValueError(f"{csv_path} has no rows")
 
-    _apply_mode(mode)
+    mode = _resolve_mode(mode)
     logger.info(f"Retrieval mode: {mode}")
 
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
@@ -261,9 +265,13 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--mode",
-        choices=["default", "dsrag"],
-        default="default",
-        help="Retrieval stack: 'default' (3 tools) or 'dsrag' (single dsrag_kb tool).",
+        choices=["dsrag", "tools"],
+        default=None,
+        help=(
+            "Retrieval stack: 'dsrag' (single dsrag_kb tool) or 'tools' "
+            "(search_concepts + query_financials + search_narrative). "
+            "Defaults to the value of settings.USE_DSRAG_ONLY."
+        ),
     )
     args = parser.parse_args()
     asyncio.run(main(Path(args.csv_path), args.mode))

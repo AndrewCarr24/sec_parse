@@ -1,10 +1,41 @@
 # parse_sec
 
 SEC 10-K / 10-Q parser and LangGraph-based RAG agent for a small set of US
-mortgage insurance companies (ACT, ESNT, MTG, RDN, ACGL, NMIH). The pipeline
-downloads filings from EDGAR, extracts both structured (iXBRL) and
-unstructured (MD&A tables) facts into CSV, and serves them to an agent that
-answers financial questions via SQL over DuckDB.
+mortgage insurance companies (ACT, ESNT, MTG, RDN, ACGL, NMIH). The canonical
+stack builds a dsRAG KnowledgeBase from parsed filings and serves it to an
+agent via a single retrieval tool; an alternative three-tool stack
+(SQL + narrative + concept search) remains available for A/B comparison.
+
+## Workflows
+
+Three top-level commands cover the day-to-day loop. Source `.env` first
+(`set -a && . .env && set +a`) so `DEEPSEEK_API_KEY` and AWS creds are
+picked up.
+
+**1. Create data** — build the retrieval index from parsed filings.
+```bash
+python data_pipeline_dsrag/build_kb.py
+```
+Reads `data/parsed/ACT_10-Q_2024-09-30.md`, runs dsRAG's semantic sectioning +
+AutoContext, embeds with Bedrock Titan v2, persists to `data/dsrag_store/`.
+
+**2. Run the app** — ask the agent a single question.
+```bash
+cd sec_agent
+python run_app.py "What was ACT's revenue in Q3 2024?"
+python run_app.py --mode tools "..."    # optional: force three-tool stack
+```
+
+**3. Eval the app** — grade the agent on a CSV of (question, expected) pairs.
+```bash
+cd sec_agent
+python eval/run_eval.py                          # eval/questions.csv
+python eval/run_eval.py eval/other.csv           # custom CSV
+python eval/run_eval.py --mode tools             # force three-tool stack
+```
+Results land in `eval/results/<stem>_<ts>.csv` and are appended to
+`eval/logs.json` with `retrieval_mode`, `orchestrator_model`, and cost
+stamped in for later diffing.
 
 ## Structure
 
