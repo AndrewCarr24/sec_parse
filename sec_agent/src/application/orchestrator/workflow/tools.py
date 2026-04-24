@@ -126,7 +126,6 @@ def query_financials(
         - `fiscal_period_end` picks the filing; `period_end` picks the fact's
           own period within that filing (a 10-Q carries 3- and 9-month facts
           plus prior-year comparatives).
-        - For total (un-disaggregated) values, filter `dimensions IS NULL OR dimensions = '{}'`.
         - Balance-sheet values have period_type='instant'; P&L values 'duration'.
         - Prefer `source='xbrl'` for GAAP line items; use 'extracted' for
           MD&A operational metrics (IIF, NIW, persistency, delinquencies by LTV, etc.).

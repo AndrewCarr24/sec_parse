@@ -1,7 +1,7 @@
-"""Bedrock model pricing (USD per million tokens).
+"""Model pricing (USD per million tokens).
 
-Update when models or prices change. Source:
-https://aws.amazon.com/bedrock/pricing/
+Bedrock rates: https://aws.amazon.com/bedrock/pricing/
+DeepSeek rates: https://platform.deepseek.com/api-docs/pricing
 """
 
 import re
@@ -10,6 +10,12 @@ _PRICING: dict[str, dict[str, float]] = {
     "claude-sonnet-4-6": {"input": 3.0, "output": 15.0, "cache_read": 0.30, "cache_write": 3.75},
     "claude-sonnet-4-5": {"input": 3.0, "output": 15.0, "cache_read": 0.30, "cache_write": 3.75},
     "claude-haiku-4-5": {"input": 1.0, "output": 5.0, "cache_read": 0.10, "cache_write": 1.25},
+    # DeepSeek v4 rates are placeholders at v3-era levels — confirm from the
+    # DeepSeek pricing page. DeepSeek's cache is server-side automatic (no
+    # separate cache-write SKU), so cache_write is set equal to input here
+    # and will only be read if usage metadata reports cache_creation tokens.
+    "deepseek-v4-pro":   {"input": 0.27, "output": 1.10, "cache_read": 0.07, "cache_write": 0.27},
+    "deepseek-v4-flash": {"input": 0.14, "output": 0.55, "cache_read": 0.035, "cache_write": 0.14},
 }
 
 _VERSION_SUFFIX = re.compile(r"-\d{8}(-v\d+:\d+)?$")

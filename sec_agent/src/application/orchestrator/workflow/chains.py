@@ -11,7 +11,7 @@ from src.domain.prompts import (
     SIMPLE_RESPONSE_PROMPT,
 )
 from src.infrastructure.catalog import format_for_prompt as format_catalog
-from src.infrastructure.model import get_model
+from src.infrastructure.model import get_model, orchestrator_is_bedrock
 
 
 def _escape_braces(text: str) -> str:
@@ -19,9 +19,15 @@ def _escape_braces(text: str) -> str:
 
 
 def _cached_system(text: str) -> SystemMessage:
-    # Bedrock Converse caches the system prompt when we append a cachePoint
-    # block. Identical prefixes across ReAct turns hit the cache at 10% of
-    # input-token price instead of full rate.
+    """Build the agent's system message.
+
+    On Bedrock we append a cachePoint content block so Converse caches the
+    prefix across ReAct turns. On OpenAI-compatible providers (DeepSeek)
+    that content-block shape is unknown, so we emit a plain SystemMessage
+    and rely on the provider's own prefix caching if any.
+    """
+    if not orchestrator_is_bedrock():
+        return SystemMessage(content=text)
     return SystemMessage(
         content=[
             {"type": "text", "text": text},
@@ -36,13 +42,13 @@ def with_cache_on_last(messages: list[BaseMessage]) -> list[BaseMessage]:
     On each ReAct turn, the agent node calls the LLM with a growing list
     of messages. By marking the end of the current history as a cache
     point, Bedrock caches the prefix; the next turn reads the same prefix
-    at ~10% of input-token price. Cache writes are a one-time ~25% markup
-    that amortizes after the first reuse.
+    at ~10% of input-token price.
 
-    The mutation is per-invocation only — we return a new list with a
-    copied last message so graph state keeps a clean, cache-point-free
-    message history.
+    No-op for non-Bedrock orchestrators — DeepSeek applies prefix caching
+    server-side with no client-side markers required.
     """
+    if not orchestrator_is_bedrock():
+        return messages
     if not messages:
         return messages
     last = messages[-1]

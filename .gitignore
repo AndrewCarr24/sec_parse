@@ -49,3 +49,6 @@ ref_data/
 # Ad-hoc scratch
 tmp.txt
 tmp.*.txt
+
+# External repos cloned for reference
+sec_agent/dsRAG/
