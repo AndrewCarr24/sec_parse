@@ -17,7 +17,10 @@ from loguru import logger
 
 _REPO_ROOT = Path(__file__).resolve().parents[3]
 DSRAG_STORE_DIR = _REPO_ROOT / "data" / "dsrag_store"
-DSRAG_KB_ID = "act_10q_2024_09_30"
+# Single multi-document KB. Filings are distinguished by their `doc_id`
+# metadata (TICKER_FORM_PERIOD, matching data/parsed/<stem>.md). The agent
+# passes `doc_id` as a metadata filter when scoping retrieval to one filing.
+DSRAG_KB_ID = "filings_kb"
 # The pipeline code registers BedrockTitanEmbedding / FlashRankReranker
 # as Embedding/Reranker subclasses at import time — dsRAG's from_dict
 # deserialization needs those classes registered before KB load.

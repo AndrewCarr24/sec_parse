@@ -1,0 +1,8 @@
+{
+  "usd": "iso4217:USD",
+  "shares": "xbrli:shares",
+  "number": "xbrli:pure",
+  "site": "amd:site",
+  "usdPerShare": "iso4217:USD / xbrli:shares",
+  "joint_venture": "amd:joint_venture"
+}

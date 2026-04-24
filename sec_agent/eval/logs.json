@@ -1187,5 +1187,133 @@
     },
     "total_cost_usd": 0.002517,
     "run_seconds": 13.27
+  },
+  {
+    "input_df": "questions_financebench.csv",
+    "agent_ts": "20260424T183037Z",
+    "retrieval_mode": "dsrag",
+    "accuracy": 0.0,
+    "n": 16,
+    "n_correct": 0,
+    "results_file": "results/questions_financebench_20260424T183037Z.csv",
+    "orchestrator_provider": "deepseek",
+    "orchestrator_model": "deepseek-v4-flash",
+    "compress_tool_outputs": false,
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 10863,
+        "output_tokens": 500,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 32,
+        "cost_usd": 0.013363
+      },
+      "deepseek-v4-flash": {
+        "input_tokens": 2779,
+        "output_tokens": 3335,
+        "cache_read_tokens": 1920,
+        "cache_creation_tokens": 0,
+        "calls": 16,
+        "cost_usd": 0.002022
+      }
+    },
+    "total_cost_usd": 0.015385,
+    "run_seconds": 101.98
+  },
+  {
+    "input_df": "questions_financebench.csv",
+    "agent_ts": "20260424T183439Z",
+    "retrieval_mode": "dsrag",
+    "accuracy": 0.8125,
+    "n": 16,
+    "n_correct": 13,
+    "results_file": "results/questions_financebench_20260424T183439Z.csv",
+    "orchestrator_provider": "deepseek",
+    "orchestrator_model": "deepseek-v4-flash",
+    "compress_tool_outputs": false,
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 19951,
+        "output_tokens": 658,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 32,
+        "cost_usd": 0.023241
+      },
+      "deepseek-v4-flash": {
+        "input_tokens": 226955,
+        "output_tokens": 18114,
+        "cache_read_tokens": 108928,
+        "cache_creation_tokens": 0,
+        "calls": 34,
+        "cost_usd": 0.030299
+      }
+    },
+    "total_cost_usd": 0.05354,
+    "run_seconds": 303.4
+  },
+  {
+    "input_df": "questions_financebench.csv",
+    "agent_ts": "20260424T191237Z",
+    "retrieval_mode": "dsrag",
+    "accuracy": 0.875,
+    "n": 16,
+    "n_correct": 14,
+    "results_file": "results/questions_financebench_20260424T191237Z.csv",
+    "orchestrator_provider": "deepseek",
+    "orchestrator_model": "deepseek-v4-flash",
+    "compress_tool_outputs": false,
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 20006,
+        "output_tokens": 642,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 32,
+        "cost_usd": 0.023216
+      },
+      "deepseek-v4-flash": {
+        "input_tokens": 370055,
+        "output_tokens": 21160,
+        "cache_read_tokens": 205440,
+        "cache_creation_tokens": 0,
+        "calls": 41,
+        "cost_usd": 0.041875
+      }
+    },
+    "total_cost_usd": 0.065091,
+    "run_seconds": 347.93
+  },
+  {
+    "input_df": "questions_financebench.csv",
+    "agent_ts": "20260424T213110Z",
+    "retrieval_mode": "tools",
+    "accuracy": 0.8125,
+    "n": 16,
+    "n_correct": 13,
+    "results_file": "results/questions_financebench_20260424T213110Z.csv",
+    "orchestrator_provider": "deepseek",
+    "orchestrator_model": "deepseek-v4-flash",
+    "compress_tool_outputs": false,
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 19105,
+        "output_tokens": 603,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 32,
+        "cost_usd": 0.02212
+      },
+      "deepseek-v4-flash": {
+        "input_tokens": 667205,
+        "output_tokens": 28431,
+        "cache_read_tokens": 547968,
+        "cache_creation_tokens": 0,
+        "calls": 93,
+        "cost_usd": 0.051509
+      }
+    },
+    "total_cost_usd": 0.073629,
+    "run_seconds": 458.0
   }
 ]

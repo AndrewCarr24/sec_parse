@@ -69,13 +69,16 @@ def with_cache_on_last(messages: list[BaseMessage]) -> list[BaseMessage]:
 
 
 def _build_agent_system(customer_name: str) -> str:
-    template = (
-        DSRAG_AGENT_SYSTEM_PROMPT if settings.USE_DSRAG_ONLY else AGENT_SYSTEM_PROMPT
-    )
+    if settings.USE_DSRAG_ONLY:
+        template = DSRAG_AGENT_SYSTEM_PROMPT
+        catalog = format_catalog(source="dsrag")
+    else:
+        template = AGENT_SYSTEM_PROMPT
+        catalog = format_catalog()
     return (
         template
         .replace("{customer_name}", customer_name)
-        .replace("{filings_catalog}", format_catalog())
+        .replace("{filings_catalog}", catalog)
     )
 
 

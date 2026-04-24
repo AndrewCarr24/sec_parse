@@ -39,7 +39,13 @@ TICKER_TO_COMPANY = {
     "ACGL": "Arch Capital",
 }
 
-INCLUDE_FILINGS = {"ACT_10-Q_2024-09-30.md"}
+INCLUDE_FILINGS = {
+    "ACT_10-Q_2024-09-30.md",
+    "AMD_10-K_2015-12-26.md",
+    "AMD_10-K_2022-12-31.md",
+    "BA_10-K_2018-12-31.md",
+    "BA_10-K_2022-12-31.md",
+}
 
 
 def _strip_markdown_tables(text: str) -> str:

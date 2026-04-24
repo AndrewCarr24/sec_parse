@@ -1,0 +1,513 @@
+ticker,filing_type,filing_period_end,source,source_table_index,source_heading,source_title,concept,label,raw_display,value,unit,period_type,period_start,period_end,dimensions
+BA,10-K,2022-12-31,extracted,7,Human Capital,Union Representation Percentages,,The International Association of Machinists and Aerospace Workers (IAM),20%,20,percent,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,7,Human Capital,Union Representation Percentages,,The Society of Professional Engineering Employees in Aerospace (SPEEA),10%,10,percent,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,7,Human Capital,Union Representation Percentages,,"The United Automobile, Aerospace and Agricultural Implement Workers of America (UAW)",1%,1,percent,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,Commercial Airplanes,"39,586",39586000,count,instant,,2022-12-31,"{""ownership_type"": ""Owned""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,Commercial Airplanes,"6,673",6673000,count,instant,,2022-12-31,"{""ownership_type"": ""Leased""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,Commercial Airplanes,"46,259",46259000,count,instant,,2022-12-31,"{""ownership_type"": ""Total""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,"Defense, Space & Security","22,643",22643000,count,instant,,2022-12-31,"{""ownership_type"": ""Owned""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,"Defense, Space & Security","5,090",5090000,count,instant,,2022-12-31,"{""ownership_type"": ""Leased""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,"Defense, Space & Security","27,733",27733000,count,instant,,2022-12-31,"{""ownership_type"": ""Total""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,Global Services,"1,201",1201000,count,instant,,2022-12-31,"{""ownership_type"": ""Owned""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,Global Services,"7,591",7591000,count,instant,,2022-12-31,"{""ownership_type"": ""Leased""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,Global Services,"8,792",8792000,count,instant,,2022-12-31,"{""ownership_type"": ""Total""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,Other (1),"1,821",1821000,count,instant,,2022-12-31,"{""ownership_type"": ""Owned""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,Other (1),"2,476",2476000,count,instant,,2022-12-31,"{""ownership_type"": ""Leased""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,Other (1),315,315000,count,instant,,2022-12-31,"{""ownership_type"": ""Government Owned""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,Other (1),"4,612",4612000,count,instant,,2022-12-31,"{""ownership_type"": ""Total""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,Total,"65,251",65251000,count,instant,,2022-12-31,"{""ownership_type"": ""Owned""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,Total,"21,830",21830000,count,instant,,2022-12-31,"{""ownership_type"": ""Leased""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,Total,315,315000,count,instant,,2022-12-31,"{""ownership_type"": ""Government Owned""}"
+BA,10-K,2022-12-31,extracted,8,Item 2. Properties,"Floor space by business as of December 31, 2022",,Total,"87,396",87396000,count,instant,,2022-12-31,"{""ownership_type"": ""Total""}"
+BA,10-K,2022-12-31,extracted,9,Issuer Purchases of Equity Securities,Issuer Purchases of Equity Securities,,10/1/2022 thru 10/31/2022,"4,578",4578,shares,duration,2022-10-01,2022-10-31,{}
+BA,10-K,2022-12-31,extracted,9,Issuer Purchases of Equity Securities,Issuer Purchases of Equity Securities,,10/1/2022 thru 10/31/2022,$138.33,138.33,USD_per_share,duration,2022-10-01,2022-10-31,{}
+BA,10-K,2022-12-31,extracted,9,Issuer Purchases of Equity Securities,Issuer Purchases of Equity Securities,,11/1/2022 thru 11/30/2022,"2,371",2371,shares,duration,2022-11-01,2022-11-30,{}
+BA,10-K,2022-12-31,extracted,9,Issuer Purchases of Equity Securities,Issuer Purchases of Equity Securities,,11/1/2022 thru 11/30/2022,142.24,142.24,USD_per_share,duration,2022-11-01,2022-11-30,{}
+BA,10-K,2022-12-31,extracted,9,Issuer Purchases of Equity Securities,Issuer Purchases of Equity Securities,,12/1/2022 thru 12/31/2022,"18,793",18793,shares,duration,2022-12-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,9,Issuer Purchases of Equity Securities,Issuer Purchases of Equity Securities,,12/1/2022 thru 12/31/2022,$181.13,181.13,USD_per_share,duration,2022-12-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,9,Issuer Purchases of Equity Securities,Issuer Purchases of Equity Securities,,Total,"25,742",25742,shares,duration,2022-10-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,9,Issuer Purchases of Equity Securities,Issuer Purchases of Equity Securities,,Total,$169.94,169.94,USD_per_share,duration,2022-10-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Revenues,"$66,608",66608000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Revenues,"$62,286",62286000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Revenues,"$58,158",58158000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Loss from operations,"($3,547)",-3547000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Loss from operations,"($2,902)",-2902000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Loss from operations,"($12,767)",-12767000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Operating margins,(5.3)%,-5.3,percent,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Operating margins,(4.7)%,-4.7,percent,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Operating margins,(22.0)%,-22.0,percent,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Effective income tax rate,(0.6)%,-0.6,percent,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Effective income tax rate,14.8%,14.8,percent,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Effective income tax rate,17.5%,17.5,percent,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Net loss attributable to Boeing Shareholders,"($4,935)",-4935000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Net loss attributable to Boeing Shareholders,"($4,202)",-4202000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Net loss attributable to Boeing Shareholders,"($11,873)",-11873000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Diluted loss per share,($8.30),-8.3,USD_per_share,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Diluted loss per share,($7.15),-7.15,USD_per_share,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Diluted loss per share,($20.88),-20.88,USD_per_share,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Core operating loss,"($4,690)",-4690000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Core operating loss,"($4,075)",-4075000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Core operating loss,"($14,150)",-14150000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Core operating margins,(7.0 %),-7.0,percent,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Core operating margins,(6.5 %),-6.5,percent,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Core operating margins,(24.3 %),-24.3,percent,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Core loss per share,($11.06),-11.06,USD_per_share,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Core loss per share,($9.44),-9.44,USD_per_share,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,10,Consolidated Results of Operations,Key Indicators of Consolidated Results of Operations,,Core loss per share,($23.25),-23.25,USD_per_share,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,Commercial Airplanes,"$25,867",25867000000,USD,duration,2022-01-01,2022-12-31,"{""segment"": ""Commercial Airplanes""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,Commercial Airplanes,"$19,493",19493000000,USD,duration,2021-01-01,2021-12-31,"{""segment"": ""Commercial Airplanes""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,Commercial Airplanes,"$16,162",16162000000,USD,duration,2020-01-01,2020-12-31,"{""segment"": ""Commercial Airplanes""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,"Defense, Space & Security","23,162",23162000000,USD,duration,2022-01-01,2022-12-31,"{""segment"": ""Defense, Space & Security""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,"Defense, Space & Security","26,540",26540000000,USD,duration,2021-01-01,2021-12-31,"{""segment"": ""Defense, Space & Security""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,"Defense, Space & Security","26,257",26257000000,USD,duration,2020-01-01,2020-12-31,"{""segment"": ""Defense, Space & Security""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,Global Services,"17,611",17611000000,USD,duration,2022-01-01,2022-12-31,"{""segment"": ""Global Services""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,Global Services,"16,328",16328000000,USD,duration,2021-01-01,2021-12-31,"{""segment"": ""Global Services""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,Global Services,"15,543",15543000000,USD,duration,2020-01-01,2020-12-31,"{""segment"": ""Global Services""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,Boeing Capital,199,199000000,USD,duration,2022-01-01,2022-12-31,"{""segment"": ""Boeing Capital""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,Boeing Capital,272,272000000,USD,duration,2021-01-01,2021-12-31,"{""segment"": ""Boeing Capital""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,Boeing Capital,261,261000000,USD,duration,2020-01-01,2020-12-31,"{""segment"": ""Boeing Capital""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,"Unallocated items, eliminations and other",(231),-231000000,USD,duration,2022-01-01,2022-12-31,"{""segment"": ""Unallocated items, eliminations and other""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,"Unallocated items, eliminations and other",(347),-347000000,USD,duration,2021-01-01,2021-12-31,"{""segment"": ""Unallocated items, eliminations and other""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,"Unallocated items, eliminations and other",(65),-65000000,USD,duration,2020-01-01,2020-12-31,"{""segment"": ""Unallocated items, eliminations and other""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,Total,"$66,608",66608000000,USD,duration,2022-01-01,2022-12-31,"{""segment"": ""Total""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,Total,"$62,286",62286000000,USD,duration,2021-01-01,2021-12-31,"{""segment"": ""Total""}"
+BA,10-K,2022-12-31,extracted,11,Revenues,Revenues,,Total,"$58,158",58158000000,USD,duration,2020-01-01,2020-12-31,"{""segment"": ""Total""}"
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Commercial Airplanes,"($2,370)",-2370000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Commercial Airplanes,"($6,475)",-6475000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Commercial Airplanes,"($13,847)",-13847000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,"Defense, Space & Security","(3,544)",-3544000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,"Defense, Space & Security","1,544",1544000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,"Defense, Space & Security","1,539",1539000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Global Services,"2,727",2727000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Global Services,"2,017",2017000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Global Services,450,450000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Boeing Capital,29,29000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Boeing Capital,106,106000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Boeing Capital,63,63000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Segment operating loss,"(3,158)",-3158000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Segment operating loss,"(2,808)",-2808000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Segment operating loss,"(11,795)",-11795000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Pension FAS/CAS service cost adjustment,849,849000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Pension FAS/CAS service cost adjustment,882,882000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Pension FAS/CAS service cost adjustment,"1,024",1024000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Postretirement FAS/CAS service cost adjustment,294,294000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Postretirement FAS/CAS service cost adjustment,291,291000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Postretirement FAS/CAS service cost adjustment,359,359000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,"Unallocated items, eliminations and other","(1,532)",-1532000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,"Unallocated items, eliminations and other","(1,267)",-1267000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,"Unallocated items, eliminations and other","(2,355)",-2355000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Loss from operations (GAAP),"($3,547)",-3547000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Loss from operations (GAAP),"($2,902)",-2902000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Loss from operations (GAAP),"($12,767)",-12767000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,FAS/CAS service cost adjustment *,"(1,143)",-1143000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,FAS/CAS service cost adjustment *,"(1,173)",-1173000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,FAS/CAS service cost adjustment *,"(1,383)",-1383000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Core operating loss (Non-GAAP) **,"($4,690)",-4690000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Core operating loss (Non-GAAP) **,"($4,075)",-4075000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,12,Loss From Operations,Loss From Operations,,Core operating loss (Non-GAAP) **,"($14,150)",-14150000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,Share-based plans,($114),-114000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,Share-based plans,($174),-174000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,Share-based plans,($120),-120000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,Deferred compensation,117,117000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,Deferred compensation,(126),-126000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,Deferred compensation,(93),-93000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,Amortization of previously capitalized interest,(95),-95000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,Amortization of previously capitalized interest,(107),-107000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,Amortization of previously capitalized interest,(95),-95000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,"Research and development expense, net",(278),-278000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,"Research and development expense, net",(184),-184000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,"Research and development expense, net",(240),-240000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,Eliminations and other unallocated items,"(1,162)",-1162000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,Eliminations and other unallocated items,(676),-676000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,Eliminations and other unallocated items,"(1,807)",-1807000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,"Unallocated items, eliminations and other","($1,532)",-1532000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,"Unallocated items, eliminations and other","($1,267)",-1267000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,13,"Unallocated Items, Eliminations and Other","Unallocated Items, Eliminations and Other",,"Unallocated items, eliminations and other","($2,355)",-2355000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,14,"($1,532)",Net periodic pension benefit costs included in Loss from operations,,Allocated to business segments,($852),-852000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,14,"($1,532)",Net periodic pension benefit costs included in Loss from operations,,Allocated to business segments,($885),-885000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,14,"($1,532)",Net periodic pension benefit costs included in Loss from operations,,Allocated to business segments,"($1,027)",-1027000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,14,"($1,532)",Net periodic pension benefit costs included in Loss from operations,,Pension FAS/CAS service cost adjustment,849 ,849000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,14,"($1,532)",Net periodic pension benefit costs included in Loss from operations,,Pension FAS/CAS service cost adjustment,882 ,882000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,14,"($1,532)",Net periodic pension benefit costs included in Loss from operations,,Pension FAS/CAS service cost adjustment,"1,024 ",1024000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,14,"($1,532)",Net periodic pension benefit costs included in Loss from operations,,Net periodic pension benefit cost included in Loss from operations,($3),-3000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,14,"($1,532)",Net periodic pension benefit costs included in Loss from operations,,Net periodic pension benefit cost included in Loss from operations,($3),-3000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,14,"($1,532)",Net periodic pension benefit costs included in Loss from operations,,Net periodic pension benefit cost included in Loss from operations,($3),-3000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Loss from operations,"($3,547)",-3547000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Loss from operations,"($2,902)",-2902000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Loss from operations,"($12,767)",-12767000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,"Other income, net","1,058",1058000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,"Other income, net",551,551000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,"Other income, net",447,447000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Interest and debt expense,"(2,533)",-2533000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Interest and debt expense,"(2,682)",-2682000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Interest and debt expense,"(2,156)",-2156000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Loss before income taxes,"(5,022)",-5022000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Loss before income taxes,"(5,033)",-5033000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Loss before income taxes,"(14,476)",-14476000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Income tax (expense)/benefit,(31),-31000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Income tax (expense)/benefit,743,743000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Income tax (expense)/benefit,"2,535",2535000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Net loss from continuing operations,"(5,053)",-5053000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Net loss from continuing operations,"(4,290)",-4290000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Net loss from continuing operations,"(11,941)",-11941000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Less: net loss attributable to noncontrolling interest,(118),-118000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Less: net loss attributable to noncontrolling interest,(88),-88000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Less: net loss attributable to noncontrolling interest,($68),-68000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Net loss attributable to Boeing Shareholders,"($4,935)",-4935000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Net loss attributable to Boeing Shareholders,"($4,202)",-4202000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,15,Other Earnings Items,Other Earnings Items,,Net loss attributable to Boeing Shareholders,"($11,873)",-11873000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,16,Total Costs and Expenses (“Cost of Sales”),Cost of Sales and Percentage of Revenues,,Cost of sales,"$63,106",63106000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,16,Total Costs and Expenses (“Cost of Sales”),Cost of Sales and Percentage of Revenues,,Cost of sales,"$59,269",59269000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,16,Total Costs and Expenses (“Cost of Sales”),Cost of Sales and Percentage of Revenues,,Cost of sales,"$3,837",3837000000,USD,duration,2021-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,16,Total Costs and Expenses (“Cost of Sales”),Cost of Sales and Percentage of Revenues,,Cost of sales,"$59,269",59269000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,16,Total Costs and Expenses (“Cost of Sales”),Cost of Sales and Percentage of Revenues,,Cost of sales,"$63,843",63843000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,16,Total Costs and Expenses (“Cost of Sales”),Cost of Sales and Percentage of Revenues,,Cost of sales,"($4,574)",-4574000000,USD,duration,2020-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,16,Total Costs and Expenses (“Cost of Sales”),Cost of Sales and Percentage of Revenues,,Cost of sales as a % of Revenues,94.7%,94.7,percent,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,16,Total Costs and Expenses (“Cost of Sales”),Cost of Sales and Percentage of Revenues,,Cost of sales as a % of Revenues,95.2%,95.2,percent,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,16,Total Costs and Expenses (“Cost of Sales”),Cost of Sales and Percentage of Revenues,,Cost of sales as a % of Revenues,(0.5)%,-0.5,percent,duration,2021-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,16,Total Costs and Expenses (“Cost of Sales”),Cost of Sales and Percentage of Revenues,,Cost of sales as a % of Revenues,95.2%,95.2,percent,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,16,Total Costs and Expenses (“Cost of Sales”),Cost of Sales and Percentage of Revenues,,Cost of sales as a % of Revenues,109.8%,109.8,percent,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,16,Total Costs and Expenses (“Cost of Sales”),Cost of Sales and Percentage of Revenues,,Cost of sales as a % of Revenues,(14.6)%,-14.6,percent,duration,2020-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,Commercial Airplanes,"$1,510",1510000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,Commercial Airplanes,"$1,140",1140000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,Commercial Airplanes,"$1,385",1385000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,"Defense, Space & Security",$945,945000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,"Defense, Space & Security",$818,818000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,"Defense, Space & Security",$713,713000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,Global Services,$119,119000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,Global Services,$107,107000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,Global Services,$138,138000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,Other,$278,278000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,Other,$184,184000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,Other,$240,240000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,Total,"$2,852",2852000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,Total,"$2,249",2249000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,17,Research and Development,Research and Development expense,,Total,"$2,476",2476000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,Commercial Airplanes,"$329,824",329824000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,Commercial Airplanes,"$296,882",296882000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,"Defense, Space & Security","54,373",54373000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,"Defense, Space & Security","59,828",59828000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,Global Services,"19,338",19338000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,Global Services,"20,496",20496000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,"Unallocated items, eliminations and other",846,846000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,"Unallocated items, eliminations and other",293,293000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,Total Backlog,"$404,381",404381000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,Total Backlog,"$377,499",377499000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,Contractual backlog,"$381,977",381977000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,Contractual backlog,"$356,362",356362000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,Unobligated backlog,"22,404",22404000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,Unobligated backlog,"21,137",21137000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,Total Backlog,"$404,381",404381000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,18,Backlog,Backlog,,Total Backlog,"$377,499",377499000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,Revenues,"$25,867",25867000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,Revenues,"$19,493",19493000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,Revenues,"$16,162",16162000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,% of total company revenues,39 %,39,percent,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,% of total company revenues,31 %,31,percent,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,% of total company revenues,28 %,28,percent,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,Loss from operations,"($2,370)",-2370000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,Loss from operations,"($6,475)",-6475000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,Loss from operations,"($13,847)",-13847000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,Operating margins,(9.2) %,-9.2,percent,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,Operating margins,(33.2) %,-33.2,percent,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,Operating margins,(85.7) %,-85.7,percent,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,Research and development,"$1,510",1510000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,Research and development,"$1,140",1140000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,19,Results of Operations,Results of Operations,,Research and development,"$1,385",1385000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,"8,132",8132,count,instant,,2022-12-31,"{""aircraft_model"": ""737""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,"1,572",1572,count,instant,,2022-12-31,"{""aircraft_model"": ""747""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,"1,271",1271,count,instant,,2022-12-31,"{""aircraft_model"": ""767""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,"1,701",1701,count,instant,,2022-12-31,"{""aircraft_model"": ""777""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,"1,037",1037,count,instant,,2022-12-31,"{""aircraft_model"": ""787""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,387,387,count,duration,2022-01-01,2022-12-31,"{""aircraft_model"": ""737""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,(13),-13,count,duration,2022-01-01,2022-12-31,"{""aircraft_model"": ""*""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,5,5,count,duration,2022-01-01,2022-12-31,"{""aircraft_model"": ""747""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,33,33,count,duration,2022-01-01,2022-12-31,"{""aircraft_model"": ""767""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,(15),-15,count,duration,2022-01-01,2022-12-31,"{""aircraft_model"": ""*""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,24,24,count,duration,2022-01-01,2022-12-31,"{""aircraft_model"": ""777""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,31,31,count,duration,2022-01-01,2022-12-31,"{""aircraft_model"": ""787""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,480,480,count,duration,2022-01-01,2022-12-31,"{""aircraft_model"": ""Total""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,"7,745",7745,count,instant,,2021-12-31,"{""aircraft_model"": ""737""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,"1,567",1567,count,instant,,2021-12-31,"{""aircraft_model"": ""747""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,"1,238",1238,count,instant,,2021-12-31,"{""aircraft_model"": ""767""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,"1,677",1677,count,instant,,2021-12-31,"{""aircraft_model"": ""777""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,"1,006",1006,count,instant,,2021-12-31,"{""aircraft_model"": ""787""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,263,263,count,duration,2021-01-01,2021-12-31,"{""aircraft_model"": ""737""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,(16),-16,count,duration,2021-01-01,2021-12-31,"{""aircraft_model"": ""*""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,7,7,count,duration,2021-01-01,2021-12-31,"{""aircraft_model"": ""747""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,32,32,count,duration,2021-01-01,2021-12-31,"{""aircraft_model"": ""767""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,(13),-13,count,duration,2021-01-01,2021-12-31,"{""aircraft_model"": ""*""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,24,24,count,duration,2021-01-01,2021-12-31,"{""aircraft_model"": ""777""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,14,14,count,duration,2021-01-01,2021-12-31,"{""aircraft_model"": ""787""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,340,340,count,duration,2021-01-01,2021-12-31,"{""aircraft_model"": ""Total""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,"7,482",7482,count,instant,,2020-12-31,"{""aircraft_model"": ""737""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,"1,560",1560,count,instant,,2020-12-31,"{""aircraft_model"": ""747""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,"1,206",1206,count,instant,,2020-12-31,"{""aircraft_model"": ""767""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,"1,653",1653,count,instant,,2020-12-31,"{""aircraft_model"": ""777""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Cumulative deliveries,992,992,count,instant,,2020-12-31,"{""aircraft_model"": ""787""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,43,43,count,duration,2020-01-01,2020-12-31,"{""aircraft_model"": ""737""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,(14),-14,count,duration,2020-01-01,2020-12-31,"{""aircraft_model"": ""*""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,5,5,count,duration,2020-01-01,2020-12-31,"{""aircraft_model"": ""747""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,30,30,count,duration,2020-01-01,2020-12-31,"{""aircraft_model"": ""767""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,(11),-11,count,duration,2020-01-01,2020-12-31,"{""aircraft_model"": ""*""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,26,26,count,duration,2020-01-01,2020-12-31,"{""aircraft_model"": ""777""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,53,53,count,duration,2020-01-01,2020-12-31,"{""aircraft_model"": ""787""}"
+BA,10-K,2022-12-31,extracted,20,Revenues,BCA Deliveries by Model,,Deliveries,157,157,count,duration,2020-01-01,2020-12-31,"{""aircraft_model"": ""Total""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"10,800",10800,count,instant,,2022-12-31,"{""program"": ""737""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,574",1574,count,instant,,2022-12-31,"{""program"": ""747""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,267",1267,count,instant,,2022-12-31,"{""program"": ""767""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,790",1790,count,instant,,2022-12-31,"{""program"": ""777""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,400,400,count,instant,,2022-12-31,"{""program"": ""777X""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,600",1600,count,instant,,2022-12-31,"{""program"": ""787""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,"3,653",3653,count,instant,,2022-12-31,"{""program"": ""737""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,1,1,count,instant,,2022-12-31,"{""program"": ""747""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,106,106,count,instant,,2022-12-31,"{""program"": ""767""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,69,69,count,instant,,2022-12-31,"{""program"": ""777""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,244,244,count,instant,,2022-12-31,"{""program"": ""777X""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,505,505,count,instant,,2022-12-31,"{""program"": ""787""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,(8),-8,count,instant,,2022-12-31,"{""program"": ""\u2020""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"11,785",11785,count,instant,,2022-12-31,"{""program"": ""737""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,573",1573,count,instant,,2022-12-31,"{""program"": ""747""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,377",1377,count,instant,,2022-12-31,"{""program"": ""767""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,770",1770,count,instant,,2022-12-31,"{""program"": ""777""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,244,244,count,instant,,2022-12-31,"{""program"": ""777X""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,542",1542,count,instant,,2022-12-31,"{""program"": ""787""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"10,400",10400,count,instant,,2021-12-31,"{""program"": ""737""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,574",1574,count,instant,,2021-12-31,"{""program"": ""747""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,243",1243,count,instant,,2021-12-31,"{""program"": ""767""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,750",1750,count,instant,,2021-12-31,"{""program"": ""777""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,350,350,count,instant,,2021-12-31,"{""program"": ""777X""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,500",1500,count,instant,,2021-12-31,"{""program"": ""787""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,"3,414",3414,count,instant,,2021-12-31,"{""program"": ""737""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,6,6,count,instant,,2021-12-31,"{""program"": ""747""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,108,108,count,instant,,2021-12-31,"{""program"": ""767""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,58,58,count,instant,,2021-12-31,"{""program"": ""777""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,253,253,count,instant,,2021-12-31,"{""program"": ""777X""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,411,411,count,instant,,2021-12-31,"{""program"": ""787""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,(14),-14,count,instant,,2021-12-31,"{""program"": ""\u2020""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"11,159",11159,count,instant,,2021-12-31,"{""program"": ""737""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,573",1573,count,instant,,2021-12-31,"{""program"": ""747""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,346",1346,count,instant,,2021-12-31,"{""program"": ""767""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,735",1735,count,instant,,2021-12-31,"{""program"": ""777""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,253,253,count,instant,,2021-12-31,"{""program"": ""777X""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,417",1417,count,instant,,2021-12-31,"{""program"": ""787""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"10,000",10000,count,instant,,2020-12-31,"{""program"": ""737""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,574",1574,count,instant,,2020-12-31,"{""program"": ""747""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,207",1207,count,instant,,2020-12-31,"{""program"": ""767""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,700",1700,count,instant,,2020-12-31,"{""program"": ""777""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,350,350,count,instant,,2020-12-31,"{""program"": ""777X""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,500",1500,count,instant,,2020-12-31,"{""program"": ""787""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,"3,282",3282,count,instant,,2020-12-31,"{""program"": ""737""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,8,8,count,instant,,2020-12-31,"{""program"": ""747""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,75,75,count,instant,,2020-12-31,"{""program"": ""767""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,41,41,count,instant,,2020-12-31,"{""program"": ""777""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,191,191,count,instant,,2020-12-31,"{""program"": ""777X""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,458,458,count,instant,,2020-12-31,"{""program"": ""787""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,(22),-22,count,instant,,2020-12-31,"{""program"": ""\u2020""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"10,764",10764,count,instant,,2020-12-31,"{""program"": ""737""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,568",1568,count,instant,,2020-12-31,"{""program"": ""747""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,281",1281,count,instant,,2020-12-31,"{""program"": ""767""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,694",1694,count,instant,,2020-12-31,"{""program"": ""777""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,191,191,count,instant,,2020-12-31,"{""program"": ""777X""}"
+BA,10-K,2022-12-31,extracted,21,Accounting Quantity,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,450",1450,count,instant,,2020-12-31,"{""program"": ""787""}"
+BA,10-K,2022-12-31,extracted,22,Program Development,Go-ahead and Initial Delivery,,737-7,2011,2011,other,instant,,2011-12-31,"{""milestone"": ""go-ahead""}"
+BA,10-K,2022-12-31,extracted,22,Program Development,Go-ahead and Initial Delivery,,737-7,2023,2023,other,instant,,2023-12-31,"{""milestone"": ""initial_delivery""}"
+BA,10-K,2022-12-31,extracted,22,Program Development,Go-ahead and Initial Delivery,,737-10,2017,2017,other,instant,,2017-12-31,"{""milestone"": ""go-ahead""}"
+BA,10-K,2022-12-31,extracted,22,Program Development,Go-ahead and Initial Delivery,,737-10,2024,2024,other,instant,,2024-12-31,"{""milestone"": ""initial_delivery""}"
+BA,10-K,2022-12-31,extracted,22,Program Development,Go-ahead and Initial Delivery,,777X-9,2013,2013,other,instant,,2013-12-31,"{""milestone"": ""go-ahead""}"
+BA,10-K,2022-12-31,extracted,22,Program Development,Go-ahead and Initial Delivery,,777X-9,2025,2025,other,instant,,2025-12-31,"{""milestone"": ""initial_delivery""}"
+BA,10-K,2022-12-31,extracted,22,Program Development,Go-ahead and Initial Delivery,,777X-8F,2022,2022,other,instant,,2022-12-31,"{""milestone"": ""go-ahead""}"
+BA,10-K,2022-12-31,extracted,22,Program Development,Go-ahead and Initial Delivery,,777X-8F,2027,2027,other,instant,,2027-12-31,"{""milestone"": ""initial_delivery""}"
+BA,10-K,2022-12-31,extracted,23,Results of Operations,Results of Operations,,Revenues,"$23,162",23162000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,23,Results of Operations,Results of Operations,,Revenues,"$26,540",26540000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,23,Results of Operations,Results of Operations,,Revenues,"$26,257",26257000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,23,Results of Operations,Results of Operations,,% of total company revenues,35%,35,percent,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,23,Results of Operations,Results of Operations,,% of total company revenues,43%,43,percent,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,23,Results of Operations,Results of Operations,,% of total company revenues,45%,45,percent,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,23,Results of Operations,Results of Operations,,(Loss)/earnings from operations,"($3,544)",-3544000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,23,Results of Operations,Results of Operations,,(Loss)/earnings from operations,"$1,544",1544000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,23,Results of Operations,Results of Operations,,(Loss)/earnings from operations,"$1,539",1539000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,23,Results of Operations,Results of Operations,,Operating margins,(15.3)%,-15.3,percent,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,23,Results of Operations,Results of Operations,,Operating margins,5.8%,5.8,percent,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,23,Results of Operations,Results of Operations,,Operating margins,5.9%,5.9,percent,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,F/A-18 Models,14,14,count,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,F/A-18 Models,21,21,count,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,F/A-18 Models,20,20,count,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,F-15 Models,12,12,count,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,F-15 Models,16,16,count,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,F-15 Models,4,4,count,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,CH-47 Chinook (New),19,19,count,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,CH-47 Chinook (New),15,15,count,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,CH-47 Chinook (New),27,27,count,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,CH-47 Chinook (Renewed),9,9,count,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,CH-47 Chinook (Renewed),5,5,count,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,CH-47 Chinook (Renewed),3,3,count,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,AH-64 Apache (New),25,25,count,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,AH-64 Apache (New),27,27,count,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,AH-64 Apache (New),19,19,count,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,AH-64 Apache (Remanufactured),50,50,count,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,AH-64 Apache (Remanufactured),56,56,count,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,AH-64 Apache (Remanufactured),52,52,count,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,MH-139 Grey Wolf,4,4,count,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,KC-46 Tanker,15,15,count,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,KC-46 Tanker,13,13,count,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,KC-46 Tanker,14,14,count,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,P-8 Models,12,12,count,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,P-8 Models,16,16,count,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,P-8 Models,15,15,count,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,Commercial Satellites,4,4,count,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,Military Satellites,1,1,count,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,Total,165,165,count,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,Total,169,169,count,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,24,%,"Deliveries of new-build production units, including remanufactures and modifications",,Total,154,154,count,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,25,Results of Operations,Results of Operations,,Revenues,"$17,611",17611000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,25,Results of Operations,Results of Operations,,Revenues,"$16,328",16328000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,25,Results of Operations,Results of Operations,,Revenues,"$15,543",15543000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,25,Results of Operations,Results of Operations,,% of total company revenues,26%,26,percent,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,25,Results of Operations,Results of Operations,,% of total company revenues,26%,26,percent,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,25,Results of Operations,Results of Operations,,% of total company revenues,27%,27,percent,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,25,Results of Operations,Results of Operations,,Earnings from operations,"$2,727",2727000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,25,Results of Operations,Results of Operations,,Earnings from operations,"$2,017",2017000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,25,Results of Operations,Results of Operations,,Earnings from operations,$450,450000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,25,Results of Operations,Results of Operations,,Operating margins,15.5%,15.5,percent,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,25,Results of Operations,Results of Operations,,Operating margins,12.4%,12.4,percent,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,25,Results of Operations,Results of Operations,,Operating margins,2.9%,2.9,percent,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,26,Results of Operations,Results of Operations,,Revenues,$199,199000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,26,Results of Operations,Results of Operations,,Revenues,$272,272000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,26,Results of Operations,Results of Operations,,Revenues,$261,261000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,26,Results of Operations,Results of Operations,,Earnings from operations,$29,29000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,26,Results of Operations,Results of Operations,,Earnings from operations,$106,106000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,26,Results of Operations,Results of Operations,,Earnings from operations,$63,63000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,26,Results of Operations,Results of Operations,,Operating margins,15%,15,percent,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,26,Results of Operations,Results of Operations,,Operating margins,39%,39,percent,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,26,Results of Operations,Results of Operations,,Operating margins,24%,24,percent,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,"Customer financing and investment portfolio, net","$1,494",1494000000,USD,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,"Customer financing and investment portfolio, net","$1,720",1720000000,USD,instant,,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,"Other assets, primarily cash and short-term investments",460,460000000,USD,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,"Other assets, primarily cash and short-term investments",462,462000000,USD,instant,,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,Total assets,"$1,954",1954000000,USD,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,Total assets,"$2,182",2182000000,USD,instant,,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,"Other liabilities, primarily income taxes",$239,239000000,USD,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,"Other liabilities, primarily income taxes",$347,347000000,USD,instant,,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,"Debt, including intercompany loans","1,425",1425000000,USD,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,"Debt, including intercompany loans","1,525",1525000000,USD,instant,,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,Equity,290,290000000,USD,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,Equity,310,310000000,USD,instant,,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,Total liabilities and equity,"$1,954",1954000000,USD,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,Total liabilities and equity,"$2,182",2182000000,USD,instant,,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,Debt-to-equity ratio,4.9-to-1,4.9,ratio,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,27,Financial Position,Selected financial data for BCC,,Debt-to-equity ratio,4.9-to-1,4.9,ratio,instant,,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Net loss,"($5,053)",-5053000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Net loss,"($4,290)",-4290000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Net loss,"($11,941)",-11941000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Non-cash items,"4,426",4426000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Non-cash items,"7,851",7851000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Non-cash items,"10,866",10866000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Changes in assets and liabilities,"4,139",4139000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Changes in assets and liabilities,"(6,977)",-6977000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Changes in assets and liabilities,"(17,335)",-17335000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Net cash provided/(used) by operating activities,"3,512",3512000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Net cash provided/(used) by operating activities,"(3,416)",-3416000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Net cash provided/(used) by operating activities,"(18,410)",-18410000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Net cash provided/(used) by investing activities,"4,370",4370000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Net cash provided/(used) by investing activities,"9,324",9324000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Net cash provided/(used) by investing activities,"(18,366)",-18366000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Net cash (used)/provided by financing activities,"(1,266)",-1266000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Net cash (used)/provided by financing activities,"(5,600)",-5600000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Net cash (used)/provided by financing activities,"34,955",34955000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Effect of exchange rate changes on cash and cash equivalents,(73),-73000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Effect of exchange rate changes on cash and cash equivalents,(39),-39000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,Effect of exchange rate changes on cash and cash equivalents,85,85000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,"Net increase/(decrease) in cash & cash equivalents, including restricted","6,543",6543000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,"Net increase/(decrease) in cash & cash equivalents, including restricted",269,269000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,"Net increase/(decrease) in cash & cash equivalents, including restricted","(1,736)",-1736000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,"Cash & cash equivalents, including restricted, at beginning of year","8,104",8104000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,"Cash & cash equivalents, including restricted, at beginning of year","7,835",7835000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,"Cash & cash equivalents, including restricted, at beginning of year","9,571",9571000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,"Cash & cash equivalents, including restricted, at end of year","$14,647",14647000000,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,"Cash & cash equivalents, including restricted, at end of year","$8,104",8104000000,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,28,Cash Flow Summary,Cash Flow Summary,,"Cash & cash equivalents, including restricted, at end of year","$7,835",7835000000,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,Long-term debt (including current portion),"$5,197",5197000000,USD,instant,,2022-12-31,"{""maturity"": ""Current""}"
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,Long-term debt (including current portion),"$52,338",52338000000,USD,instant,,2022-12-31,"{""maturity"": ""Long-term""}"
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,Long-term debt (including current portion),"$57,535",57535000000,USD,instant,,2022-12-31,"{""maturity"": ""Total""}"
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,Interest on debt,"2,266",2266000000,USD,instant,,2022-12-31,"{""maturity"": ""Current""}"
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,Interest on debt,"31,397",31397000000,USD,instant,,2022-12-31,"{""maturity"": ""Long-term""}"
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,Interest on debt,"33,663",33663000000,USD,instant,,2022-12-31,"{""maturity"": ""Total""}"
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,Pension and other postretirement,519,519000000,USD,instant,,2022-12-31,"{""maturity"": ""Current""}"
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,Pension and other postretirement,"8,133",8133000000,USD,instant,,2022-12-31,"{""maturity"": ""Long-term""}"
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,Pension and other postretirement,"8,652",8652000000,USD,instant,,2022-12-31,"{""maturity"": ""Total""}"
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,Purchase obligations,"62,025",62025000000,USD,instant,,2022-12-31,"{""maturity"": ""Current""}"
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,Purchase obligations,"59,515",59515000000,USD,instant,,2022-12-31,"{""maturity"": ""Long-term""}"
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,Purchase obligations,"121,540",121540000000,USD,instant,,2022-12-31,"{""maturity"": ""Total""}"
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,737 MAX customer concessions and consideration (1),100,100000000,USD,instant,,2022-12-31,"{""maturity"": ""Current""}"
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,737 MAX customer concessions and consideration (1),600,600000000,USD,instant,,2022-12-31,"{""maturity"": ""Long-term""}"
+BA,10-K,2022-12-31,extracted,29,Capital Resources,"Contractual obligations as of December 31, 2022",,737 MAX customer concessions and consideration (1),700,700000000,USD,instant,,2022-12-31,"{""maturity"": ""Total""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Standby letters of credit and surety bonds,"$5,070 ",5070000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""Total Amounts Committed/Maximum Amount of Loss""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Standby letters of credit and surety bonds,"$3,859 ",3859000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""Less than 1 year""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Standby letters of credit and surety bonds,"$1,036 ",1036000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""1-3 years""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Standby letters of credit and surety bonds,$10 ,10000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""4-5 years""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Standby letters of credit and surety bonds,$165 ,165000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""After 5 years""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Commercial aircraft financing commitments,"16,105 ",16105000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""Total Amounts Committed/Maximum Amount of Loss""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Commercial aircraft financing commitments,"3,084 ",3084000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""Less than 1 year""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Commercial aircraft financing commitments,"5,989 ",5989000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""1-3 years""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Commercial aircraft financing commitments,"4,075 ",4075000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""4-5 years""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Commercial aircraft financing commitments,"2,957 ",2957000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""After 5 years""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Total commercial commitments,"$21,175 ",21175000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""Total Amounts Committed/Maximum Amount of Loss""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Total commercial commitments,"$6,943 ",6943000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""Less than 1 year""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Total commercial commitments,"$7,025 ",7025000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""1-3 years""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Total commercial commitments,"$4,085 ",4085000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""4-5 years""}"
+BA,10-K,2022-12-31,extracted,30,Commercial Commitments,"Commercial Commitments as of December 31, 2022",,Total commercial commitments,"$3,122 ",3122000000,USD,instant,,2022-12-31,"{""maturity_bucket"": ""After 5 years""}"
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Revenues,"$66,608",66608,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Revenues,"$62,286",62286,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Revenues,"$58,158",58158,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,"Loss from operations, as reported","($3,547)",-3547,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,"Loss from operations, as reported","($2,902)",-2902,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,"Loss from operations, as reported","($12,767)",-12767,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Operating margins,(5.3)%,-5.3,percent,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Operating margins,(4.7)%,-4.7,percent,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Operating margins,(22.0)%,-22.0,percent,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Pension FAS/CAS service cost adjustment (1),($849),-849,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Pension FAS/CAS service cost adjustment (1),($882),-882,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Pension FAS/CAS service cost adjustment (1),"($1,024)",-1024,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Postretirement FAS/CAS service cost adjustment (1),($294),-294,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Postretirement FAS/CAS service cost adjustment (1),($291),-291,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Postretirement FAS/CAS service cost adjustment (1),($359),-359,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,FAS/CAS service cost adjustment (1),"($1,143)",-1143,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,FAS/CAS service cost adjustment (1),"($1,173)",-1173,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,FAS/CAS service cost adjustment (1),"($1,383)",-1383,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Core operating loss (non-GAAP),"($4,690)",-4690,USD,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Core operating loss (non-GAAP),"($4,075)",-4075,USD,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Core operating loss (non-GAAP),"($14,150)",-14150,USD,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Core operating margins (non-GAAP),(7.0)%,-7.0,percent,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Core operating margins (non-GAAP),(6.5)%,-6.5,percent,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Core operating margins (non-GAAP),(24.3)%,-24.3,percent,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,"Diluted loss per share, as reported",($8.30),-8.3,USD_per_share,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,"Diluted loss per share, as reported",($7.15),-7.15,USD_per_share,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,"Diluted loss per share, as reported",($20.88),-20.88,USD_per_share,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Pension FAS/CAS service cost adjustment (1),(1.43),-1.43,USD_per_share,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Pension FAS/CAS service cost adjustment (1),(1.50),-1.5,USD_per_share,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Pension FAS/CAS service cost adjustment (1),(1.80),-1.8,USD_per_share,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Postretirement FAS/CAS service cost adjustment (1),(0.49),-0.49,USD_per_share,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Postretirement FAS/CAS service cost adjustment (1),(0.49),-0.49,USD_per_share,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Postretirement FAS/CAS service cost adjustment (1),(0.63),-0.63,USD_per_share,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Non-operating pension expense (2),(1.47),-1.47,USD_per_share,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Non-operating pension expense (2),(0.91),-0.91,USD_per_share,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Non-operating pension expense (2),(0.60),-0.6,USD_per_share,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Non-operating postretirement expense (2),(0.10),-0.1,USD_per_share,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Non-operating postretirement expense (2),0.03,0.03,USD_per_share,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Provision for deferred income taxes on adjustments (3),0.73,0.73,USD_per_share,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Provision for deferred income taxes on adjustments (3),0.61,0.61,USD_per_share,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Provision for deferred income taxes on adjustments (3),0.63,0.63,USD_per_share,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Core loss per share (non-GAAP),($11.06),-11.06,USD_per_share,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Core loss per share (non-GAAP),($9.44),-9.44,USD_per_share,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Core loss per share (non-GAAP),($23.25),-23.25,USD_per_share,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Weighted average diluted shares (in millions),595.2,595.2,shares,duration,2022-01-01,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Weighted average diluted shares (in millions),588.0,588.0,shares,duration,2021-01-01,2021-12-31,{}
+BA,10-K,2022-12-31,extracted,31,Reconciliation of Non-GAAP Measures to GAAP Measures,Reconciliation of Non-GAAP Measures to GAAP Measures,,Weighted average diluted shares (in millions),569.0,569.0,shares,duration,2020-01-01,2020-12-31,{}
+BA,10-K,2022-12-31,extracted,115,Equity Compensation Plan Information,Equity Compensation Plan Information,,Stock options,"1,390,769",1390769,shares,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,115,Equity Compensation Plan Information,Equity Compensation Plan Information,,Stock options,$178.18,178.18,USD_per_share,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,115,Equity Compensation Plan Information,Equity Compensation Plan Information,,Deferred compensation,"671,837",671837,shares,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,115,Equity Compensation Plan Information,Equity Compensation Plan Information,,Other stock units(1),"11,870,813",11870813,shares,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,115,Equity Compensation Plan Information,Equity Compensation Plan Information,,Total(2),"13,933,419",13933419,shares,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,115,Equity Compensation Plan Information,Equity Compensation Plan Information,,Total(2),$178.18,178.18,USD_per_share,instant,,2022-12-31,{}
+BA,10-K,2022-12-31,extracted,115,Equity Compensation Plan Information,Equity Compensation Plan Information,,Total(2),"3,918,585",3918585,shares,instant,,2022-12-31,{}

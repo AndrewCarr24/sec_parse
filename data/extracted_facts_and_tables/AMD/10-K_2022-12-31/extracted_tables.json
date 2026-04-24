@@ -1,0 +1,1878 @@
+[
+  {
+    "table_index": 5,
+    "heading": "INDEX",
+    "preceding_text": "",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:100.000%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"><div><span><a>PART I</a></span></div></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>1</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><div><span><a>ITEM\u00a01.</a></span></div></td><td colspan=\"3\"><div><span><a>Business</a></span></div></td><td colspan=\"3\"><div><span><a>1</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><div><span><a>ITEM\u00a01A.</a></span></div></td><td colspan=\"3\"><div><span><a>Risk Factors</a></span></div></td><td colspan=\"3\"><div><span><a>14</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><div><span><a>ITEM\u00a01B.</a></span></div></td><td colspan=\"3\"><div><span><a>Unresolved Staff Comments</a></span></div></td><td colspan=\"3\"><div><span><a>36</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><div><span><a>ITEM\u00a02.</a></span></div></td><td colspan=\"3\"><div><span><a>Properties</a></span></div></td><td colspan=\"3\"><div><span><a>37</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><div><span><a>IT",
+    "llm_response": {
+      "title": "INDEX",
+      "is_data_table": false,
+      "skip_reason": "Table of contents - no financial data",
+      "units_note": null,
+      "rows": []
+    }
+  },
+  {
+    "table_index": 6,
+    "heading": "Issuer Purchases of Equity Securities",
+    "preceding_text": "The following table provides information relating to our repurchase of common stock for the year ended December 31, 2022: | The following table provides information relating to our repurchase of common stock for the year ended December 31, 2022: | Total Number of Shares Repurchased Average Price Paid per Share Total Number of Shares Repurchased as Part of Publicly Announced Program Maximum Dollar ",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:99.269%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>Total Number of Shares Repurchased</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>Average Price Paid per Share</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>Total Number of Shares Repurchased as Part of Publicly Announced Program</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>Maximum Dollar Value of Shares That May Yet be Purchased Under the Program</span></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"><span>(In millions)</span></td></tr><tr><td colspan=\"3\"><span>Repurchases during each fiscal quarter of 2022:</span></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><span>December 26, 2021 - March 26, 2022</span></td><td colspan=\"2\"><span>15,785,806\u00a0</span></td><td></td><td colspan=\"3\"></td><td><span>$</span></td><td><span>121.03\u00a0</span></td><td></td><td colspan=\"3\"></td><td colspan=\"2\"><span>15,785,806\u00a0</span></td><td>",
+    "llm_response": {
+      "title": "Issuer Purchases of Equity Securities",
+      "is_data_table": true,
+      "skip_reason": null,
+      "units_note": "Maximum Dollar Value column in millions",
+      "rows": [
+        {
+          "label": "December 26, 2021 - March 26, 2022",
+          "raw_display": "15,785,806 ",
+          "value": 15785806,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2021-12-26",
+          "period_end": "2022-03-26",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "December 26, 2021 - March 26, 2022",
+          "raw_display": "$121.03 ",
+          "value": 121.03,
+          "unit": "USD_per_share",
+          "period_type": "duration",
+          "period_start": "2021-12-26",
+          "period_end": "2022-03-26",
+          "dimensions": {
+            "column": "Average Price Paid per Share",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "December 26, 2021 - March 26, 2022",
+          "raw_display": "15,785,806 ",
+          "value": 15785806,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2021-12-26",
+          "period_end": "2022-03-26",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased as Part of Publicly Announced Program",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "December 26, 2021 - March 26, 2022",
+          "raw_display": "$8,327 ",
+          "value": 8327000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": "2021-12-26",
+          "period_end": "2022-03-26",
+          "dimensions": {
+            "column": "Maximum Dollar Value of Shares That May Yet be Purchased Under the Program",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "March 27, 2022 - June 25, 2022",
+          "raw_display": "10,159,900 ",
+          "value": 10159900,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2022-03-27",
+          "period_end": "2022-06-25",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "March 27, 2022 - June 25, 2022",
+          "raw_display": "$90.58 ",
+          "value": 90.58,
+          "unit": "USD_per_share",
+          "period_type": "duration",
+          "period_start": "2022-03-27",
+          "period_end": "2022-06-25",
+          "dimensions": {
+            "column": "Average Price Paid per Share",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "March 27, 2022 - June 25, 2022",
+          "raw_display": "10,159,900 ",
+          "value": 10159900,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2022-03-27",
+          "period_end": "2022-06-25",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased as Part of Publicly Announced Program",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "March 27, 2022 - June 25, 2022",
+          "raw_display": "$7,407 ",
+          "value": 7407000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": "2022-03-27",
+          "period_end": "2022-06-25",
+          "dimensions": {
+            "column": "Maximum Dollar Value of Shares That May Yet be Purchased Under the Program",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "June 26, 2022 - September 24, 2022",
+          "raw_display": "6,895,972 ",
+          "value": 6895972,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2022-06-26",
+          "period_end": "2022-09-24",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "June 26, 2022 - September 24, 2022",
+          "raw_display": "$89.52 ",
+          "value": 89.52,
+          "unit": "USD_per_share",
+          "period_type": "duration",
+          "period_start": "2022-06-26",
+          "period_end": "2022-09-24",
+          "dimensions": {
+            "column": "Average Price Paid per Share",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "June 26, 2022 - September 24, 2022",
+          "raw_display": "6,895,972 ",
+          "value": 6895972,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2022-06-26",
+          "period_end": "2022-09-24",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased as Part of Publicly Announced Program",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "June 26, 2022 - September 24, 2022",
+          "raw_display": "$6,790 ",
+          "value": 6790000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": "2022-06-26",
+          "period_end": "2022-09-24",
+          "dimensions": {
+            "column": "Maximum Dollar Value of Shares That May Yet be Purchased Under the Program",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "September 25, 2022 - December 31, 2022",
+          "raw_display": "3,484,459 ",
+          "value": 3484459,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2022-09-25",
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "September 25, 2022 - December 31, 2022",
+          "raw_display": "$71.75 ",
+          "value": 71.75,
+          "unit": "USD_per_share",
+          "period_type": "duration",
+          "period_start": "2022-09-25",
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "column": "Average Price Paid per Share",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "September 25, 2022 - December 31, 2022",
+          "raw_display": "3,484,459 ",
+          "value": 3484459,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2022-09-25",
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased as Part of Publicly Announced Program",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "September 25, 2022 - December 31, 2022",
+          "raw_display": "$6,540 ",
+          "value": 6540000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": "2022-09-25",
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "column": "Maximum Dollar Value of Shares That May Yet be Purchased Under the Program",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "Total",
+          "raw_display": "36,326,137 ",
+          "value": 36326137,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2021-12-26",
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "Total",
+          "raw_display": "36,326,137 ",
+          "value": 36326137,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2021-12-26",
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased as Part of Publicly Announced Program",
+            "section": "Fiscal 2022 Quarters"
+          }
+        },
+        {
+          "label": "September 25, 2022 - October 29, 2022",
+          "raw_display": "$6,790 ",
+          "value": 6790000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": "2022-09-25",
+          "period_end": "2022-10-29",
+          "dimensions": {
+            "column": "Maximum Dollar Value of Shares That May Yet be Purchased Under the Program",
+            "section": "Last Fiscal Quarter of 2022"
+          }
+        },
+        {
+          "label": "October 30, 2022 - November 26, 2022",
+          "raw_display": "1,455,994 ",
+          "value": 1455994,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2022-10-30",
+          "period_end": "2022-11-26",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased",
+            "section": "Last Fiscal Quarter of 2022"
+          }
+        },
+        {
+          "label": "October 30, 2022 - November 26, 2022",
+          "raw_display": "$70.65 ",
+          "value": 70.65,
+          "unit": "USD_per_share",
+          "period_type": "duration",
+          "period_start": "2022-10-30",
+          "period_end": "2022-11-26",
+          "dimensions": {
+            "column": "Average Price Paid per Share",
+            "section": "Last Fiscal Quarter of 2022"
+          }
+        },
+        {
+          "label": "October 30, 2022 - November 26, 2022",
+          "raw_display": "1,455,994 ",
+          "value": 1455994,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2022-10-30",
+          "period_end": "2022-11-26",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased as Part of Publicly Announced Program",
+            "section": "Last Fiscal Quarter of 2022"
+          }
+        },
+        {
+          "label": "October 30, 2022 - November 26, 2022",
+          "raw_display": "$6,687 ",
+          "value": 6687000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": "2022-10-30",
+          "period_end": "2022-11-26",
+          "dimensions": {
+            "column": "Maximum Dollar Value of Shares That May Yet be Purchased Under the Program",
+            "section": "Last Fiscal Quarter of 2022"
+          }
+        },
+        {
+          "label": "November 27, 2022 - December 31, 2022",
+          "raw_display": "2,028,465 ",
+          "value": 2028465,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2022-11-27",
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased",
+            "section": "Last Fiscal Quarter of 2022"
+          }
+        },
+        {
+          "label": "November 27, 2022 - December 31, 2022",
+          "raw_display": "$72.54 ",
+          "value": 72.54,
+          "unit": "USD_per_share",
+          "period_type": "duration",
+          "period_start": "2022-11-27",
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "column": "Average Price Paid per Share",
+            "section": "Last Fiscal Quarter of 2022"
+          }
+        },
+        {
+          "label": "November 27, 2022 - December 31, 2022",
+          "raw_display": "2,028,465 ",
+          "value": 2028465,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2022-11-27",
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased as Part of Publicly Announced Program",
+            "section": "Last Fiscal Quarter of 2022"
+          }
+        },
+        {
+          "label": "November 27, 2022 - December 31, 2022",
+          "raw_display": "$6,540 ",
+          "value": 6540000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": "2022-11-27",
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "column": "Maximum Dollar Value of Shares That May Yet be Purchased Under the Program",
+            "section": "Last Fiscal Quarter of 2022"
+          }
+        },
+        {
+          "label": "Total",
+          "raw_display": "3,484,459 ",
+          "value": 3484459,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2022-09-25",
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased",
+            "section": "Last Fiscal Quarter of 2022"
+          }
+        },
+        {
+          "label": "Total",
+          "raw_display": "3,484,459 ",
+          "value": 3484459,
+          "unit": "shares",
+          "period_type": "duration",
+          "period_start": "2022-09-25",
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "column": "Total Number of Shares Repurchased as Part of Publicly Announced Program",
+            "section": "Last Fiscal Quarter of 2022"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "table_index": 7,
+    "heading": "Advanced Micro Devices, S&P 500 Index and S&P 500 Semiconductor Index",
+    "preceding_text": "The following graph shows a five-year comparison of cumulative total return on our common stock, the S&P 500 Index and the S&P 500 Semiconductor Index from December 30, 2017 through December 31, 2022. The past performance of our common stock is no indication of future performance. | The following graph shows a five-year comparison of cumulative total return on our common stock, the S&P 500 Index a",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:100.000%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>Base Period</span></td><td colspan=\"15\"><span>Years Ended</span></td></tr><tr><td colspan=\"3\"><span>Company / Index</span></td><td colspan=\"3\"><span>12/30/2017</span></td><td colspan=\"3\"><span>12/29/2018</span></td><td colspan=\"3\"><span>12/28/2019</span></td><td colspan=\"3\"><span>12/26/2020</span></td><td colspan=\"3\"><span>12/25/2021</span></td><td colspan=\"3\"><span>12/31/2022</span></td></tr><tr><td colspan=\"3\"><span>Advanced Micro Devices, Inc.</span></td><td colspan=\"3\"><span>100</span></td><td colspan=\"2\"><span>173\u00a0</span></td><td></td><td colspan=\"2\"><span>449\u00a0</span></td><td></td><td colspan=\"2\"><span>893\u00a0</span></td><td></td><td colspan=\"2\"><span>1,422\u00a0</span></td><td></td><td colspan=\"2\"><span>630\u00a0</span></td><td></td></tr><tr><td colspan=\"3\"><span>S&amp;P 500 Index</span></td><td colspan=\"3\"><span>100</span></td><td colspan=\"2\"><span>95\u00a0</span></td><td></td><td colspan=\"2\"><span>126\u00a0</span></td><td></td><td colspan=\"2\"><span>147\u00a0</span></td><td></td><td colspan=\"2\"><span>190\u00a0</span></td><td></td><td colspan=\"2\"><span>157\u00a0</span></td><td></td></tr><tr><td colspan=\"3\"><span>S&amp;P 500 Semiconductors Index</sp",
+    "llm_response": {
+      "title": "Advanced Micro Devices, S&P 500 Index and S&P 500 Semiconductor Index",
+      "is_data_table": true,
+      "skip_reason": null,
+      "units_note": null,
+      "rows": [
+        {
+          "label": "Advanced Micro Devices, Inc.",
+          "raw_display": "100",
+          "value": 100,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2017-12-30",
+          "dimensions": {}
+        },
+        {
+          "label": "Advanced Micro Devices, Inc.",
+          "raw_display": "173",
+          "value": 173,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2018-12-29",
+          "dimensions": {}
+        },
+        {
+          "label": "Advanced Micro Devices, Inc.",
+          "raw_display": "449",
+          "value": 449,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2019-12-28",
+          "dimensions": {}
+        },
+        {
+          "label": "Advanced Micro Devices, Inc.",
+          "raw_display": "893",
+          "value": 893,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2020-12-26",
+          "dimensions": {}
+        },
+        {
+          "label": "Advanced Micro Devices, Inc.",
+          "raw_display": "1,422",
+          "value": 1422,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Advanced Micro Devices, Inc.",
+          "raw_display": "630",
+          "value": 630,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "S&P 500 Index",
+          "raw_display": "100",
+          "value": 100,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2017-12-30",
+          "dimensions": {}
+        },
+        {
+          "label": "S&P 500 Index",
+          "raw_display": "95",
+          "value": 95,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2018-12-29",
+          "dimensions": {}
+        },
+        {
+          "label": "S&P 500 Index",
+          "raw_display": "126",
+          "value": 126,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2019-12-28",
+          "dimensions": {}
+        },
+        {
+          "label": "S&P 500 Index",
+          "raw_display": "147",
+          "value": 147,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2020-12-26",
+          "dimensions": {}
+        },
+        {
+          "label": "S&P 500 Index",
+          "raw_display": "190",
+          "value": 190,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "S&P 500 Index",
+          "raw_display": "157",
+          "value": 157,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "S&P 500 Semiconductors Index",
+          "raw_display": "100",
+          "value": 100,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2017-12-30",
+          "dimensions": {}
+        },
+        {
+          "label": "S&P 500 Semiconductors Index",
+          "raw_display": "93",
+          "value": 93,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2018-12-29",
+          "dimensions": {}
+        },
+        {
+          "label": "S&P 500 Semiconductors Index",
+          "raw_display": "138",
+          "value": 138,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2019-12-28",
+          "dimensions": {}
+        },
+        {
+          "label": "S&P 500 Semiconductors Index",
+          "raw_display": "193",
+          "value": 193,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2020-12-26",
+          "dimensions": {}
+        },
+        {
+          "label": "S&P 500 Semiconductors Index",
+          "raw_display": "296",
+          "value": 296,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "S&P 500 Semiconductors Index",
+          "raw_display": "185",
+          "value": 185,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        }
+      ]
+    }
+  },
+  {
+    "table_index": 8,
+    "heading": "Results of Operations",
+    "preceding_text": "\u2013 | Segment Reporting of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K). | Our operating results tend to vary seasonally. Historically, our net revenue has been generally higher in the second half of the year than in the first half of the year, although market conditions and product transitions could impact these trends. | Our operating results tend to vary seasonally. Histo",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:100.000%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"9\"><span>Year Ended</span></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>December 31,<br/>2022</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>December 25,<br/>2021</span></td></tr><tr><td colspan=\"3\"></td><td colspan=\"9\"><span>(In millions)</span></td></tr><tr><td colspan=\"3\"><span>Net revenue:</span></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><span>Data Center</span></td><td><span>$</span></td><td><span>6,043\u00a0</span></td><td></td><td colspan=\"3\"></td><td><span>$</span></td><td><span>3,694\u00a0</span></td><td></td></tr><tr><td colspan=\"3\"><span>Client</span></td><td colspan=\"2\"><span>6,201\u00a0</span></td><td></td><td colspan=\"3\"></td><td colspan=\"2\"><span>6,887\u00a0</span></td><td></td></tr><tr><td colspan=\"3\"><span>Gaming</span></td><td colspan=\"2\"><span>6,805\u00a0</span></td><td></td><td colspan=\"3\"></td><td colspan=\"2\"><span>5,607\u00a0</span></td><td></td></tr><tr><td colspan=\"3\"><span>Embedded</span></td><td colspan=\"2\"><span>4,552\u00a0</span></td><td></td><td colspan=\"3\"></td><td colspan=\"2\"><span>246\u00a0</span></td><td></td></tr><tr><td colspan=\"3\"><span>Total net revenue</span></td><td><span>$</span></td><td><span>23,601\u00a0</span></td><td></td><td colspan=\"3\"><",
+    "llm_response": {
+      "title": "Summary of net revenue and operating income (loss) by segment",
+      "is_data_table": true,
+      "skip_reason": null,
+      "units_note": "In millions",
+      "rows": [
+        {
+          "label": "Data Center",
+          "raw_display": "$6,043",
+          "value": 6043000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "segment": "Data Center",
+            "metric": "Net revenue"
+          }
+        },
+        {
+          "label": "Data Center",
+          "raw_display": "$3,694",
+          "value": 3694000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {
+            "segment": "Data Center",
+            "metric": "Net revenue"
+          }
+        },
+        {
+          "label": "Client",
+          "raw_display": "6,201",
+          "value": 6201000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "segment": "Client",
+            "metric": "Net revenue"
+          }
+        },
+        {
+          "label": "Client",
+          "raw_display": "6,887",
+          "value": 6887000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {
+            "segment": "Client",
+            "metric": "Net revenue"
+          }
+        },
+        {
+          "label": "Gaming",
+          "raw_display": "6,805",
+          "value": 6805000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "segment": "Gaming",
+            "metric": "Net revenue"
+          }
+        },
+        {
+          "label": "Gaming",
+          "raw_display": "5,607",
+          "value": 5607000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {
+            "segment": "Gaming",
+            "metric": "Net revenue"
+          }
+        },
+        {
+          "label": "Embedded",
+          "raw_display": "4,552",
+          "value": 4552000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "segment": "Embedded",
+            "metric": "Net revenue"
+          }
+        },
+        {
+          "label": "Embedded",
+          "raw_display": "246",
+          "value": 246000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {
+            "segment": "Embedded",
+            "metric": "Net revenue"
+          }
+        },
+        {
+          "label": "Total net revenue",
+          "raw_display": "$23,601",
+          "value": 23601000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "metric": "Net revenue"
+          }
+        },
+        {
+          "label": "Total net revenue",
+          "raw_display": "$16,434",
+          "value": 16434000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {
+            "metric": "Net revenue"
+          }
+        },
+        {
+          "label": "Data Center",
+          "raw_display": "$1,848",
+          "value": 1848000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "segment": "Data Center",
+            "metric": "Operating income (loss)"
+          }
+        },
+        {
+          "label": "Data Center",
+          "raw_display": "$991",
+          "value": 991000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {
+            "segment": "Data Center",
+            "metric": "Operating income (loss)"
+          }
+        },
+        {
+          "label": "Client",
+          "raw_display": "1,190",
+          "value": 1190000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "segment": "Client",
+            "metric": "Operating income (loss)"
+          }
+        },
+        {
+          "label": "Client",
+          "raw_display": "2,088",
+          "value": 2088000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {
+            "segment": "Client",
+            "metric": "Operating income (loss)"
+          }
+        },
+        {
+          "label": "Gaming",
+          "raw_display": "953",
+          "value": 953000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "segment": "Gaming",
+            "metric": "Operating income (loss)"
+          }
+        },
+        {
+          "label": "Gaming",
+          "raw_display": "934",
+          "value": 934000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {
+            "segment": "Gaming",
+            "metric": "Operating income (loss)"
+          }
+        },
+        {
+          "label": "Embedded",
+          "raw_display": "2,252",
+          "value": 2252000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "segment": "Embedded",
+            "metric": "Operating income (loss)"
+          }
+        },
+        {
+          "label": "Embedded",
+          "raw_display": "44",
+          "value": 44000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {
+            "segment": "Embedded",
+            "metric": "Operating income (loss)"
+          }
+        },
+        {
+          "label": "All Other",
+          "raw_display": "(4,979)",
+          "value": -4979000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "segment": "All Other",
+            "metric": "Operating income (loss)"
+          }
+        },
+        {
+          "label": "All Other",
+          "raw_display": "(409)",
+          "value": -409000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {
+            "segment": "All Other",
+            "metric": "Operating income (loss)"
+          }
+        },
+        {
+          "label": "Total operating income (loss)",
+          "raw_display": "$1,264",
+          "value": 1264000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {
+            "metric": "Operating income (loss)"
+          }
+        },
+        {
+          "label": "Total operating income (loss)",
+          "raw_display": "$3,648",
+          "value": 3648000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {
+            "metric": "Operating income (loss)"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "table_index": 9,
+    "heading": "Comparison of Gross Margin, Expenses, Licensing Gain, Interest Expense, Other Income (Expense) and Income Taxes",
+    "preceding_text": "The following is a summary of certain consolidated statement of operations data for 2022 and 2021: | The following is a summary of certain consolidated statement of operations data for 2022 and 2021: | December 31, 2022 December 25, 2021 (In millions, except for percentages) Net revenue $ 23,601 $ 16,434 Cost of sales 11,550 8,505 Amortization of acquisition-related intangibles 1,448 \u2014 Gross profi",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:100.000%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>December 31, 2022</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>December 25, 2021</span></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><span>\u00a0</span></td><td colspan=\"9\"><span>(In\u00a0millions,\u00a0except\u00a0for\u00a0percentages)</span></td></tr><tr><td colspan=\"3\"><span>Net revenue</span></td><td><span>$</span></td><td><span>23,601\u00a0</span></td><td></td><td colspan=\"3\"></td><td><span>$</span></td><td><span>16,434\u00a0</span></td><td></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><span>Cost of sales</span></td><td colspan=\"2\"><span>11,550\u00a0</span></td><td></td><td colspan=\"3\"></td><td colspan=\"2\"><span>8,505\u00a0</span></td><td></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><span>Amortization of acquisition-related intangibles</span></td><td colspan=\"2\"><span>1,448\u00a0</span></td><td></td><td colspan=\"3\"></td><td colspan=\"2\"><span>\u2014\u00a0</span></td><td></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><span>Gross profit</span></td><td colspan=\"2\"><span>10,603\u00a0</span></td><td></td><td colspan=\"3\"></td><td colspan=\"2\"><span>7,929\u00a0</span></td><td></td><td colspan=\"3\"></td><td colspan=\"3\"",
+    "llm_response": {
+      "title": "Comparison of Gross Margin, Expenses, Licensing Gain, Interest Expense, Other Income (Expense) and Income Taxes",
+      "is_data_table": true,
+      "skip_reason": null,
+      "units_note": "In millions, except for percentages",
+      "rows": [
+        {
+          "label": "Net revenue",
+          "raw_display": "$23,601",
+          "value": 23601000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Net revenue",
+          "raw_display": "$16,434",
+          "value": 16434000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Cost of sales",
+          "raw_display": "11,550",
+          "value": 11550000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Cost of sales",
+          "raw_display": "8,505",
+          "value": 8505000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Amortization of acquisition-related intangibles",
+          "raw_display": "1,448",
+          "value": 1448000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Gross profit",
+          "raw_display": "10,603",
+          "value": 10603000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Gross profit",
+          "raw_display": "7,929",
+          "value": 7929000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Gross margin",
+          "raw_display": "45%",
+          "value": 45,
+          "unit": "percent",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Gross margin",
+          "raw_display": "48%",
+          "value": 48,
+          "unit": "percent",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Research and development",
+          "raw_display": "5,005",
+          "value": 5005000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Research and development",
+          "raw_display": "2,845",
+          "value": 2845000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Marketing, general and administrative",
+          "raw_display": "2,336",
+          "value": 2336000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Marketing, general and administrative",
+          "raw_display": "1,448",
+          "value": 1448000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Amortization of acquisition-related intangibles",
+          "raw_display": "2,100",
+          "value": 2100000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Licensing gain",
+          "raw_display": "(102)",
+          "value": -102000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Licensing gain",
+          "raw_display": "(12)",
+          "value": -12000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Interest expense",
+          "raw_display": "(88)",
+          "value": -88000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Interest expense",
+          "raw_display": "(34)",
+          "value": -34000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Other income, net",
+          "raw_display": "8",
+          "value": 8000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Other income, net",
+          "raw_display": "55",
+          "value": 55000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Income tax provision (benefit)",
+          "raw_display": "(122)",
+          "value": -122000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Income tax provision (benefit)",
+          "raw_display": "513",
+          "value": 513000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        }
+      ]
+    }
+  },
+  {
+    "table_index": 10,
+    "heading": "Liquidity and Capital Resources",
+    "preceding_text": "As of December 31, 2022, our cash, cash equivalents and short-term investments were $5.9 billion compared to $3.6 billion as of December 25, 2021. The increase in cash, cash equivalents and short-term investments was primarily driven by the $2.4 billion of cash and $1.6 billion of short-term investments acquired from the Xilinx acquisition, $1.0 billion from the debt issuance of our 3.924% Notes a",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:100.000%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>December 31, 2022</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>December 25, 2021</span></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><span>\u00a0</span></td><td colspan=\"9\"><span>(In millions)</span></td></tr><tr><td colspan=\"3\"><span>Net cash provided by (used in):</span></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><span>Operating activities</span></td><td><span>$</span></td><td><span>3,565\u00a0</span></td><td></td><td colspan=\"3\"></td><td><span>$</span></td><td><span>3,521\u00a0</span></td><td></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><span>Investing activities</span></td><td colspan=\"2\"><span>1,999\u00a0</span></td><td></td><td colspan=\"3\"></td><td colspan=\"2\"><span>(686)</span></td><td></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><span>Financing activities</span></td><td colspan=\"2\"><span>(3,264)</span></td><td></td><td colspan=\"3\"></td><td colspan=\"2\"><span>(1,895)</span></td><td></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"><span>Net increase in cash and cash equi",
+    "llm_response": {
+      "title": "Cash Flow Activities for Fiscal Years 2022 and 2021",
+      "is_data_table": true,
+      "skip_reason": null,
+      "units_note": "In millions",
+      "rows": [
+        {
+          "label": "Operating activities",
+          "raw_display": "$3,565",
+          "value": 3565000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Operating activities",
+          "raw_display": "$3,521",
+          "value": 3521000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Investing activities",
+          "raw_display": "1,999",
+          "value": 1999000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Investing activities",
+          "raw_display": "(686)",
+          "value": -686000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Financing activities",
+          "raw_display": "(3,264)",
+          "value": -3264000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Financing activities",
+          "raw_display": "(1,895)",
+          "value": -1895000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Net increase in cash and cash equivalents",
+          "raw_display": "$2,300",
+          "value": 2300000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Net increase in cash and cash equivalents",
+          "raw_display": "$940",
+          "value": 940000000,
+          "unit": "USD",
+          "period_type": "duration",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        }
+      ]
+    }
+  },
+  {
+    "table_index": 11,
+    "heading": "Foreign Exchange Risk.",
+    "preceding_text": "The following table provides information about our foreign currency forward contracts as of December 31, 2022 and December 25, 2021. All of our foreign currency forward contracts mature within 18 months. | The following table provides information about our foreign currency forward contracts as of December 31, 2022 and December 25, 2021. All of our foreign currency forward contracts mature within 1",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:100.000%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"15\"><span>December 31, 2022</span></td><td colspan=\"3\"></td><td colspan=\"15\"><span>December 25, 2021</span></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>Notional<br/>Amount</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>Average<br/>Contract<br/>Rate</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>Estimated<br/>Fair\u00a0Value<br/>Gain\u00a0(Loss)</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>Notional<br/>Amount</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>Average<br/>Contract<br/>Rate</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>Estimated<br/>Fair\u00a0Value<br/>Gain\u00a0(Loss)</span></td></tr><tr><td colspan=\"3\"><span>\u00a0</span></td><td colspan=\"33\"><span>(In millions except contract rates)</span></td></tr><tr><td colspan=\"3\"><span>Foreign currency forward contracts:</span></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td>",
+    "llm_response": {
+      "title": "Foreign Currency Forward Contracts",
+      "is_data_table": true,
+      "skip_reason": null,
+      "units_note": "In millions except contract rates",
+      "rows": [
+        {
+          "label": "Chinese Renminbi",
+          "raw_display": "$599",
+          "value": 599000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Chinese Renminbi",
+          "raw_display": "6.7848",
+          "value": 6.7848,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Chinese Renminbi",
+          "raw_display": "$(3)",
+          "value": -3000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Chinese Renminbi",
+          "raw_display": "$360",
+          "value": 360000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Chinese Renminbi",
+          "raw_display": "6.5693",
+          "value": 6.5693,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Chinese Renminbi",
+          "raw_display": "$6",
+          "value": 6000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Canadian Dollar",
+          "raw_display": "607",
+          "value": 607000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Canadian Dollar",
+          "raw_display": "1.3137",
+          "value": 1.3137,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Canadian Dollar",
+          "raw_display": "(16)",
+          "value": -16000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Canadian Dollar",
+          "raw_display": "416",
+          "value": 416000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Canadian Dollar",
+          "raw_display": "1.2646",
+          "value": 1.2646,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Canadian Dollar",
+          "raw_display": "(6)",
+          "value": -6000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Indian Rupee",
+          "raw_display": "516",
+          "value": 516000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Indian Rupee",
+          "raw_display": "82.1493",
+          "value": 82.1493,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Indian Rupee",
+          "raw_display": "(9)",
+          "value": -9000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Indian Rupee",
+          "raw_display": "162",
+          "value": 162000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Indian Rupee",
+          "raw_display": "77.3309",
+          "value": 77.3309,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Indian Rupee",
+          "raw_display": "1",
+          "value": 1000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Taiwan Dollar",
+          "raw_display": "207",
+          "value": 207000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Taiwan Dollar",
+          "raw_display": "29.1231",
+          "value": 29.1231,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Taiwan Dollar",
+          "raw_display": "(4)",
+          "value": -4000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Taiwan Dollar",
+          "raw_display": "122",
+          "value": 122000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Taiwan Dollar",
+          "raw_display": "27.2725",
+          "value": 27.2725,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Taiwan Dollar",
+          "raw_display": "(1)",
+          "value": -1000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Singapore Dollar",
+          "raw_display": "259",
+          "value": 259000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Singapore Dollar",
+          "raw_display": "1.3600",
+          "value": 1.36,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Singapore Dollar",
+          "raw_display": "4",
+          "value": 4000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Singapore Dollar",
+          "raw_display": "71",
+          "value": 71000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Singapore Dollar",
+          "raw_display": "1.3489",
+          "value": 1.3489,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Euro",
+          "raw_display": "142",
+          "value": 142000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Euro",
+          "raw_display": "0.9334",
+          "value": 0.9334,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Euro",
+          "raw_display": "1",
+          "value": 1000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Euro",
+          "raw_display": "47",
+          "value": 47000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Euro",
+          "raw_display": "0.8444",
+          "value": 0.8444,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Euro",
+          "raw_display": "(2)",
+          "value": -2000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Pound Sterling",
+          "raw_display": "88",
+          "value": 88000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Pound Sterling",
+          "raw_display": "0.8204",
+          "value": 0.8204,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Pound Sterling",
+          "raw_display": "(1)",
+          "value": -1000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Pound Sterling",
+          "raw_display": "6",
+          "value": 6000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Pound Sterling",
+          "raw_display": "0.7317",
+          "value": 0.7317,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Japanese Yen",
+          "raw_display": "2",
+          "value": 2000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Japanese Yen",
+          "raw_display": "133.7593",
+          "value": 133.7593,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Japanese Yen",
+          "raw_display": "1",
+          "value": 1000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Japanese Yen",
+          "raw_display": "114.3214",
+          "value": 114.3214,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Australian Dollar",
+          "raw_display": "1",
+          "value": 1000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Australian Dollar",
+          "raw_display": "1.4689",
+          "value": 1.4689,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Australian Dollar",
+          "raw_display": "1.3809",
+          "value": 1.3809,
+          "unit": "ratio",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Total",
+          "raw_display": "$2,421",
+          "value": 2421000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Total",
+          "raw_display": "$(28)",
+          "value": -28000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2022-12-31",
+          "dimensions": {}
+        },
+        {
+          "label": "Total",
+          "raw_display": "$1,185",
+          "value": 1185000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        },
+        {
+          "label": "Total",
+          "raw_display": "$(2)",
+          "value": -2000000,
+          "unit": "USD",
+          "period_type": "instant",
+          "period_start": null,
+          "period_end": "2021-12-25",
+          "dimensions": {}
+        }
+      ]
+    }
+  },
+  {
+    "table_index": 64,
+    "heading": "Critical Audit Matters",
+    "preceding_text": "The critical audit matters communicated below are matters arising from the current period audit of the financial statements that were communicated or required to be communicated to the audit committee and that: (1) relate to accounts or disclosures that are material to the financial statements and (2) involved our especially challenging, subjective or complex judgments. The communication of critic",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:100.000%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span>Inventory Valuation</span></div></td></tr><tr><td colspan=\"3\"><span>Description of the Matter</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>At December 31, 2022, the Company\u2019s net inventory balance was $3,771 million. As discussed in Note 2 to the consolidated financial statements, the Company adjusts the inventory carrying value to the lower of actual cost or the estimated net realizable value after completing ongoing reviews of on-hand inventory quantities exceeding forecasted demand and by considering recent historical activity as well as anticipated demand. Auditing management\u2019s inventory carrying value adjustments involved significant judgment because the estimates are based on several factors that are affected by market, industry, and competitive conditions outside the Company's control. In estimating inventory carrying value adjustments, management developed assumptions such as forecasts of future sales quantities and the selling prices, which are sensitive to the competitiveness of product offerings, customer requirements, and product life cycles. These significant assumptions are forward-looking and could be affected by future economic and market conditions.</span></td></tr><tr><t",
+    "llm_response": {
+      "title": "Critical Audit Matter: Inventory Valuation",
+      "is_data_table": false,
+      "skip_reason": "Table contains only narrative text describing a critical audit matter, not structured financial data with numeric values.",
+      "units_note": null,
+      "rows": []
+    }
+  },
+  {
+    "table_index": 65,
+    "heading": "How We Addressed the Matter in Our Audit",
+    "preceding_text": "Our audit procedures included, among others, testing the reasonableness of management\u2019s key assumptions and judgments and testing the accuracy and completeness of the underlying data used to determine the amount of inventory carrying value adjustments. For instance, we compared the quantities and carrying value of on-hand inventories to related unit sales, both historical and forecasted, assessed ",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:100.000%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"><span>Business Combination</span></td></tr><tr><td colspan=\"3\"><div><span>Description of the Matter</span></div></td><td colspan=\"3\"></td><td colspan=\"3\"><span>During fiscal year 2022, the Company completed the acquisition of Xilinx, Inc. (\u201cXilinx\u201d) for consideration of $48.8 billion, as disclosed in Note 5 to the consolidated financial statements. The transaction was accounted for as a business combination. <br/></span><span><br/></span><span>Auditing the Company's accounting for its acquisition of Xilinx was complex due to the significant estimation uncertainty in the Company\u2019s determination of the fair value of certain identified intangible assets, principally consisting of developed technology and customer relationships. The significant estimation uncertainty was primarily due to the sensitivity of the respective fair values to underlying assumptions about the future performance of the acquired business. The Company used a discounted cash flow model to measure the developed technology and customer relationship intangible assets. The significant assumptions used to estimate the value of these intangible assets included certain assumptions that form the basis of the forecasted results, specifically, revenu",
+    "llm_response": {
+      "title": "Audit Procedures for Xilinx Acquisition",
+      "is_data_table": false,
+      "skip_reason": "Table contains narrative text describing audit procedures, not numerical data.",
+      "units_note": null,
+      "rows": []
+    }
+  },
+  {
+    "table_index": 67,
+    "heading": "2. Exhibits",
+    "preceding_text": "The exhibits listed in the accompanying Index to Exhibits are filed as part of, or incorporated by reference into, this Annual Report on Form 10-K. The following is a list of such Exhibits: | The exhibits listed in the accompanying Index to Exhibits are filed as part of, or incorporated by reference into, this Annual Report on Form 10-K. The following is a list of such Exhibits:",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:92.251%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"6\" rowspan=\"2\"><span>Exhibit</span></td><td colspan=\"6\" rowspan=\"2\"><span>Description of Exhibits</span></td></tr><tr><td colspan=\"12\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"6\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>2.1</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Agreement and Plan of Merger by and among Advanced Micro Devices, Inc., Thrones Merger Sub, Inc., and Xilinx, Inc. dated October 26, 2020, filed as exhibit 2.1 to AMD\u2019s Current Report on Form 8-K dated October 26, 2020, is hereby incorporated by reference.</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>3.1</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Amended and Restated Certificate of Incorporation of Advanced Micro Devices, Inc., dated May 2, 2018, filed as Exhibit 3.1 to AMD\u2019s Quarterly Report on Form 10-Q for the period ended June 30, 2018, is hereby incorporated by reference.</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>3.2</span></td><td colspan",
+    "llm_response": {
+      "title": "Exhibits Index",
+      "is_data_table": false,
+      "skip_reason": "Table contains only exhibit descriptions, no financial data.",
+      "units_note": null,
+      "rows": []
+    }
+  },
+  {
+    "table_index": 68,
+    "heading": "",
+    "preceding_text": "J | une 25, 2022 | 4.2 | 4.2 | 4.3 | 4.3 | 4.4 | 4.4 | First Supplemental Indenture by and among Advanced Micro Devices, Inc. and Wells Fargo Bank N.A., dated September 23, 2016, filed as Exhibit 4.1 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended September 24, 2016, is hereby incorporated by reference. | First Supplemental Indenture by and among Advanced Micro Devices, Inc. an",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:92.251%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>4.5</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Fourth Supplemental Indenture governing the Xilinx 2.950% Senior Notes Due 2024, by and among Xilinx, Inc., Advanced Micro Devices, Inc. and U.S. Bank Trust Company, National Association, dated February 14, 2022, filed as Exhibit 4.1 to AMD\u2019s Current Report on Form 8-K dated February 14, 2022, is hereby incorporated by reference.</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>4.6</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Second Supplemental Indenture governing the Xilinx 2.2375% Senior Notes due 2030, by and among Xilinx, Inc., Advanced Micro Devices, Inc. and U.S. Bank Trust Company, National Association, dated February 14, 2022, filed as Exhibit 4.2 to AMD\u2019s Current Report on Form 8-K dated February 14, 2022, is hereby incorporated by reference.</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>4.7</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Indenture</a><a>,</a>",
+    "llm_response": {
+      "title": "Exhibit Index",
+      "is_data_table": false,
+      "skip_reason": "Table lists exhibits and descriptions, not financial data.",
+      "units_note": null,
+      "rows": []
+    }
+  },
+  {
+    "table_index": 69,
+    "heading": "",
+    "preceding_text": "10.10 | 10.10 | **10.11 | **10.11 | 10.12 | 10.12 | Sublease Agreement, between Lantana HP, LTD and Advanced Micro Devices, Inc., dated March 26, 2013, filed as Exhibit 10.2 to AMD\u2019s Quarterly Report on Form 10-Q for the period ended March 30, 2013, is hereby incorporated by reference. | Sublease Agreement, between Lantana HP, LTD and Advanced Micro Devices, Inc., dated March 26, 2013, filed as Ex",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:92.251%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>10.13</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Master Landlord\u2019s Consent to Sublease, between 7171 Southwest Parkway Holdings, L.P., Lantana HP, Ltd. and Advanced Micro Devices, Inc., dated March 26, 2013, filed as Exhibit 10.3 to AMD\u2019s Quarterly Report on Form 10-Q for the period ended March 30, 2013, is hereby incorporated by reference.</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>10.14</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Lease Agreement, between 7171 Southwest Parkway Holdings, L.P. and Lantana HP, Ltd., dated March 26, 2013, filed as Exhibit 10.4 to AMD\u2019s Quarterly Report on Form 10-Q for the period ended March 30, 2013, is hereby incorporated by reference.</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>*10.15</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Employment Agreement by and between Lisa T. Su and Advanced Micro Devices, Inc. effective October\u00a08, 2014, filed as Exhibit 10.2 to AMD\u2019s Curre",
+    "llm_response": {
+      "title": "Index of Exhibits (10.13\u201310.28) incorporated by reference",
+      "is_data_table": false,
+      "skip_reason": "Table is a list of exhibit references, not financial data.",
+      "units_note": null,
+      "rows": []
+    }
+  },
+  {
+    "table_index": 70,
+    "heading": "",
+    "preceding_text": "*10.26 | *10.26 | *10.27 | *10.27 | *10.28 | *10.28 | Amended and Restated 2017 Employee Stock Purchase Plan dated August 23, 2018, filed as Exhibit 10.1 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended September 29, 2018, is hereby incorporated by reference. | Amended and Restated 2017 Employee Stock Purchase Plan dated August 23, 2018, filed as Exhibit 10.1 to AMD's Quarterly ",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:92.251%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>*10.29</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>2017 Employee Stock Purchase Plan, as amended and restated October 12, 2017, filed as Exhibit 10.98 to AMD's Annual Report on Form 10-K for the fiscal year ended December 30, 2017, is hereby incorporated by reference.</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>*10.30</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Form of Stock Option Agreement for Senior Vice Presidents and Above under the 2004 Equity Incentive Plan, filed as Exhibit 10.99 to AMD's Annual Report on Form 10-K for the fiscal year ended December 30, 2017, is hereby incorporated by reference.</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>*10.31</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Form of Restricted Stock Unit Award Agreement for Senior Vice Presidents and Above under the 2004 Equity Incentive Plan, filed as Exhibit 10.100 to AMD's Annual Report on Form 10-K for the fiscal year ended Decem",
+    "llm_response": {
+      "title": "Exhibit Index (10.29\u201310.43)",
+      "is_data_table": false,
+      "skip_reason": "This is an exhibit list / table of contents containing only textual references and no numeric financial data.",
+      "units_note": null,
+      "rows": []
+    }
+  },
+  {
+    "table_index": 71,
+    "heading": "",
+    "preceding_text": "*10.42 | *10.43 | *10.43 | Form of Performance-based Restricted Stock Unit Agreement for Senior Vice Presidents and Above under the 2004 Equity Incentive Plan, filed as Exhibit 10.1 to AMD\u2019s Quarterly Report on Form 10-Q for the fiscal quarter ended June 27, 2020, is hereby incorporated by reference. | Form of Performance-based Restricted Stock Unit Agreement for Senior Vice Presidents and Above u",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:92.251%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>*10.44</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Form of Stock Option Agreement for Senior Vice Presidents and Above under the 2004 Equity Incentive plan, filed as Exhibit 10.2 to AMD\u2019s Quarterly Report on Form 10-Q for the fiscal quarter ended June 27, 2020, is hereby incorporated by reference.</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>*10.45</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Form of Restricted Stock Unit Agreement for Senior Vice Presidents and Above under the 2004 Equity Incentive Plan, filed as Exhibit 10.3 to AMD\u2019s Quarterly Report on Form 10-Q for the fiscal quarter ended June 27, 2020, is hereby incorporated by reference.</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>***10.46</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Wafer Supply Agreement, among Advanced Micro Devices, Inc., The Foundry Company and AMD Fab Technologies US, Inc., dated March 2, 2009, filed as Exhibit 10.1 to AMD\u2019s Qua",
+    "llm_response": {
+      "title": "List of Exhibits",
+      "is_data_table": false,
+      "skip_reason": "Table is a list of exhibits (table of contents), not financial data.",
+      "units_note": null,
+      "rows": []
+    }
+  },
+  {
+    "table_index": 72,
+    "heading": "",
+    "preceding_text": "10.54 | 10.54 | *10.55 | *10.55 | *10.56 | *10.56 | *10.57 | *10.57 | Form of Stock Option Agreement for Senior Vice Presidents and Above under the 2004 Equity Incentive plan, filed as Exhibit 10.3 to AMD\u2019s Quarterly Report on Form 10-Q for the fiscal quarter ended June 26, 2021, is hereby incorporated by reference. | Form of Stock Option Agreement for Senior Vice Presidents and Above under the 20",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:92.251%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>***10.58</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Amended and Restated Wafer Supply Agreement Amendment No. 7, among Advanced Micro Devices, Inc., GLOBALFOUNDRIES, Inc. and GLOBALFOUNDRIES U.S. Inc., dated as of May 12, 2021, filed as Exhibit 10.4 to AMD\u2019s Quarterly Report on Form 10-Q for the fiscal quarter ended June 26, 2021, is hereby incorporated by reference.</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>***10.59</span></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>First Amendment to Amended and Restated Wafer Supply Agreement No. 7, among Advanced Micro Devices, Inc., GLOBALFOUNDRIES, Inc. and GLOBALFOUNDRIES U.S. Inc., dated December 23, 2021</a><a>, f</a><a>iled as Exhibit 10.63</a><a> to</a><a> AMD</a><a>\u2019</a><a>s A</a><a>nnual Report on Form 10-K for the year</a><a> ended </a><a>December</a><a> 25, 2021, is here</a><a>b</a><a>y i</a><a>nc</a><a>orporated by reference</a><a>.</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><t",
+    "llm_response": {
+      "title": "Exhibit Index",
+      "is_data_table": false,
+      "skip_reason": "Table contains only exhibit references and descriptions, no financial data.",
+      "units_note": null,
+      "rows": []
+    }
+  },
+  {
+    "table_index": 73,
+    "heading": "",
+    "preceding_text": "31.1 | 31.1 | 31.2 | 31.2 | 32.1 | 32.1 | Certification of the Principal Executive Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002. | Certification of the Principal Executive Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002. | Certification of the Principal Executive Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002. | 103 | 103 | 103 | 103 | Tabl",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:92.251%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"2\"><span>32.2\u00a0</span></td><td></td><td colspan=\"3\"></td><td colspan=\"3\"><div><span><a>Certification of the Principal Financial Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002.</a></span></div></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>101.INS</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>XBRL Instance Document -the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document</span></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>101.SCH</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>XBRL Taxonomy Extension Schema Document</span></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>101.CAL</span></td><td colspan=\"3\"></td><td colspan=\"3\"><span>XBRL Taxonomy Extension Calculation Linkbase Document</span></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><t",
+    "llm_response": {
+      "title": "Exhibit Index / Table of Contents",
+      "is_data_table": false,
+      "skip_reason": "Table contains only exhibit listing text, no financial data",
+      "units_note": null,
+      "rows": []
+    }
+  },
+  {
+    "table_index": 75,
+    "heading": "Chair, President and Chief Executive Officer",
+    "preceding_text": "Pursuant to the requirements of the Securities Exchange Act of 1934, this report has been signed below by the following persons, on behalf of the registrant and in the capacities and on the dates indicated. | Pursuant to the requirements of the Securities Exchange Act of 1934, this report has been signed below by the following persons, on behalf of the registrant and in the capacities and on the d",
+    "html_excerpt": "<table style=\"border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:100.000%\"><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>Signature</span></td><td colspan=\"3\"><span>\u00a0</span></td><td colspan=\"3\"><span>Title</span></td><td colspan=\"3\"><span>\u00a0</span></td><td colspan=\"3\"><span>Date</span></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"6\"></td><td colspan=\"6\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>/s/Lisa T. Su</span></td><td colspan=\"3\"></td><td colspan=\"3\" rowspan=\"2\"><span>President and Chief Executive Officer<br/>(Principal Executive Officer), Director</span></td><td colspan=\"3\"></td><td colspan=\"3\" rowspan=\"2\"><span>February 27, 2023</span></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>Lisa T. Su</span></td><td colspan=\"3\"><span>\u00a0</span></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"6\"></td><td colspan=\"6\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"><span>/s/Jean Hu</span></td><td colspan=\"3\"></td><td colspan=\"3\" rowspan=\"2\"><span>Executive Vice President, Chief Financial Officer and Treasurer<br/>(Principal Financial Officer)</span></td><td colspan=\"3\"></td><td colspan=\"3\" rowspan=\"2\"><span>February 27, 2023</span></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\">",
+    "llm_response": {
+      "title": "Signature Table",
+      "is_data_table": false,
+      "skip_reason": "Table contains only signatures, titles, and dates; no financial data.",
+      "units_note": null,
+      "rows": []
+    }
+  }
+]

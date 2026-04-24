@@ -280,31 +280,42 @@ async def memory_retrieval_tool(
 
 
 @tool
-def dsrag_kb(queries: list[str]) -> str:
+def dsrag_kb(queries: list[str], doc_id: str | None = None) -> str:
     """
-    Semantic search over the loaded SEC filing via a dsRAG knowledge base.
-    Returns the most relevant multi-chunk *segments* (contiguous sections
-    identified by dsRAG's Relevant Segment Extraction) for one or more
-    queries. Segments include an AutoContext header describing the
-    document and surrounding section, so you can tell where in the filing
-    each excerpt comes from.
+    Semantic search over SEC filings via a dsRAG knowledge base. Returns
+    the most relevant multi-chunk *segments* (contiguous sections identified
+    by dsRAG's Relevant Segment Extraction) for one or more queries.
+    Segments include an AutoContext header describing the source document
+    and section.
 
-    Use this as your sole retrieval tool. Pass 1-3 complementary queries
-    per turn — the KB merges and reranks results across them.
+    Scoping: pass `doc_id` to restrict retrieval to a single filing (recommended
+    whenever the user's question names a specific ticker + period). The KB
+    holds multiple filings; without a filter, results can come from any of
+    them. Use the `doc_id` column in the system prompt's filings_catalog
+    to pick the right value (format: TICKER_FORM_PERIOD, e.g.
+    "ACT_10-Q_2024-09-30"). Pass doc_id=None to search across all filings
+    (appropriate for cross-filing comparison queries).
 
     Args:
         queries: 1-3 natural-language search queries capturing distinct
             facets of the user's question.
+        doc_id: Optional filing identifier to restrict retrieval to. Must
+            match a `doc_id` in filings_catalog exactly.
 
     Returns:
         JSON list of {score, doc_id, content} segments, highest score first.
     """
     from src.infrastructure.dsrag_kb import get_kb
 
-    logger.info(f"dsrag_kb invoked: {queries!r}")
+    logger.info(f"dsrag_kb invoked: {queries!r} doc_id={doc_id!r}")
     kb = get_kb()
+    metadata_filter = (
+        {"field": "doc_id", "operator": "equals", "value": doc_id}
+        if doc_id
+        else None
+    )
     try:
-        results = kb.query(queries) if len(queries) > 1 else kb.query(queries)
+        results = kb.query(queries, metadata_filter=metadata_filter)
     except Exception as e:
         logger.warning(f"dsrag_kb query failed: {e}")
         return json.dumps({"error": str(e)})
