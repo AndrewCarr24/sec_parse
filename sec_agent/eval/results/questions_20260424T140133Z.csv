@@ -1,0 +1,168 @@
+question,expected_answer,agent_answer,correct,rationale,agent_cost_usd,judge_cost_usd,tool_calls,tool_result_tokens_est,agent_seconds
+What was ACT's revenue in Q3 2024?,"Q3 2024 (three months ended Sep 30, 2024): $309.6M. YTD 2024 (nine months): $900.0M.","**ACT's (Enact Holdings) revenue for Q3 2024 was $309.6 million.**
+
+This is for the three-month period ended September 30, 2024, as reported in their Q3 2024 10-Q filing. The figure comes from the GAAP income statement (us-gaap:Revenues), with the same total confirmed in the MD&A's consolidated results table.
+
+*For context, the nine-month cumulative revenue (Jan–Sep 2024) was $900.0 million.*",True,Q3 2024 revenue of $309.6M and YTD $900.0M both match expected answer exactly.,0.001811,0.000461,"[{""tool"": ""search_concepts"", ""tokens_est"": 436}, {""tool"": ""query_financials"", ""tokens_est"": 117}, {""tool"": ""query_financials"", ""tokens_est"": 121}]",674,14.01
+"What was Enact's primary NIW to borrowers with FICO <620 in Q3 2024 and YTD through Sep 30, 2024?","Primary NIW to <620 FICO borrowers (values in $ millions): $9M for Q3 2024 (three months); $19M YTD through Sep 30, 2024.","[agent error: GraphRecursionError: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/GRAPH_RECURSION_LIMIT]",False,Agent encountered a technical error and provided no answer instead of the required financial data.,0.005994,0.000393,"[{""tool"": ""search_concepts"", ""tokens_est"": 20}, {""tool"": ""search_concepts"", ""tokens_est"": 529}, {""tool"": ""search_concepts"", ""tokens_est"": 780}, {""tool"": ""query_financials"", ""tokens_est"": 146}, {""tool"": ""query_financials"", ""tokens_est"": 228}, {""tool"": ""query_financials"", ""tokens_est"": 121}, {""tool"": ""query_financials"", ""tokens_est"": 60}, {""tool"": ""search_narrative"", ""tokens_est"": 1703}, {""tool"": ""query_financials"", ""tokens_est"": 274}, {""tool"": ""query_financials"", ""tokens_est"": 237}, {""tool"": ""query_financials"", ""tokens_est"": 594}]",4692,53.11
+"What was Enact's risk-to-capital ratio as of Sep 30, 2024?","EMICO risk-to-capital ratio: 10.4:1. Combined mortgage insurance subsidiaries: 10.5:1. Both as of Sep 30, 2024.","As of **September 30, 2024**, Enact reported the following risk-to-capital ratios (per ACT's Q3 2024 10-Q):
+
+| Metric | Sep 30, 2024 | Dec 31, 2023 |
+|---|---|---|
+| **Combined risk-to-capital ratio** (mortgage insurance subsidiaries) | **10.5x** | 11.6x |
+| **EMICO risk-to-capital ratio** (main operating subsidiary) | **10.4x** | 11.6x |
+
+Both ratios remained well below the regulatory maximum of 25:1, with the combined ratio of **10.5x** showing a notable improvement from 11.6x at year-end 2023. This decline reflects growth in statutory capital and/or reduced risk-in-force relative to capital.",True,Both EMICO (10.4:1) and combined subsidiaries (10.5:1) ratios match expected answer exactly.,0.001395,0.000549,"[{""tool"": ""search_concepts"", ""tokens_est"": 20}, {""tool"": ""search_concepts"", ""tokens_est"": 542}, {""tool"": ""query_financials"", ""tokens_est"": 266}]",828,12.69
+"What share of Enact's fixed maturity investment portfolio is rated AAA vs. BB & below as of Sep 30, 2024?","AAA = 11%; BB & below = 1%. Full rating distribution: AAA 11, AA 22, A 31, BBB 35, BB & below 1.","I found the relevant table — ""Security Ratings of Fixed Maturity Securities."" Let me pull those percentages.Here are the credit quality figures from Enact's **Security Ratings of Fixed Maturity Securities** table (ACT, Q3 2024):
+
+| Rating | % of Fixed Maturity Portfolio (Sep 30, 2024) |
+|--------|----------------------------------------------|
+| **AAA** | **11%** |
+| **BB & below** | **1%** |
+
+To put that in context, the rest of the portfolio is rated: **AA**, **A**, and **BBB** — meaning the vast majority (88%) is in the investment-grade (BBB or higher) category. The below-investment-grade exposure (BB & below) is negligible at just 1%.
+
+*For comparison, at year-end 2023 the AAA share was 10% and BB & below was 2%.*",True,AAA 11% and BB & below 1% match expected answer exactly with full distribution provided.,0.001734,0.000531,"[{""tool"": ""search_concepts"", ""tokens_est"": 20}, {""tool"": ""search_concepts"", ""tokens_est"": 20}, {""tool"": ""search_concepts"", ""tokens_est"": 76}, {""tool"": ""search_concepts"", ""tokens_est"": 1345}, {""tool"": ""query_financials"", ""tokens_est"": 157}]",1618,13.46
+"How much remained available under Enact's May 2024 $250 million share repurchase authorization as of Sep 30, 2024?","$166.8 million remained available under the May 2024 $250 million share repurchase program as of Sep 30, 2024.","Based on Enact's Q3 2024 10-Q filing, **$166.8 million** remained available under the May 1, 2024 $250 million share repurchase authorization as of September 30, 2024.
+
+The filing notes that during the nine months ended September 30, 2024, Enact repurchased 5,477,586 shares at an average price of $30.86 per share, which accounted for the reduction from the original $250 million authorization to the remaining $166.8 million.",True,Amount and date match expected answer exactly with supporting detail.,0.001111,0.000393,"[{""tool"": ""search_concepts"", ""tokens_est"": 20}, {""tool"": ""search_narrative"", ""tokens_est"": 1131}]",1151,7.87
+"How many shares did Enact repurchase during Q3 2024, and at what average price?","2,096,329 shares at an average price of $34.04 per share (excluding commissions) during the three months ended Sep 30, 2024.","Based on the **Issuer Purchases of Equity Securities – Share Repurchases for Q3 2024** table in Enact's (ACT) Q3 2024 10-Q filing, here are the details:
+
+### Q3 2024 Share Repurchases (ACT)
+
+| Period | Shares Repurchased | Avg. Price per Share |
+|---|---|---|
+| July 1–31, 2024 | 406,945 | $31.02 |
+| August 1–31, 2024 | 862,209 | $33.59 |
+| September 1–30, 2024 | 827,175 | $36.00 |
+| **Total Q3 2024** | **2,096,329** | **$34.04** |
+
+**Summary:** Enact repurchased **2,096,329 shares** during Q3 2024 at a **weighted-average price of $34.04 per share**.",True,Exact match on share count and average price for Q3 2024.,0.00195,0.000521,"[{""tool"": ""search_concepts"", ""tokens_est"": 20}, {""tool"": ""search_concepts"", ""tokens_est"": 289}, {""tool"": ""query_financials"", ""tokens_est"": 630}]",939,24.8
+"What was Enact's revenue in Q3 2024, and how many of its own shares did it repurchase during that quarter?","Q3 2024 revenue: $309.6M. Shares repurchased in Q3 2024: 2,096,329 at an average price of $34.04 per share.","Here are the results for **Enact (ACT), Q3 2024**:
+
+---
+
+### 1. Revenue
+**Total revenues: $309.6 million** for the three months ended September 30, 2024.
+
+### 2. Share Repurchases
+During Q3 2024, Enact repurchased **2,096,329 of its own shares** at an average price of **$34.04 per share**, for a total cost of **$166.8 million**.
+
+*Breakdown by month from the filings table:*
+
+| Period | Shares |
+|--------|-------:|
+| July 1 – July 31, 2024 | *(monthly figures available)* |
+| August 1 – August 31, 2024 | *(monthly figures available)* |
+| September 1 – September 30, 2024 | *(monthly figures available)* |
+| **Q3 2024 Total** | **2,096,329** |
+
+Would you like me to pull the individual monthly repurchase figures as well?",True,Revenue and share repurchase quantity/price all match expected answer exactly.,0.001707,0.000548,"[{""tool"": ""search_concepts"", ""tokens_est"": 289}, {""tool"": ""search_concepts"", ""tokens_est"": 436}, {""tool"": ""query_financials"", ""tokens_est"": 190}, {""tool"": ""query_financials"", ""tokens_est"": 90}]",1005,18.46
+"How much capital cushion does Enact have above regulatory minimums as of Sep 30, 2024? Cite PMIERs sufficiency, risk-to-capital, and any disclosed excess available assets.","PMIERs sufficiency ratio: 173% (or $2,190M above requirements; $5,194M available assets vs $3,004M net required assets). Risk-to-capital: EMICO 10.4:1 and combined mortgage insurance subsidiaries 10.5:1, both well below the NCDOI 25:1 statutory maximum.","Now I have comprehensive data. Let me compile the full picture.
+
+Here is the capital cushion picture for **Enact Holdings (ACT) as of September 30, 2024**:
+
+---
+
+## 📊 PMIERs Sufficiency
+
+| Metric | Amount |
+|---|---|
+| **Available Assets** | **$5,194 million** |
+| **Net Required Assets** | $3,004 million |
+| **Excess Over PMIERs** | **$2,190 million** |
+| **PMIERs Sufficiency Ratio** | **173%** |
+| Reinsurance credit benefit | $1,807 million |
+| Non-performing loan multiplier benefit (0.30x) | $28 million |
+
+Enact holds **$2.19 billion of excess available assets** above the PMIERs minimum — a sufficiency ratio of **173%**, up from 169% ($2,057 million excess) at June 30, 2024.
+
+---
+
+## 📊 Risk-to-Capital Ratios
+
+| Entity | Statutory Capital | Policyholders' Surplus | Contingency Reserves | Adj. RIF | **RTC Ratio** |
+|---|---|---|---|---|---|
+| **EMICO** (principal insurer) | $5,249M | $968M | $4,281M | $54,794M | **10.4 : 1** |
+| **Combined Subs** | $5,295M | $1,005M | $4,290M | $55,352M | **10.5 : 1** |
+
+The regulatory maximum risk-to-capital ratio is **25:1**. Enact runs at roughly **42% of that limit** (10.5÷25), providing a large cushion of ~14.5 turns before hitting the ceiling.
+
+---
+
+## 📊 Additional Capital Flexibility
+
+- **Revolving Credit Facility**: Remained **undrawn** through September 30, 2024, providing additional standby liquidity.
+- **Sequential improvement**: Combined statutory capital grew from $5,045M (Dec 31, 2023) to $5,295M (Sep 30, 2024), while the combined RTC ratio improved from 11.6:1 to 10.5:1 — lower risk-to-capital is better from a cushion standpoint.
+- **Future-proofing**: Management noted that updated PMIERs standards (released Aug 2024, phased in through Sep 2026) are not expected to be material, and Enact expects to hold capital ""well in excess"" of those requirements.
+
+---
+
+**In summary:** Enact had **$2.19B of PMIERs excess** (173% sufficiency) and a **risk-to-capital ratio of 10.5:1**, which is less than half the 25:1 regulatory ceiling — ample capital cushion by all three measures.",True,"All three metrics match exactly—PMIERs 173% ($2,190M excess), EMICO 10.4:1, combined 10.5:1, well below 25:1 maximum.",0.003224,0.001198,"[{""tool"": ""search_concepts"", ""tokens_est"": 20}, {""tool"": ""search_concepts"", ""tokens_est"": 20}, {""tool"": ""search_concepts"", ""tokens_est"": 542}, {""tool"": ""search_concepts"", ""tokens_est"": 20}, {""tool"": ""search_concepts"", ""tokens_est"": 20}, {""tool"": ""search_concepts"", ""tokens_est"": 20}, {""tool"": ""query_financials"", ""tokens_est"": 1070}, {""tool"": ""search_concepts"", ""tokens_est"": 406}, {""tool"": ""search_narrative"", ""tokens_est"": 1390}, {""tool"": ""query_financials"", ""tokens_est"": 67}, {""tool"": ""search_narrative"", ""tokens_est"": 1438}]",5013,29.88
+"What drove the year-over-year change in Enact's net income for the nine months ended Sep 30, 2024 vs the same period in 2023, with dollar impacts where disclosed?","Net income $525.3M vs $508.2M (+$17.1M / +3%). Drivers: net investment income +$26.7M (+18%, higher yields and higher average invested assets); premiums +$17.4M (+2%, IIF growth and Enact Re GSE CRT participation, partially offset by higher ceded premiums); losses incurred +$12.1M unfavorable ($196M reserve release in 2024 vs $188M in 2023, outweighed by higher current-period loss expense of $209M from 34,820 new delinquencies vs $188M from 29,911 in 2023); $10.9M loss on debt extinguishment from redemption of the 2025 Notes (no comparable prior-year item); acquisition and operating expenses +$2.1M driven by severance from restructuring.","Let me also get more detailed narrative context on the year-over-year drivers.## Enact — Net Income Bridge (Nine Months Ended Sep 30, 2024 vs. 2023)
+
+Net income rose **$17.1M (+3%)** from **$508.2M** (9M 2023) to **$525.3M** (9M 2024). Here is the full bridge with dollar impacts:
+
+---
+
+### ✅ Revenue Drivers — Up **$42.5M (+5%)** to $900.0M
+
+| Component | 9M 2024 | 9M 2023 | Change | $ Impact |
+|---|---|---|---|---|
+| **Premiums** | $734.4M | $717.0M | +$17.4M (+2%) | **+$17.4M** |
+| **Net investment income** | $177.9M | $151.2M | +$26.7M (+18%) | **+$26.7M** |
+| **Other income** | $3.3M | $2.5M | +$0.9M (+35%) | **+$0.9M** |
+| **Net investment (losses)** | ($15.6M) | ($13.1M) | Worse by ($2.5M) | **($2.5M)** |
+| **Total revenues** | **$900.0M** | **$857.5M** | **+$42.5M** | **+$42.5M** |
+
+**Why:** Premiums grew on insurance-in-force expansion and higher assumed premiums from Enact Re's GSE credit risk transfer program, partly offset by higher ceded premiums. Net investment income surged due to **higher yields from elevated interest rates** and a larger average invested asset base.
+
+---
+
+### ❌ Expense Drivers — Up **$24.1M (+12%)** to $229.8M
+
+| Component | 9M 2024 | 9M 2023 | Change | $ Impact |
+|---|---|---|---|---|
+| **Losses incurred** | $14.8M | $2.8M | +$12.1M | **($12.1M)** |
+| **Loss on debt extinguishment** | $10.9M | $0.0M | +$10.9M | **($10.9M)** |
+| **Acq. & operating expenses, net** | $158.0M | $155.9M | +$2.1M (+1%) | **($2.1M)** |
+| **Amort. of DAC & intangibles** | $7.1M | $8.1M | −$1.0M (−12%) | **+$1.0M** |
+| **Interest expense** | $38.9M | $38.9M | ~flat | **~$0.0M** |
+| **Total losses & expenses** | **$229.8M** | **$205.7M** | **+$24.1M** | **($24.1M)** |
+
+**Why:**
+- **Losses incurred** increased $12.1M — new delinquencies (34,820 in 2024 vs. 29,911 in 2023) contributed **$209M** of expense vs. $188M a year ago. However, both periods benefited from large favorable reserve releases: **$196M in 2024** (driven by strong cure performance and reduced claim rate assumptions) vs. **$188M in 2023** (from better-than-expected cures on 2022-and-prior defaults).
+- **Loss on debt extinguishment** of $10.9M is a **new** item — expenses from redeeming the **2025 Notes** (no comparable in 2023).
+- **Operating expenses** edged up on severance costs from restructuring activities.
+
+---
+
+### 🧮 Net Income Walk
+
+| Line | 9M 2024 | 9M 2023 | Change |
+|---|---|---|---|
+| Pre-tax income | $670.2M | $651.8M | +$18.4M (+3%) |
+| Income tax provision | ($144.9M) | ($143.6M) | +$1.3M (+1%) |
+| **Net income** | **$525.3M** | **$508.2M** | **+$17.1M (+3%)** |
+
+The effective tax rate was **21.6%** (2024) vs. **22.0%** (2023), a slight tailwind.
+
+---
+
+### 📌 Summary: What Drove the $17.1M Increase?
+
+| Factor | Net $ Impact |
+|---|---|
+| **Higher net investment income** (yields + asset growth) | **+$26.7M** |
+| **Premium growth** (IIF + assumed GSE CRT) | **+$17.4M** |
+| **Lower DAC amortization** | **+$1.0M** |
+| Higher other income | +$0.9M |
+| *(Worsened net investment losses)* | *($2.5M)* |
+| *(Higher losses incurred)* | *($12.1M)* |
+| *(New loss on debt extinguishment)* | *($10.9M)* |
+| *(Higher operating expenses)* | *($2.1M)* |
+| *(Higher income tax)* | *($1.3M)* |
+| **Net change** | **+$17.1M** |
+
+**Key takeaway:** The increase was powered by **strong investment income growth** (+$26.7M) and **steady premium expansion** (+$17.4M), which together more than absorbed a **new $10.9M debt extinguishment charge** and moderately higher claims costs from a larger inventory of new delinquencies. Large reserve releases in both years (≈$196M vs. $188M) kept the loss ratio very low (2% in 2024 vs. ~0% in 2023).",True,All key figures and drivers match expected answer with comprehensive supporting detail and proper quantification of each component.,0.003965,0.001923,"[{""tool"": ""search_concepts"", ""tokens_est"": 754}, {""tool"": ""search_concepts"", ""tokens_est"": 436}, {""tool"": ""query_financials"", ""tokens_est"": 2214}, {""tool"": ""search_narrative"", ""tokens_est"": 1418}, {""tool"": ""search_narrative"", ""tokens_est"": 1494}, {""tool"": ""search_narrative"", ""tokens_est"": 1615}]",7931,37.77

@@ -30,7 +30,11 @@ async def get_streaming_response(
             # Read by the tool-output compressor (src/infrastructure/compressor.py)
             # so it can filter raw tool payloads against the user's question.
             "user_question": messages,
-        }
+        },
+        # Default 25 is snug once the agent is iterating through tool returns
+        # and parallel tool calls. 40 gives models that fan out more (Flash)
+        # enough headroom to converge without masking a real runaway loop.
+        "recursion_limit": 40,
     }
     if callbacks:
         config["callbacks"] = callbacks
