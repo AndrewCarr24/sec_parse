@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     )
 
     ORCHESTRATOR_PROVIDER: Literal["bedrock", "deepseek"] = Field(
-        default="bedrock",
+        default="deepseek",
         description=(
             "Which LLM provider serves the orchestrator (the ReAct agent). "
             "Router and judge stay on Bedrock Haiku regardless."
@@ -37,7 +37,7 @@ class Settings(BaseSettings):
         description="API key for DeepSeek (OpenAI-compatible endpoint).",
     )
     DEEPSEEK_MODEL_ID: str = Field(
-        default="deepseek-v4-pro",
+        default="deepseek-v4-flash",
         description="DeepSeek model ID (used when provider=deepseek).",
     )
     DEEPSEEK_BASE_URL: str = Field(

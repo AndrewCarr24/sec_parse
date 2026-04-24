@@ -24,7 +24,7 @@ Outputs (in `output_dir`):
 Usage:
     python table_extractor.py <accession_dir> <output_dir> [--dry-run] [--limit N]
 
-Requires ANTHROPIC_API_KEY.
+Requires DEEPSEEK_API_KEY.
 """
 
 from __future__ import annotations
@@ -46,7 +46,12 @@ sys.path.insert(0, str(Path(__file__).parent))
 from ixbrl_parser import default_output_dir, derive_filing_id, extract_submission  # noqa: E402
 
 
-MODEL = "claude-haiku-4-5-20251001"
+# Model provider for table extraction. Default is DeepSeek v4 Flash via
+# their OpenAI-compatible API (10× cheaper than Haiku, comparable quality
+# on structured JSON output). To switch back to Haiku, set MODEL to
+# "claude-haiku-4-5-20251001" and change the client/call in _call_llm.
+MODEL = "deepseek-v4-flash"
+DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1"
 MAX_OUTPUT_TOKENS = 20000  # large tables (IIF-by-LTV, delinquency-by-state) need ~10–15K
 NUMBER_RE = re.compile(r"\b\d[\d,]*(?:\.\d+)?\b")
 CONTEXT_CHAR_BUDGET = 1200  # rendered text length of preceding context
@@ -224,13 +229,29 @@ def _call_llm(client, candidate: Candidate, filing_meta: dict) -> dict:
         preceding_text=candidate.preceding_text or "(no preceding text)",
         table_html=candidate.html,
     )
-    resp = client.messages.create(
-        model=MODEL,
-        max_tokens=MAX_OUTPUT_TOKENS,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user}],
-    )
-    text = "".join(b.text for b in resp.content if getattr(b, "type", "") == "text").strip()
+    # DeepSeek's OpenAI-compatible Chat Completions API. `client` is an
+    # openai.OpenAI pointed at DEEPSEEK_BASE_URL. After the SDK's own
+    # retry budget is exhausted, record the failure and continue so one
+    # bad table doesn't poison the whole extraction run — re-run targeted
+    # tables afterwards using the log.
+    try:
+        resp = client.chat.completions.create(
+            model=MODEL,
+            max_tokens=MAX_OUTPUT_TOKENS,
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": user},
+            ],
+        )
+    except Exception as e:
+        return {
+            "title": "API_ERROR",
+            "is_data_table": False,
+            "skip_reason": f"{type(e).__name__}: {e}",
+            "units_note": None,
+            "rows": [],
+        }
+    text = (resp.choices[0].message.content or "").strip()
     # Strip accidental code fences.
     if text.startswith("```"):
         text = re.sub(r"^```[a-zA-Z]*\n?|```$", "", text.strip()).strip()
@@ -291,12 +312,22 @@ def extract_filing(
         print(f"\nCost estimate: ~{len(candidates)} LLM calls ({MODEL}).")
         return
 
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        print("ERROR: ANTHROPIC_API_KEY not set.", file=sys.stderr)
+    if not os.environ.get("DEEPSEEK_API_KEY"):
+        print("ERROR: DEEPSEEK_API_KEY not set.", file=sys.stderr)
         sys.exit(2)
 
-    from anthropic import Anthropic
-    client = Anthropic()
+    from openai import OpenAI
+    # Timeout of 120s is enough for a legitimately long extraction on a
+    # big table (IIF-by-state, ~10–15K output tokens) while catching a
+    # dead connection fast. The SDK retries transient errors internally,
+    # and _call_llm wraps persistent failures so the pipeline finishes
+    # even when individual tables fail.
+    client = OpenAI(
+        api_key=os.environ["DEEPSEEK_API_KEY"],
+        base_url=DEEPSEEK_BASE_URL,
+        timeout=120.0,
+        max_retries=3,
+    )
 
     audit: list[dict] = []
     all_rows: list[dict] = []

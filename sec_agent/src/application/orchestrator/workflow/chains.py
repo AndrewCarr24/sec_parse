@@ -75,7 +75,7 @@ def _build_agent_system(customer_name: str) -> str:
 
 
 def get_agent_chain(customer_name: str = "Guest") -> Runnable:
-    model = get_model(temperature=0.3).bind_tools(get_tools())
+    model = get_model(temperature=0.35).bind_tools(get_tools())
     system = _build_agent_system(customer_name)
     prompt = ChatPromptTemplate.from_messages(
         [_cached_system(system), MessagesPlaceholder(variable_name="messages")]
@@ -86,7 +86,7 @@ def get_agent_chain(customer_name: str = "Guest") -> Runnable:
 def get_finalize_chain(customer_name: str = "Guest") -> Runnable:
     """Agent chain WITHOUT tools bound — used to force a text answer
     when the ReAct tool-call budget is exhausted."""
-    model = get_model(temperature=0.3)
+    model = get_model(temperature=0.35)
     system = _build_agent_system(customer_name) + (
         "\n\nYou have already gathered research via tool calls and your tool "
         "budget is now exhausted. Do NOT attempt any more tool calls. Produce "

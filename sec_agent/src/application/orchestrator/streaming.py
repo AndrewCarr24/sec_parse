@@ -32,9 +32,10 @@ async def get_streaming_response(
             "user_question": messages,
         },
         # Default 25 is snug once the agent is iterating through tool returns
-        # and parallel tool calls. 40 gives models that fan out more (Flash)
-        # enough headroom to converge without masking a real runaway loop.
-        "recursion_limit": 40,
+        # and parallel tool calls. Scale with MAX_TOOL_CALLS_PER_TURN so
+        # a single question can actually USE the tool budget — at 16
+        # tools a question can hit ~34 node transitions; 55 keeps headroom.
+        "recursion_limit": 55,
     }
     if callbacks:
         config["callbacks"] = callbacks
