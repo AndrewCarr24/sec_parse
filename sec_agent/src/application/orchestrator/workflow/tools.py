@@ -279,7 +279,54 @@ async def memory_retrieval_tool(
         return json.dumps({"error": str(e)})
 
 
+@tool
+def dsrag_kb(queries: list[str]) -> str:
+    """
+    Semantic search over the loaded SEC filing via a dsRAG knowledge base.
+    Returns the most relevant multi-chunk *segments* (contiguous sections
+    identified by dsRAG's Relevant Segment Extraction) for one or more
+    queries. Segments include an AutoContext header describing the
+    document and surrounding section, so you can tell where in the filing
+    each excerpt comes from.
+
+    Use this as your sole retrieval tool. Pass 1-3 complementary queries
+    per turn — the KB merges and reranks results across them.
+
+    Args:
+        queries: 1-3 natural-language search queries capturing distinct
+            facets of the user's question.
+
+    Returns:
+        JSON list of {score, doc_id, content} segments, highest score first.
+    """
+    from src.infrastructure.dsrag_kb import get_kb
+
+    logger.info(f"dsrag_kb invoked: {queries!r}")
+    kb = get_kb()
+    try:
+        results = kb.query(queries) if len(queries) > 1 else kb.query(queries)
+    except Exception as e:
+        logger.warning(f"dsrag_kb query failed: {e}")
+        return json.dumps({"error": str(e)})
+    payload = [
+        {
+            "score": round(float(r.get("score", 0.0) or 0.0), 3),
+            "doc_id": r.get("doc_id", ""),
+            "content": (r.get("content") or r.get("text") or "")[:6000],
+        }
+        for r in results
+    ]
+    return json.dumps(payload, indent=2, default=str)
+
+
 def get_tools() -> list:
+    if settings.USE_DSRAG_ONLY:
+        # Single-tool mode — only dsrag_kb. Memory retrieval still
+        # offered if configured, since it's orthogonal to document RAG.
+        tools = [dsrag_kb]
+        if settings.MEMORY_ID:
+            tools.append(memory_retrieval_tool)
+        return tools
     tools = [search_concepts, query_financials, search_narrative]
     if settings.MEMORY_ID:
         tools.append(memory_retrieval_tool)

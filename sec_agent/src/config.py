@@ -59,5 +59,16 @@ class Settings(BaseSettings):
         ),
     )
 
+    USE_DSRAG_ONLY: bool = Field(
+        default=False,
+        description=(
+            "When true, the agent uses a single `dsrag_kb` tool backed "
+            "by the dsRAG KnowledgeBase (see data_pipeline_dsrag/). "
+            "The three default tools (search_concepts, query_financials, "
+            "search_narrative) are hidden, and a stripped system prompt "
+            "is used so the agent reasons about dsRAG segments only."
+        ),
+    )
+
 
 settings = Settings()

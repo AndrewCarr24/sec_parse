@@ -1,0 +1,39 @@
+{
+    "title": "",
+    "description": "",
+    "language": "en",
+    "supp_id": "",
+    "created_on": 1777049203,
+    "components": {
+        "embedding_model": {
+            "subclass_name": "BedrockTitanEmbedding",
+            "dimension": 1024
+        },
+        "reranker": {
+            "subclass_name": "FlashRankReranker",
+            "model_name": "ms-marco-MiniLM-L-12-v2"
+        },
+        "auto_context_model": {
+            "subclass_name": "OpenAIChatAPI",
+            "model": "deepseek-v4-flash",
+            "temperature": 0.2,
+            "max_tokens": 2000
+        },
+        "vector_db": {
+            "subclass_name": "BasicVectorDB",
+            "kb_id": "act_10q_2024_09_30",
+            "storage_directory": "/Users/andrewcarr/Documents/projects/parse_sec/data/dsrag_store",
+            "use_faiss": false
+        },
+        "chunk_db": {
+            "subclass_name": "BasicChunkDB",
+            "kb_id": "act_10q_2024_09_30",
+            "storage_directory": "/Users/andrewcarr/Documents/projects/parse_sec/data/dsrag_store"
+        },
+        "file_system": {
+            "subclass_name": "LocalFileSystem",
+            "base_path": "/Users/andrewcarr/Documents/projects/parse_sec/data/dsrag_store/page_images"
+        },
+        "vlm_client": null
+    }
+}

@@ -5,8 +5,10 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables import Runnable
 
 from src.application.orchestrator.workflow.tools import get_tools
+from src.config import settings
 from src.domain.prompts import (
     AGENT_SYSTEM_PROMPT,
+    DSRAG_AGENT_SYSTEM_PROMPT,
     ROUTER_PROMPT,
     SIMPLE_RESPONSE_PROMPT,
 )
@@ -67,8 +69,11 @@ def with_cache_on_last(messages: list[BaseMessage]) -> list[BaseMessage]:
 
 
 def _build_agent_system(customer_name: str) -> str:
+    template = (
+        DSRAG_AGENT_SYSTEM_PROMPT if settings.USE_DSRAG_ONLY else AGENT_SYSTEM_PROMPT
+    )
     return (
-        AGENT_SYSTEM_PROMPT
+        template
         .replace("{customer_name}", customer_name)
         .replace("{filings_catalog}", format_catalog())
     )

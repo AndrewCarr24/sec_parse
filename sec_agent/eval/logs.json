@@ -1033,5 +1033,159 @@
     },
     "total_cost_usd": 0.029178,
     "run_seconds": 218.14
+  },
+  {
+    "input_df": "dsrag_smoke.csv",
+    "agent_ts": "20260424T165133Z",
+    "accuracy": 1.0,
+    "n": 1,
+    "n_correct": 1,
+    "results_file": "results/dsrag_smoke_20260424T165133Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-6",
+    "compress_tool_outputs": false,
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 797,
+        "output_tokens": 31,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 2,
+        "cost_usd": 0.000952
+      },
+      "deepseek-v4-flash": {
+        "input_tokens": 6018,
+        "output_tokens": 442,
+        "cache_read_tokens": 640,
+        "cache_creation_tokens": 0,
+        "calls": 2,
+        "cost_usd": 0.001018
+      }
+    },
+    "total_cost_usd": 0.00197,
+    "run_seconds": 216.35
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260424T170056Z",
+    "accuracy": 0.8889,
+    "n": 9,
+    "n_correct": 8,
+    "results_file": "results/questions_20260424T170056Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-6",
+    "compress_tool_outputs": false,
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 9827,
+        "output_tokens": 478,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 18,
+        "cost_usd": 0.012217
+      },
+      "deepseek-v4-flash": {
+        "input_tokens": 92004,
+        "output_tokens": 7531,
+        "cache_read_tokens": 19456,
+        "cache_creation_tokens": 0,
+        "calls": 19,
+        "cost_usd": 0.01498
+      }
+    },
+    "total_cost_usd": 0.027197,
+    "run_seconds": 155.22
+  },
+  {
+    "input_df": "questions.csv",
+    "agent_ts": "20260424T171429Z",
+    "accuracy": 1.0,
+    "n": 9,
+    "n_correct": 9,
+    "results_file": "results/questions_20260424T171429Z.csv",
+    "orchestrator_model": "us.anthropic.claude-sonnet-4-6",
+    "compress_tool_outputs": false,
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 10839,
+        "output_tokens": 352,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 18,
+        "cost_usd": 0.012599
+      },
+      "deepseek-v4-flash": {
+        "input_tokens": 210439,
+        "output_tokens": 9627,
+        "cache_read_tokens": 99072,
+        "cache_creation_tokens": 0,
+        "calls": 25,
+        "cost_usd": 0.024354
+      }
+    },
+    "total_cost_usd": 0.036953,
+    "run_seconds": 183.4
+  },
+  {
+    "input_df": "q1.csv",
+    "agent_ts": "20260424T172137Z",
+    "retrieval_mode": "default",
+    "accuracy": 1.0,
+    "n": 1,
+    "n_correct": 1,
+    "results_file": "results/q1_20260424T172137Z.csv",
+    "orchestrator_provider": "deepseek",
+    "orchestrator_model": "deepseek-v4-flash",
+    "compress_tool_outputs": false,
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 677,
+        "output_tokens": 31,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 2,
+        "cost_usd": 0.000832
+      },
+      "deepseek-v4-flash": {
+        "input_tokens": 16117,
+        "output_tokens": 809,
+        "cache_read_tokens": 14464,
+        "cache_creation_tokens": 0,
+        "calls": 4,
+        "cost_usd": 0.001183
+      }
+    },
+    "total_cost_usd": 0.002015,
+    "run_seconds": 17.19
+  },
+  {
+    "input_df": "q1.csv",
+    "agent_ts": "20260424T172155Z",
+    "retrieval_mode": "dsrag",
+    "accuracy": 1.0,
+    "n": 1,
+    "n_correct": 1,
+    "results_file": "results/q1_20260424T172155Z.csv",
+    "orchestrator_provider": "deepseek",
+    "orchestrator_model": "deepseek-v4-flash",
+    "compress_tool_outputs": false,
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 812,
+        "output_tokens": 31,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 2,
+        "cost_usd": 0.000967
+      },
+      "deepseek-v4-flash": {
+        "input_tokens": 10358,
+        "output_tokens": 474,
+        "cache_read_tokens": 1536,
+        "cache_creation_tokens": 0,
+        "calls": 2,
+        "cost_usd": 0.00155
+      }
+    },
+    "total_cost_usd": 0.002517,
+    "run_seconds": 13.27
   }
 ]

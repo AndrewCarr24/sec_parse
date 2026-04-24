@@ -2,12 +2,19 @@
 
 Usage:
     cd sec_agent
-    python eval/run_eval.py                  # uses eval/questions.csv
-    python eval/run_eval.py eval/other.csv   # custom input CSV
+    python eval/run_eval.py                        # default (3-tool) mode
+    python eval/run_eval.py --mode dsrag           # single dsrag_kb tool
+    python eval/run_eval.py --mode dsrag eval/alt.csv  # custom input CSV
+
+Modes:
+    default  — search_concepts + query_financials + search_narrative
+    dsrag    — single dsrag_kb tool over the dsRAG KnowledgeBase
+               (requires data/dsrag_store/ built by
+                data_pipeline_dsrag/build_kb.py)
 
 Outputs:
     eval/results/<input_stem>_<ts>.csv       # per-question results
-    eval/logs.json                           # append-only run log (input_df, agent_ts, accuracy)
+    eval/logs.json                           # append-only run log
 """
 
 import asyncio
@@ -89,7 +96,27 @@ def _append_log(entry: dict) -> None:
     LOG_FILE.write_text(json.dumps(existing, indent=2))
 
 
-async def main(csv_path: Path) -> None:
+def _apply_mode(mode: str) -> None:
+    """Switch retrieval stack for the rest of the process.
+
+    settings is a pydantic-settings singleton; its attributes are read at
+    call time by get_tools() and _build_agent_system(), so mutating here
+    before the graph builds is sufficient — no re-import dance needed.
+    """
+    if mode == "dsrag":
+        settings.USE_DSRAG_ONLY = True
+        # Pre-flight: bail loudly if the KB hasn't been built yet.
+        from src.infrastructure.dsrag_kb import DSRAG_STORE_DIR
+        if not DSRAG_STORE_DIR.exists():
+            raise SystemExit(
+                f"--mode dsrag requires the KB at {DSRAG_STORE_DIR}. "
+                "Build it first with: python data_pipeline_dsrag/build_kb.py"
+            )
+    else:
+        settings.USE_DSRAG_ONLY = False
+
+
+async def main(csv_path: Path, mode: str) -> None:
     if not csv_path.exists():
         raise FileNotFoundError(csv_path)
 
@@ -98,6 +125,9 @@ async def main(csv_path: Path) -> None:
 
     if not rows:
         raise ValueError(f"{csv_path} has no rows")
+
+    _apply_mode(mode)
+    logger.info(f"Retrieval mode: {mode}")
 
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
@@ -151,6 +181,7 @@ async def main(csv_path: Path) -> None:
             "tool_calls": json.dumps(tools_summary),
             "tool_result_tokens_est": total_tool_tokens,
             "agent_seconds": round(agent_seconds, 2),
+            "retrieval_mode": mode,
         })
     run_seconds = time.perf_counter() - run_start
 
@@ -188,18 +219,25 @@ async def main(csv_path: Path) -> None:
     _append_log({
         "input_df": csv_path.name,
         "agent_ts": ts,
+        "retrieval_mode": mode,
         "accuracy": round(accuracy, 4),
         "n": len(results),
         "n_correct": n_correct,
         "results_file": str(out_csv.relative_to(EVAL_DIR)),
-        "orchestrator_model": settings.ORCHESTRATOR_MODEL_ID,
+        "orchestrator_provider": settings.ORCHESTRATOR_PROVIDER,
+        "orchestrator_model": (
+            settings.DEEPSEEK_MODEL_ID
+            if settings.ORCHESTRATOR_PROVIDER == "deepseek"
+            else settings.ORCHESTRATOR_MODEL_ID
+        ),
         "compress_tool_outputs": settings.COMPRESS_TOOL_OUTPUTS,
         "usage": usage_summary,
         "total_cost_usd": total_cost,
         "run_seconds": round(run_seconds, 2),
     })
 
-    print(f"\nAccuracy: {accuracy:.1%} ({n_correct}/{len(results)})")
+    print(f"\nMode:     {mode}")
+    print(f"Accuracy: {accuracy:.1%} ({n_correct}/{len(results)})")
     print(f"Results:  {out_csv}")
     print(f"Log:      {LOG_FILE}")
     print(f"Cost:     ${total_cost:.4f}")
@@ -212,5 +250,20 @@ async def main(csv_path: Path) -> None:
 
 
 if __name__ == "__main__":
-    path = Path(sys.argv[1]) if len(sys.argv) > 1 else EVAL_DIR / "questions.csv"
-    asyncio.run(main(path))
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "csv_path",
+        nargs="?",
+        default=str(EVAL_DIR / "questions.csv"),
+        help="Input CSV (default: eval/questions.csv).",
+    )
+    parser.add_argument(
+        "--mode",
+        choices=["default", "dsrag"],
+        default="default",
+        help="Retrieval stack: 'default' (3 tools) or 'dsrag' (single dsrag_kb tool).",
+    )
+    args = parser.parse_args()
+    asyncio.run(main(Path(args.csv_path), args.mode))
