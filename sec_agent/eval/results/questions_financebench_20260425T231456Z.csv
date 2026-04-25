@@ -1,0 +1,540 @@
+question,expected_answer,agent_answer,correct,rationale,agent_cost_usd,judge_cost_usd,tool_calls,tool_result_tokens_est,agent_seconds,retrieval_mode
+"Answer the following question as if you are an equity research analyst and have lost internet connection so you do not have access to financial metric providers. According to the details clearly outlined within the P&L statement and the statement of cash flows, what is the FY2015 depreciation and amortization (D&A from cash flow statement) % margin for AMD?",4.2%,"## AMD FY2015 D&A % Margin
+
+Here are the relevant figures from AMD's FY2015 10-K (period ended December 26, 2015):
+
+### Data Points
+
+| Metric | Source | Amount |
+|---|---|---|
+| **Depreciation & Amortization** | Statement of Cash Flows (operating activities adjustments) | **$167 million** |
+| **Net Revenue** | Consolidated Statements of Operations (P&L) | **$3,991 million** |
+
+*(Source: AMD 10-K, FY2015 — ""Depreciation and amortization"" line appears in the operating activities section of the cash flow statement; Net Revenue appears in the Consolidated Statements of Operations.)*
+
+### Calculation
+
+**D&A % Margin** = D&A (from cash flow) ÷ Net Revenue  
+= **$167M ÷ $3,991M**  
+= **4.18%**
+
+---
+
+**Breakdown for context:** The total D&A of $167M on the cash flow statement is comprised of:
+- Depreciation expense on property, plant & equipment: **$94M** *(separately disclosed in the PP&E note)*
+- Amortization of acquired intangible assets (P&L): **$3M**
+- The remaining ~$70M reflects amortization of software and technology licenses and other intangible assets that flow through cost of sales or other expense lines (not separately broken out as a single line on the P&L).
+
+So the FY2015 **D&A % margin was ~4.2%** of revenue.",True,"Calculation of $167M ÷ $3,991M = 4.18%, which rounds to 4.2% as expected.",0.002632,0.000759,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 8941}]",8941,14.76,dsrag
+"Does AMD have a reasonably healthy liquidity profile based on its quick ratio for FY22? If the quick ratio is not relevant to measure liquidity, please state that and explain why.","Yes. The quick ratio is 1.57, calculated as (cash and cash equivalents+Short term investments+Accounts receivable, net+receivables from related parties)/ (current liabilities).","## AMD Quick Ratio for FY 2022: Analysis
+
+The **quick ratio** is a relevant and commonly used measure of short-term liquidity. I can compute it from the balance sheet data in AMD's FY 2022 10-K (year ended December 31, 2022).
+
+### Quick Ratio Calculation
+
+**Quick Assets** (Cash + Short-Term Investments + Accounts Receivable):
+
+| Component | $ Millions |
+|---|---|
+| Cash and cash equivalents | $4,835 |
+| Short-term investments | $1,020 |
+| Accounts receivable, net | $4,126 |
+| **Quick Assets Total** | **$9,981** |
+
+**Current Liabilities:**
+
+| Component | $ Millions |
+|---|---|
+| Accounts payable | $2,493 |
+| Payables to related parties | $463 |
+| Accrued liabilities | $3,077 |
+| Current portion of long-term debt | $0 |
+| Other current liabilities | $336 |
+| **Total Current Liabilities** | **$6,369** |
+
+> **Quick Ratio = $9,981M ÷ $6,369M = 1.57**
+
+*(Source: AMD FY 2022 10-K, Consolidated Balance Sheets, pp. 52–53)*
+
+### Interpretation — Healthy Liquidity Profile
+
+A quick ratio of **1.57** means AMD had **$1.57 of liquid assets** (cash, short-term investments, and receivables) for every $1.00 of current liabilities due within 12 months. This is comfortably above 1.0, indicating that the company could satisfy all its short-term obligations without needing to sell inventory or rely on new financing.
+
+### Broader Liquidity Context
+
+Beyond the quick ratio, AMD's FY 2022 10-K management commentary reinforces a strong liquidity picture:
+
+- **Cash, cash equivalents & short-term investments** totaled **$5.9 billion** (up from $3.6 billion in FY 2021), bolstered by cash acquired from the Xilinx acquisition and debt issuance.
+- **Operating cash flow** was **$3.6 billion** in FY 2022.
+- An undrawn **$3.0 billion revolving credit facility** was available.
+- A newly established **$3.0 billion commercial paper program** was also in place (with no borrowings outstanding as of year-end).
+- Management stated: *""We believe our cash, cash equivalents, short-term investments and cash flows from operations along with our Revolving Credit Facility and commercial paper program will be sufficient to fund operations… over the next 12 months and beyond.""*
+
+*(Source: AMD FY 2022 10-K, ""Liquidity and Capital Resources,"" pp. 48–49)*
+
+**Conclusion:** Yes, AMD had a reasonably healthy liquidity profile based on its FY 2022 quick ratio of **1.57**, and this is corroborated by other liquidity indicators including robust operating cash flow, ample cash reserves, and access to undrawn credit facilities.",True,Quick ratio of 1.57 calculated correctly with proper components and interpretation of healthy liquidity.,0.002538,0.001066,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 6724}]",6724,17.03,dsrag
+"From FY21 to FY22, excluding Embedded, in which AMD reporting segment did sales proportionally increase the most?",Data Center,"## AMD Segment Revenue Growth from FY21 to FY22 (Excluding Embedded)
+
+Based on the segment revenue data in AMD's FY2022 10-K, here are the year-over-year changes for each reporting segment (excluding Embedded):
+
+| Segment | FY21 Revenue | FY22 Revenue | Change | % Change |
+|---|---|---|---|---|
+| **Data Center** | $3,694M | **$6,043M** | +$2,349M | **+64%** |
+| Client | $6,887M | $6,201M | –$686M | –10% |
+| Gaming | $5,607M | $6,805M | +$1,198M | +21% |
+| Embedded *(excluded)* | $246M | $4,552M | — | — |
+
+**Answer: The Data Center segment saw the largest proportional increase in sales from FY21 to FY22 at approximately 64%.** This was driven primarily by higher sales of AMD's EPYC server processors (AMD, FY2022 10-K). The other non-Embedded segments either shrank (Client, down 10%) or grew at a much slower rate (Gaming, up 21%).",True,"Data Center segment showed 64% growth, the highest proportional increase among non-Embedded segments.",0.002486,0.000569,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 7797}]",7797,15.44,dsrag
+Did AMD report customer concentration in FY22?,"Yes, one customer accounted for 16% of consolidated net revenue","## Yes, AMD reported customer concentration in its FY 2022 10-K.
+
+Here are the specific disclosures found in the filing:
+
+### 1. Business Section — Customers (MD&A)
+In the ""Customers"" subsection, AMD states:
+
+> **""One customer accounted for 16% of our consolidated net revenue for the year ended December 31, 2022. Sales to this customer consisted of sales of products from our Gaming segment. A loss of this customer would have a material adverse effect on our business.""**
+
+(AMD, 10-K FY 2022, Customers section)
+
+### 2. Major Customers Table (Geographic & Segment Reporting)
+A dedicated table shows two customers that reached the 10% threshold:
+
+| Customer | FY 2022 | FY 2021 | Segment |
+|---|---|---|---|
+| Customer A | **16%** | 14% | Gaming |
+| Customer B | *<10%* | 11% | Client |
+
+(AMD, 10-K FY 2022, Segment Reporting)
+
+### 3. Note 10 — Concentrations of Credit Risk
+In the footnotes, AMD also discloses a concentration in receivables:
+
+> **""One customer accounted for approximately 18% of the total consolidated accounts receivable balance as of December 31, 2022.""**
+
+### 4. Risk Factor
+The filing includes a dedicated risk factor titled *""The loss of a significant customer may have a material adverse effect on us,""* noting that AMD depends on a small number of customers for a substantial portion of its business.
+
+**Bottom line:** Yes — AMD's FY 2022 10-K clearly discloses customer concentration, with one unnamed customer (likely Sony/Microsoft from the Gaming segment) representing **16% of net revenue** and another customer (from the Client segment) having exceeded 10% in prior years.",True,"Agent confirms one customer accounted for 16% of FY22 consolidated net revenue, matching expected answer exactly.",0.002337,0.00072,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 8428}]",8428,12.24,dsrag
+"What drove operating margin change as of the FY22 for AMD? If operating margin is not a useful metric for a company like this, then please state that and explain why.",The decrease in AMD's operating income was primarily driven by amortization of intangible assets associated with the Xilinx acquisition,"## AMD FY 2022 Operating Margin — What Drove the Change
+
+### The headline numbers
+
+AMD's **GAAP operating margin** collapsed from **~22.2%** in FY 2021 to **~5.4%** in FY 2022. Here's the arithmetic from the 10-K:
+
+| Metric | FY 2021 | FY 2022 | Change |
+|---|---|---|---|
+| Net revenue | $16,434M | $23,601M | +44% |
+| Operating income | $3,648M | $1,264M | –65% |
+| **Operating margin** | **~22.2%** | **~5.4%** | **–~17 pp** |
+
+*(Source: AMD 10-K FY 2022, Results of Operations — segment and consolidated P&L tables)*
+
+### What drove the decline — three overlapping forces
+
+**1. The Xilinx acquisition flooded ""All Other"" with non-cash charges**
+
+The single biggest factor was the explosion in the **""All Other""** category, which is not allocated to operating segments:
+
+| All Other | FY 2021 | FY 2022 |
+|---|---|---|
+| Operating loss | **$(409)M** | **$(4,979)M** |
+
+This $4.6B swing was largely:
+- **$3.5B** of amortization of acquisition-related intangibles (Xilinx)
+- **$1.1B** of stock-based compensation
+- **$452M** of acquisition-related costs (transaction costs, inventory fair-value step-up, etc.)
+
+Since ""All Other"" is deducted *after* segment operating income, it crushed consolidated operating income despite solid segment performance.
+
+**2. Segment operating income was mixed — strong in Data Center & Embedded, weak in Client**
+
+| Segment | FY 2021 Op. Income | FY 2022 Op. Income | Change |
+|---|---|---|---|
+| **Data Center** | $991M | **$1,848M** | +86% — driven by higher EPYC server processor sales |
+| **Client** | $2,088M | **$1,190M** | –43% — 24% drop in unit shipments due to weak PC market & inventory correction |
+| **Gaming** | $934M | **$953M** | ~flat — higher semi-custom SoC sales offset by lower GPU sales |
+| **Embedded** | $44M | **$2,252M** | Massive jump driven by inclusion of Xilinx embedded products |
+
+So at the *segment level*, operating profit actually grew from **$4,057M** (Data Center + Client + Gaming + Embedded) in FY 2021 to **$6,243M** in FY 2022. The consolidated operating income collapsed only because ""All Other"" went from $(409)M to $(4,979)M.
+
+**3. Gross margin compressed from 48% → 45%**
+
+Gross margin fell 3 pp, ""primarily due to amortization of intangible assets associated with the Xilinx acquisition."" This was driven by $1,448M of amortization of acquisition-related intangibles flowing through cost of sales in FY 2022 vs. $0 in FY 2021.
+
+**4. Operating expenses ballooned**
+
+- R&D: $2,845M → $5,005M (Xilinx headcount + organic investment)
+- MG&A: $1,448M → $2,336M
+- Additional **$2.1B** in amortization of acquisition-related intangibles booked as an operating expense
+
+---
+
+### Is operating margin a useful metric for AMD?
+
+**Yes, it is useful — but only with context.**
+
+AMD is a profitable, high-growth semiconductor company with substantial gross margins (45%), and GAAP operating margin is a standard, GAAP-defined measure that captures all costs of running the business, including amortization of acquired intangibles and stock-based compensation.
+
+That said, a large portion of the FY 2022 decline is **acquisition-related non-cash charges** from the Xilinx deal ($3.5B in intangibles amortization plus inventory step-up). Many analysts and AMD itself also report **non-GAAP** measures that exclude acquisition-related amortization, stock-based compensation, and certain acquisition costs — these show a much healthier picture. But that doesn't make GAAP operating margin *not useful*; it simply means investors should disaggregate the sources of the change. The 10-K itself notes: *""The decrease in operating income was primarily driven by amortization of intangible assets associated with the Xilinx acquisition""* — a transparent explanation that makes the GAAP figure perfectly interpretable.
+
+**Bottom line:** Operating margin is meaningful for AMD. The FY 2022 decline was almost entirely driven by the Xilinx acquisition-related charges flowing through ""All Other"" and cost of sales, masking the fact that the underlying segments (Data Center, Embedded, Gaming) were collectively growing operating profit.",True,"Answer accurately identifies Xilinx acquisition amortization as primary driver of operating margin decline, with detailed supporting analysis and context.",0.0027,0.001526,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 6739}]",6739,23.95,dsrag
+What are the major products and services that AMD sells as of FY22?,"AMD sells server microprocessors (CPUs) and graphics processing units (GPUs), data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), and Adaptive System-on-Chip (SoC) products for data centers; CPUs, accelerated processing units (APUs) that integrate CPUs and GPUs, and chipsets for desktop and notebook personal computers; discrete GPUs, and semi-custom SoC products and development services; and embedded CPUs, GPUs, APUs, FPGAs, and Adaptive SoC products.","## AMD's Major Products and Services (FY 2022)
+
+Based on AMD's **FY 2022 10-K** (filed for the fiscal year ended December 31, 2022), AMD organizes its business into **four reportable segments** following the acquisitions of Xilinx (February 2022) and Pensando Systems (May 2022):
+
+---
+
+### 1. 📊 Data Center Segment
+Includes server CPUs, GPUs, DPUs, FPGAs, and Adaptive SoC products for data centers.
+
+| Product Category | Specific Products |
+|---|---|
+| **Server CPUs** | AMD EPYC™ 9004 Series (4th Gen, ""Zen 4"" core), EPYC 7003 Series, and EPYC 7002 Series processors |
+| **Data Center GPUs** | AMD Instinct™ MI200 Series (based on 2nd Gen AMD CDNA architecture) |
+| **FPGAs & Adaptive SoCs** | Virtex™, Kintex™ FPGAs; Zynq™, Zynq MPSoC, and Versal™ Adaptive SoCs; Alveo™ accelerator cards |
+| **DPUs** | AMD Pensando P4 programmable DPUs (offload network, storage, and security services) |
+
+---
+
+### 2. 💻 Client Segment
+Primarily includes **CPUs, APUs, and chipsets** for desktop and notebook personal computers.
+
+---
+
+### 3. 🎮 Gaming Segment
+Includes:
+- **Discrete GPUs** — AMD Radeon™ RX 7900 XTX / 7900 XT (built on **RDNA 3** architecture) and Radeon RX 6000 series (RDNA 2)
+- **Professional GPUs** — AMD Radeon PRO W6000 series workstation graphics
+- **Semi-custom SoC products** and **development services** (e.g., for game consoles)
+
+---
+
+### 4. 🔩 Embedded Segment
+Primarily includes embedded CPUs, GPUs, APUs, FPGAs, and Adaptive SoC products.
+
+| Product Category | Specific Products |
+|---|---|
+| **Embedded CPUs, APUs & GPUs** | AMD Embedded EPYC CPUs, Embedded Ryzen™ V-Series, and Embedded Ryzen R-Series APUs/CPUs/SoCs |
+| **FPGAs & Adaptive SoCs** | Hardware-customizable devices tailored to customer needs for automotive, industrial, aerospace/defense, communications, and more |
+
+---
+
+### 🔄 Strategic Context
+
+AMD's FY2022 strategy is built on **five strategic pillars**: compute technology leadership, expanding data center leadership, enabling pervasive AI, providing software platforms and developer enablement, and designing custom silicon and solutions. The company also develops software platforms including development tools, compilers, and drivers for its CPUs, GPUs, and FPGAs.
+
+> **Source:** AMD, FY2022 10-K (AMD_10-K_2022-12-31), Business section.",True,Answer comprehensively covers all major product categories and segments mentioned in expected answer.,0.001987,0.00113,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 5865}]",5865,14.15,dsrag
+What drove revenue change as of the FY22 for AMD?,"In 2022, AMD reported Higher sales of their EPYC server processors, higher semi-custom product sales, and the inclusion of Xilinx embedded product sales","## AMD FY 2022 Revenue Change — Drivers
+
+AMD's net revenue for fiscal year 2022 was **$23.6 billion**, a **44% increase** from $16.4 billion in 2021. The increase was driven by strong growth in three of four segments, partially offset by a decline in the Client segment. Here's the segment-level breakdown:
+
+| Segment | FY 2022 Revenue | FY 2021 Revenue | Change | Key Driver(s) |
+|---|---|---|---|---|
+| **Data Center** | $6.0B | $3.7B | **+64%** | Higher sales of **EPYC™ server processors** |
+| **Gaming** | $6.8B | $5.6B | **+21%** | Higher **semi-custom product sales** (gaming console SoCs), partially offset by lower gaming graphics due to soft consumer demand |
+| **Embedded** | $4.6B | $246M | **Significant increase** | Inclusion of **Xilinx embedded product revenue** following the **acquisition of Xilinx** in February 2022 |
+| **Client** | $6.2B | $6.9B | **−10%** | **24% decline in unit shipments** due to weak PC market & inventory correction, partially offset by a **19% increase in average selling price** (richer mix of Ryzen mobile processor sales) |
+
+### Summary
+
+The main drivers of the 44% revenue growth were:
+
+1. **The Xilinx acquisition** (completed February 2022), which turbocharged the Embedded segment from $246M to $4.6B.
+2. **Surge in Data Center** revenue (+64%), led by EPYC server processor sales.
+3. **Growth in Gaming** (+21%), underpinned by semi-custom console SoC demand.
+4. These were **partially offset** by a **10% decline in Client** segment revenue, as challenging PC market conditions and an inventory correction across the supply chain weighed on processor shipments.
+
+*(Source: AMD 10-K, FY 2022 — Overview and Results of Operations sections)*",True,"All three key drivers mentioned—EPYC server processors, semi-custom product sales, and Xilinx embedded products—are accurately identified and substantiated.",0.002255,0.000862,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 7221}]",7221,13.16,dsrag
+"Among operations, investing, and financing activities, which brought in the most (or lost the least) cash flow for AMD in FY22?","In 2022, AMD brought in the most cashflow from Operations","Based on AMD's **FY 2022 (10-K, year ended December 31, 2022)** consolidated statement of cash flows:
+
+| Activity | Cash Flow (in millions) |
+|---|---|
+| **Operating activities** | **$3,565** *(provided)* |
+| **Investing activities** | **$1,999** *(provided)* |
+| **Financing activities** | **($3,264)** *(used)* |
+
+### Answer
+
+**Operating activities brought in the most cash** at **$3,565 million**. Investing activities also provided cash ($1,999 million), while financing activities were a net cash outflow of ($3,264 million) — so operations were the strongest contributor, and financing was the biggest loser of cash.
+
+*Source: AMD FY 2022 10-K, Consolidated Statements of Cash Flows, year ended December 31, 2022.*",True,"Operating activities provided the most cash flow ($3,565M) in FY22, matching expected answer.",0.002056,0.000512,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 6595}]",6595,9.08,dsrag
+"We need to calculate a financial metric by using information only provided within the balance sheet. Please answer the following question: what is Boeing's year end FY2018 net property, plant, and equipment (in USD millions)?",$12645.00,"## Boeing's Year-End FY2018 Net Property, Plant, and Equipment
+
+Boeing's net property, plant, and equipment as of **December 31, 2018** was **$12,645 million** (i.e., $12.645 billion).
+
+This figure is reported in two places in the FY2018 10-K:
+
+1. **Consolidated Statement of Financial Position** — The balance sheet line ""Property, plant and equipment, net"" shows **$12,645** for 2018 (BA, FY2018 10-K).
+
+2. **Note 11 – Property, Plant and Equipment** — The summary table confirms the same amount:
+
+   | Component | 2018 (USD millions) |
+   |---|---|
+   | Gross property, plant and equipment | $31,213 |
+   | Less accumulated depreciation | ($18,568) |
+   | **Total (net PP&E)** | **$12,645** |
+
+   *(BA, FY2018 10-K, Note 11)*",True,"Answer matches expected value of $12,645 million with proper documentation.",0.002319,0.000513,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 7293}]",7293,9.13,dsrag
+Is Boeing's business subject to cyclicality?,"Yes, Boeing's business is subject to cyclicality due to its exposure to the airline industry which is a cyclical industry.","## Yes, Boeing's business is subject to cyclicality.
+
+Boeing acknowledges this explicitly in its risk factors. From **Boeing's 2022 Form 10-K** (BA, FY 2022):
+
+> *""Historically, the airline industry has been cyclical and very competitive and has experienced significant profit swings and constant challenges to be more cost competitive.""*
+
+This statement appears under the risk heading **""We depend heavily on commercial airlines, subjecting us to unique risks,""** which explains that market conditions have a significant impact on demand for commercial aircraft and related services. It notes that a deterioration in the global economic environment or airline industry could result in fewer new orders, postponements or cancellations, lower revenues and cash flows, and a reduction in Boeing's contractual backlog.
+
+The same language also appears in **Boeing's 2018 Form 10-K** (BA, FY 2018), where the company similarly states:
+
+> *""Traditionally, the airline industry has been cyclical and very competitive and has experienced significant profit swings and constant challenges to be more cost competitive.""*
+
+### How cyclicality affects Boeing specifically
+
+Boeing's exposure to cyclicality flows primarily through its **Commercial Airplanes** and **Global Services** segments. The 2022 10-K describes the mechanism:
+
+- Demand for commercial aircraft is driven by long-term trends in airline passenger and cargo traffic, which in turn depend on sustained economic growth and political stability.
+- Airlines themselves face profit swings, fuel cost volatility, and inflationary pressures — all of which can cause them to defer or cancel aircraft orders.
+- Because Boeing's commercial aircraft backlog spans several years, any macroeconomic or industry downturn can unexpectedly affect deliveries over a long period.
+
+In short, Boeing's business is directly tied to the cyclical **airline industry**, and the company treats this cyclicality as a material risk factor in its SEC filings.",True,"Answer confirms Boeing's cyclicality is due to airline industry exposure, supported by 10-K documentation.",0.003263,0.000716,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 7902}, {""tool"": ""dsrag_kb"", ""tokens_est"": 7192}]",15094,17.49,dsrag
+What production rate changes is Boeing forecasting for FY2023?,"Boeing forecasts an increase in the production rates for the 737, 777X and 787 aircrafts in 2023.","Based on Boeing's 2022 Form 10-K (filed Feb 2023), here are the production rate changes the company was forecasting for FY2023:
+
+---
+
+### 787 Program
+- **Currently at low rates**, with a plan to **gradually increase to 5 per month in 2023**.
+- *(Source: BA 10-K FY2022 – ""The 787 program is currently producing at low rates and we expect to gradually increase to 5 per month in 2023."")*
+
+### 777X Program
+- **Production was paused** during 2022 and is **expected to resume in 2023**.
+- However, the **first delivery of the 777X-9** was pushed out from late 2023 to **2025** due to certification timeline revisions.
+- The pause resulted in abnormal production costs of ~$1.5 billion being expensed until production resumes.
+- *(Source: BA 10-K FY2022 – ""Production of the 777X is currently paused and is expected to resume in 2023."" Also: ""first delivery of the 777X-9, previously expected in late 2023, and now expect it will occur in 2025."")*
+
+### 737 Program
+- **Current rate: 31 per month** (increased from prior levels in 2022).
+- No specific 2023 target number is given, but the company stated it expects to implement **""further gradual production rate increases based on market demand and supply chain capacity.""**
+- The **737-7** was expected to be **certified and delivered in 2023**; the **737-10** was expected to begin FAA certification flight testing in 2023 (with first delivery in 2024).
+- *(Source: BA 10-K FY2022 – ""We increased the production rate to 31 per month in 2022, and expect to implement further gradual production rate increases..."" and ""currently expect the 737-7 to be certified and delivered in 2023."")*
+
+### 767 Program
+- **Current combined rate: 3 per month** (commercial + KC-46A Tanker).
+- No specific 2023 rate change was forecast.
+- *(Source: BA 10-K FY2022)*
+
+### 777/777X Combined
+- **Current combined rate: 3 per month** for the 777/777X programs, though 777X production remained paused.
+- *(Source: BA 10-K FY2022)*
+
+### 747 Program
+- **Production ended** in Q4 2022; the **last delivery was expected in early 2023**.
+- *(Source: BA 10-K FY2022)*
+
+---
+
+**Bottom line:** The most concrete production rate changes Boeing forecast for FY2023 were: **(1)** 787 ramp to ~5/month, **(2)** 777X production resuming from its pause, **(3)** gradual 737 rate increases (unspecified number) from the 31/month level, and **(4)** the final 747 deliveries winding down.",True,"Agent answer comprehensively confirms Boeing forecasted increases for 737, 777X, and 787 in FY2023 with detailed supporting evidence.",0.002358,0.001079,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 6244}]",6244,19.49,dsrag
+Are there any product categories / service categories that represent more than 20% of Boeing's revenue for FY2022?,"Yes. Boeing has product and service categories that represent more than 20% of Boeing's revenue for FY2022. These categories are Commercial Airplanes which comprises 39% of total revenue, Defence which comprises 35% of total revenue and Services which comprises 26% of total revenue.","Let me get a clearer picture of the full segment revenue breakdown for Boeing FY2022.## Boeing FY2022 — Segment Revenues over 20% of Total
+
+Yes, **three** of Boeing's four reportable segments each represented more than 20% of total company revenue in FY2022. Here is the full breakdown from the **Summary of Business Segment Data** in Boeing's 2022 Form 10-K:
+
+| Segment | FY2022 Revenue | % of Total Revenue |
+|---|---|---|
+| **Commercial Airplanes (BCA)** | **$25,867 million** | **39%** |
+| **Defense, Space & Security (BDS)** | **$23,162 million** | **35%** |
+| **Global Services (BGS)** | **$17,611 million** | **26%** |
+| Boeing Capital (BCC) | $199 million | <1% |
+| Unallocated items, eliminations & other | ($231 million) | — |
+| **Total** | **$66,608 million** | **100%** |
+
+**Source:** BA 10-K, FY2022 — *Summary of Business Segment Data* table states:
+- Commercial Airplanes revenues of **$25,867M** (also separately noted as **39%** of total company revenues in the BCA Results of Operations section).
+- Defense, Space & Security revenues of **$23,162M**.
+- Global Services revenues of **$17,611M** (also separately noted as **26%** of total company revenues in the BGS Results of Operations section).
+- Total consolidated revenues of **$66,608M**.
+
+Each percentage was calculated directly from those reported figures:
+- **BCA:** $25,867 ÷ $66,608 ≈ **38.8%** (>20% ✓)
+- **BDS:** $23,162 ÷ $66,608 ≈ **34.8%** (>20% ✓)
+- **BGS:** $17,611 ÷ $66,608 ≈ **26.4%** (>20% ✓)
+
+Boeing Capital, at just $199M (≈0.3%), is the only segment that does not exceed the 20% threshold.",True,"All three segments identified with correct percentages (39%, 35%, 26%) matching expected answer.",0.004987,0.000881,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 9388}, {""tool"": ""dsrag_kb"", ""tokens_est"": 8803}]",18191,23.62,dsrag
+How does Boeing's effective tax rate in FY2022 compare to FY2021?,"Effective tax rate in FY2022 was 0.62%, compared to  -14.76% in FY2021.","## Boeing's Effective Tax Rate: FY2022 vs. FY2021
+
+Based on the **Note 4 – Income Taxes** reconciliation table in Boeing's FY2022 10-K (BA, FY2022), which provides comparative data for both years:
+
+| | **FY2022** | **FY2021** |
+|---|---|---|
+| **Income tax expense/(benefit)** | $31 million expense | ($743 million) benefit |
+| **Loss before income taxes** | ($5,022 million) | ($5,033 million) |
+| **Effective tax rate** | **(0.6)%** | **14.7%** |
+
+*Source: BA, FY2022 10-K, Note 4 – Income Taxes*
+
+### Key Comparison
+
+- **FY2022:** Boeing recorded a *negative* effective tax rate of **(0.6)%** — a small $31 million tax expense despite a pre-tax loss of $5,022 million.
+- **FY2021:** Boeing had an effective tax rate of **14.7%** — a $743 million tax benefit on a similar $5,033 million pre-tax loss.
+
+### What drove the difference?
+
+The reconciliation table reveals the primary driver. In both years, the **U.S. federal statutory rate** was 21.0%, but the largest reconciling item was the **valuation allowance**:
+
+| Item | FY2022 (Rate impact) | FY2021 (Rate impact) |
+|---|---|---|
+| U.S. federal statutory rate | 21.0% | 21.0% |
+| **Valuation allowance** | **(23.9)%** | **(10.2)%** |
+
+The valuation allowance increased from a (10.2)% impact in FY2021 to a (23.9)% impact in FY2022 — meaning Boeing set aside **$739 million more** in valuation allowance against deferred tax assets during 2022, which eliminated the expected tax benefit from its losses and pushed the effective rate to near zero (actually slightly negative/positive at (0.6)%).",False,Agent reports FY2022 rate as (0.6)% and FY2021 as 14.7%; expected values are 0.62% and -14.76% respectively.,0.002716,0.000916,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 6218}]",6218,19.72,dsrag
+"Does Boeing have an improving gross margin profile as of FY2022? If gross margin is not a useful metric for a company like this, then state that and explain why.","Yes. Boeing has an improving gross margin profile as of FY2022. Gross profit improved from $3,017 million in FY2021 to $3,502 million in FY2022. Gross margin % improved from 4.8% in FY2021 to 5.3% in FY2022.","## Gross Margin Is Not a Useful Metric for Boeing
+
+Boeing is **not a typical manufacturing company** from an accounting perspective, and the traditional gross-margin lens is misleading here. Here's why:
+
+### Why Gross Margin Doesn't Work for Boeing
+
+**1. Program Accounting (BCA segment)**
+Boeing's Commercial Airplanes segment uses **program accounting**, not standard cost-of-goods-sold accounting. Under this method:
+
+> *""Cost of sales for each commercial airplane program equals the product of (i) revenue recognized in connection with customer deliveries and (ii) the estimated cost of sales percentage applicable to the total remaining program.""* — BA, 10-K FY2022 (MD&A — Cost of Sales)
+
+This means the ""cost of sales"" figure for any given period is based on a **long-term estimate** of the total program's profitability, spread across the entire accounting quantity (the estimated number of units to be built). It is *not* the actual production cost of the airplanes delivered that period.
+
+**2. Reach-Forward Losses Can Swamp Any Period**
+When estimated program costs exceed estimated revenues, the entire projected loss is recognized immediately. These massive charges distort cost of sales heavily:
+
+> *""BCA loss from operations decreased by $4,105 million [in 2022 vs 2021] primarily due to the absence in 2022 of the $3,460 million reach-forward loss taken on the 787 program in 2021""* — BA, 10-K FY2022
+
+> *In 2020, Boeing recorded a **$6,493 million** reach-forward loss on the 777X program.
+
+A single such charge can make any period's ""gross margin"" meaningless for trend analysis.
+
+**3. Abnormal Production Costs**
+During production disruptions, costs that would normally be inventoried are expensed as incurred:
+
+> *""BCA loss from operations decreased… due to… higher 737 deliveries and lower abnormal production costs""* — BA, 10-K FY2022
+
+These period costs further distort any simple gross-margin calculation.
+
+**4. Three Very Different Businesses**
+Boeing operates through three segments — Commercial Airplanes (BCA), Defense, Space & Security (BDS), and Global Services (BGS) — with radically different margin profiles. In 2022, BGS had **15.5% operating margins**, while BCA had **negative** operating margins of –$2.4B and BDS had **negative** –$3.5B. A single consolidated gross margin figure masks these differences entirely.
+
+---
+
+### For What It's Worth: The ""Cost of Sales"" Trend
+
+If we mechanically compute a proxy (100% minus cost-of-sales as a % of revenues), here is what the 10-K shows:
+
+| Metric | 2020 | 2021 | 2022 |
+|---|---|---|---|
+| **Cost of sales as a % of revenues** | **109.8%** | **95.2%** | **94.7%** |
+| *Implied ""gross margin"" proxy* | *–9.8%* | *4.8%* | *5.3%* |
+
+*(Source: BA, 10-K FY2022 — Cost of Sales table)*
+
+By this measure, there was **improvement**: from deeply negative (costs exceeding revenue) in 2020 to a ~5% positive margin by 2022. But that ""improvement"" largely reflects the absence in 2022 of the huge 787 reach-forward loss taken in 2021 and the 777X loss taken in 2020 — it is not an operational margin improvement in the normal sense.
+
+### Bottom Line
+
+**Gross margin is not a useful metric for evaluating Boeing.** The company's use of program accounting, periodic reach-forward loss charges, abnormal production cost expensing, and the vastly different margin profiles of its three segments make a simple gross-margin figure highly opaque and potentially misleading. Analysts typically focus on **segment-level operating margins** (with and without specific charges), **free cash flow**, and **delivery volumes** as more meaningful indicators.",False,"Agent correctly identifies gross margin limitations but contradicts expected answer by stating it's not useful, when the expected answer affirms improvement occurred.",0.004444,0.001345,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 8490}, {""tool"": ""dsrag_kb"", ""tokens_est"": 6742}]",15232,31.36,dsrag
+Has Boeing reported any materially important ongoing legal battles from FY2022?,Yes. Multiple lawsuits have been filed against Boeing resulting from a 2018 Lion Air crash and a 2019 Ethiopian Airlines crash.,"## Boeing's Materially Important Ongoing Legal Battles (FY2022)
+
+Yes, Boeing's FY2022 10-K (filed for the period ending **December 31, 2022**) explicitly details several materially important ongoing legal battles, primarily stemming from the **737 MAX accidents**. Here is the breakdown from **Note 21 – Legal Proceedings** (BA, FY2022):
+
+### 1. 737 MAX Accident Litigation (Lion Air & Ethiopian Airlines)
+Multiple legal actions were filed against Boeing as a result of:
+- **October 29, 2018** – Lion Air Flight 610 accident
+- **March 10, 2019** – Ethiopian Airlines Flight 302 accident
+
+Boeing's filing states: *""We cannot reasonably estimate a range of loss, if any, not covered by available insurance that we may incur as a result of any remaining pending lawsuits or other matters related to the accidents and the 737 MAX.""* This means exposure remains **open-ended and potentially material**.
+
+### 2. Deferred Prosecution Agreement (DOJ)
+During **2021**, Boeing entered into a **Deferred Prosecution Agreement** with the U.S. Department of Justice, resolving the DOJ's investigation into the evaluation of the **737 MAX by the FAA**. This was ongoing in FY2022.
+
+### 3. Shareholder Derivative Lawsuit Settlement
+A proposed settlement with plaintiffs in a **shareholder derivative lawsuit** resulted in Boeing **receiving $219 million** in the **second quarter of 2022**.
+
+### 4. SEC Investigation (737 MAX)
+In **September 2022**, Boeing settled a previously disclosed investigation by the **Securities and Exchange Commission** related to the 737 MAX accidents. Boeing consented to a **civil penalty of $200 million**, which was paid in **October 2022**.
+
+---
+
+### Summary of Dollar Impacts in FY2022
+
+| Matter | Dollar Impact (FY2022) |
+|---|---|
+| Shareholder derivative settlement | **$219 million received** by Boeing (Q2 2022) |
+| SEC civil penalty | **$200 million charge** (paid October 2022) |
+| Remaining 737 MAX lawsuits | Range of loss **cannot be reasonably estimated** |
+
+**Bottom line:** The FY2022 10-K (BA, FY2022) makes clear that the 737 MAX-related legal battles were — and remained — a materially important ongoing risk, with unresolved lawsuits that could still produce material adverse outcomes beyond the settlements already reached.",True,Answer confirms multiple lawsuits from 2018 Lion Air and 2019 Ethiopian Airlines crashes with material ongoing exposure.,0.001885,0.000909,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 5207}]",5207,14.73,dsrag
+Who are the primary customers of Boeing as of FY2022?,Boeing's primary customers as of FY2022 are a limited number of commercial airlines and the US government. The US government accounted for 40% of Boeing's total revenues in FY2022.,"## Boeing's Primary Customers — FY2022 (10-K)
+
+Boeing serves customers across four business segments. Below is a detailed breakdown.
+
+---
+
+### 1. Commercial Airplanes (BCA)
+> **Primary customers:** Commercial airline industry worldwide
+
+BCA *""develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide""* (BA, FY2022 10-K, p. 109). Revenues by customer geography in 2022 were:
+
+| Geography | 2022 Revenue |
+|---|---|
+| United States | $12,167M |
+| Asia | $4,484M |
+| Europe | $4,038M |
+| Middle East | $2,003M |
+| Other non-U.S. | $3,042M |
+| **Total BCA** | **$25,750M** |
+
+Boeing also notes that it *""derives a significant portion of our revenues from a limited number of commercial airlines""* (Risk Factors section).
+
+---
+
+### 2. Defense, Space & Security (BDS)
+> **Primary customer:** United States government (primarily the Department of Defense)
+
+Revenue from the U.S. government (including foreign military sales) accounted for **89%** of BDS segment revenues in 2022 (BA, FY2022 10-K, p. 111). The 2022 segment revenues were:
+
+| Customer Type | 2022 Revenue |
+|---|---|
+| U.S. customers | $17,144M |
+| Non-U.S. customers | $6,018M |
+| **Total BDS** | **$23,162M** |
+
+Other significant BDS customers include **NASA** and customers in **international defense, civil and commercial satellite markets** (per the 2018 10-K business description context, which remained consistent in structure).
+
+---
+
+### 3. Global Services (BGS)
+> **Customers:** Commercial airlines and government customers worldwide
+
+BGS *""provides parts, maintenance, modifications, logistics support, training, data analytics and information-based services to commercial and government customers worldwide""* (BA, FY2022 10-K, p. 109). The split in 2022:
+
+| Customer Type | 2022 Revenue |
+|---|---|
+| Commercial | $9,560M |
+| Government | $7,681M |
+| **Total BGS** | **$17,241M** |
+
+Revenue from the U.S. government accounted for **33%** of BGS revenues.
+
+---
+
+### 4. Boeing Capital (BCC)
+> **Customers:** Boeing aircraft customers needing financing
+
+BCC *""facilitates, arranges, structures and provides selective financing solutions for our customers""* (BA, FY2022 10-K, p. 109).
+
+---
+
+### Consolidated Customer Picture
+
+| Category | 2022 Revenue | % of Total |
+|---|---|---|
+| **U.S. customers** | $39,218M | 59% |
+| **Non-U.S. customers** | $27,374M | 41% |
+| *Of which: Asia* | $8,393M | |
+| *Europe* | $7,916M | |
+| *Middle East* | $5,047M | |
+| **U.S. government** (incl. foreign mil. sales) | ~40% of consolidated | |
+
+**Key takeaway:** At the consolidated level, the U.S. government (primarily DoD, plus foreign military sales passing through the U.S. government) is Boeing's single largest customer, representing **~40% of total 2022 revenues** ($66,608M). Commercial airlines worldwide form the other major customer base, spread across the U.S., Asia, Europe, the Middle East, and other regions.",True,Answer accurately identifies US government as 40% of revenues and commercial airlines as primary customers.,0.00422,0.00116,"[{""tool"": ""dsrag_kb"", ""tokens_est"": 7864}, {""tool"": ""dsrag_kb"", ""tokens_est"": 7969}]",15833,25.62,dsrag

@@ -86,12 +86,21 @@ def build(allowlist: list[str] | None = None) -> None:
 
     STORE_DIR.mkdir(parents=True, exist_ok=True)
 
+    # Use `deepseek-chat` (non-reasoning V3 backend) for AutoContext + semantic
+    # sectioning. dsRAG uses `instructor` with default Mode.TOOLS, which sends
+    # `tool_choice={"type":"function","function":{"name":"X"}}` — forced
+    # function-calling. DeepSeek's reasoner backend (which v4-flash routes to)
+    # rejects this with 400 "deepseek-reasoner does not support this
+    # tool_choice", causing 100% of semantic-sectioning windows to fall back
+    # to generic "Window N-M" titles. `deepseek-chat` is on a non-reasoner
+    # backend and accepts forced tool_choice cleanly. AutoContext is an
+    # indexing-time call, not per-query, so the cost difference is one-time.
     kb = KnowledgeBase(
         kb_id=KB_ID,
         embedding_model=BedrockTitanEmbedding(),
         reranker=FlashRankReranker(),
         auto_context_model=OpenAIChatAPI(
-            model="deepseek-v4-flash",
+            model="deepseek-chat",
             temperature=0.2,
             max_tokens=2000,
         ),
@@ -134,7 +143,8 @@ def build(allowlist: list[str] | None = None) -> None:
             semantic_sectioning_config={
                 "use_semantic_sectioning": True,
                 "llm_provider": "openai",
-                "model": "deepseek-v4-flash",
+                # See comment above on auto_context_model — same reason.
+                "model": "deepseek-chat",
             },
             auto_context_config={
                 "use_generated_title": True,

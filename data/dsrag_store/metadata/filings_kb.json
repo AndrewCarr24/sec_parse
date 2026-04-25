@@ -3,7 +3,7 @@
     "description": "",
     "language": "en",
     "supp_id": "",
-    "created_on": 1777054659,
+    "created_on": 1777158071,
     "components": {
         "embedding_model": {
             "subclass_name": "BedrockTitanEmbedding",
@@ -15,7 +15,7 @@
         },
         "auto_context_model": {
             "subclass_name": "OpenAIChatAPI",
-            "model": "deepseek-v4-flash",
+            "model": "deepseek-chat",
             "temperature": 0.2,
             "max_tokens": 2000
         },

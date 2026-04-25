@@ -1315,5 +1315,37 @@
     },
     "total_cost_usd": 0.073629,
     "run_seconds": 458.0
+  },
+  {
+    "input_df": "questions_financebench.csv",
+    "agent_ts": "20260425T231456Z",
+    "retrieval_mode": "dsrag",
+    "accuracy": 0.875,
+    "n": 16,
+    "n_correct": 14,
+    "results_file": "results/questions_financebench_20260425T231456Z.csv",
+    "orchestrator_provider": "deepseek",
+    "orchestrator_model": "deepseek-v4-flash",
+    "compress_tool_outputs": false,
+    "usage": {
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input_tokens": 20003,
+        "output_tokens": 603,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 0,
+        "calls": 32,
+        "cost_usd": 0.023018
+      },
+      "deepseek-v4-flash": {
+        "input_tokens": 279467,
+        "output_tokens": 19500,
+        "cache_read_tokens": 124032,
+        "cache_creation_tokens": 0,
+        "calls": 36,
+        "cost_usd": 0.036827
+      }
+    },
+    "total_cost_usd": 0.059845,
+    "run_seconds": 298.9
   }
 ]
