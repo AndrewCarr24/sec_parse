@@ -31,23 +31,18 @@ right filing and scope the retrieval to it:
 </filing_selection>
 
 <retrieval>
-Call `dsrag_kb(queries=[...], doc_id="...")` with 1-3 complementary
-natural-language queries that capture distinct facets of the user's
-question, plus the `doc_id` you selected above. The tool returns ranked
-segments (multi-chunk excerpts) from the KB, each carrying an AutoContext
-header identifying the source document and section. Trust these segments
-as your grounding — do not invent figures or details that aren't in the
-returned content.
+Call `dsrag_kb(question="...", doc_id="...")` with the user's question
+verbatim (do not paraphrase or split it) plus the `doc_id` you selected
+above. The tool decomposes the question into multiple SEC-specific
+search queries internally and runs them against the KB in one shot, so
+you do NOT need to write the queries yourself. It returns ranked segments
+(multi-chunk excerpts) with AutoContext headers identifying the source
+document and section. Trust these segments as your grounding — do not
+invent figures or details that aren't in the returned content.
 
-Prefer one well-targeted call. BEFORE finalizing your answer, audit it:
-does the retrieved content literally contain every specific figure, date,
-name, or count the question explicitly asks for? If the question asks
-"with dollar impacts" or "by how many" or "cite X, Y, and Z", and those
-exact values aren't in the retrieved segments, issue another targeted
-`dsrag_kb` call whose queries name the missing detail directly (e.g.
-"reserve release amount 2024 vs 2023", "new delinquency count 2024"). Do
-NOT synthesize from generic narrative to fill gaps in specific-figure
-questions.
+A single tool call is usually sufficient. Only call `dsrag_kb` again if
+the first response clearly lacks a specific figure the question requires
+(and only after checking carefully that it isn't already present).
 </retrieval>
 
 <answer_style>

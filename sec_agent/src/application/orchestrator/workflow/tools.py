@@ -280,34 +280,44 @@ async def memory_retrieval_tool(
 
 
 @tool
-def dsrag_kb(queries: list[str], doc_id: str | None = None) -> str:
+def dsrag_kb(question: str, doc_id: str | None = None) -> str:
     """
-    Semantic search over SEC filings via a dsRAG knowledge base. Returns
-    the most relevant multi-chunk *segments* (contiguous sections identified
-    by dsRAG's Relevant Segment Extraction) for one or more queries.
-    Segments include an AutoContext header describing the source document
-    and section.
+    Semantic search over SEC filings via a dsRAG knowledge base. Pass the
+    user's question verbatim — the tool decomposes it into multiple
+    search queries internally (via dsRAG's auto-query helper, which is
+    domain-tuned for SEC filings) and runs them all against the KB.
+    Returns the most relevant multi-chunk *segments* (contiguous sections
+    identified by dsRAG's Relevant Segment Extraction). Segments include
+    an AutoContext header describing the source document and section.
 
-    Scoping: pass `doc_id` to restrict retrieval to a single filing (recommended
-    whenever the user's question names a specific ticker + period). The KB
-    holds multiple filings; without a filter, results can come from any of
-    them. Use the `doc_id` column in the system prompt's filings_catalog
-    to pick the right value (format: TICKER_FORM_PERIOD, e.g.
-    "ACT_10-Q_2024-09-30"). Pass doc_id=None to search across all filings
-    (appropriate for cross-filing comparison queries).
+    Scoping: pass `doc_id` to restrict retrieval to a single filing
+    (recommended whenever the user's question names a specific ticker +
+    period). The KB holds multiple filings; without a filter, results
+    can come from any of them. Use the `doc_id` column in the system
+    prompt's filings_catalog to pick the right value (format:
+    TICKER_FORM_PERIOD, e.g. "ACT_10-Q_2024-09-30"). Pass doc_id=None to
+    search across all filings (appropriate for cross-filing comparisons).
 
     Args:
-        queries: 1-3 natural-language search queries capturing distinct
-            facets of the user's question.
-        doc_id: Optional filing identifier to restrict retrieval to. Must
-            match a `doc_id` in filings_catalog exactly.
+        question: The user's question (verbatim; do not paraphrase).
+        doc_id: Optional filing identifier to restrict retrieval to.
+            Must match a `doc_id` in filings_catalog exactly.
 
     Returns:
         JSON list of {score, doc_id, content} segments, highest score first.
     """
-    from src.infrastructure.dsrag_kb import get_kb
+    from src.infrastructure.dsrag_kb import get_kb, get_search_queries
 
-    logger.info(f"dsrag_kb invoked: {queries!r} doc_id={doc_id!r}")
+    try:
+        queries = get_search_queries(question, max_queries=6)
+    except Exception as e:
+        logger.warning(f"dsrag_kb auto-query failed: {e}")
+        # Fall back to the verbatim question if query expansion errors.
+        queries = [question]
+    logger.info(
+        f"dsrag_kb invoked: question={question[:80]!r} doc_id={doc_id!r} "
+        f"expanded_to={queries}"
+    )
     kb = get_kb()
     metadata_filter = (
         {"field": "doc_id", "operator": "equals", "value": doc_id}
