@@ -1,0 +1,36 @@
+question,expected_answer,agent_answer,correct,rationale
+What was ACT's revenue in Q3 2024?,"Q3 2024 (three months ended Sep 30, 2024): $309.6M. YTD 2024 (nine months): $900.0M.","I'll search for ACT's revenue in Q3 2024.**ACT's revenue in Q3 2024 was $309.6 million.**
+
+This represents the three-month period from July 1 to September 30, 2024, and reflects a 3.5% increase compared to Q3 2023 revenue of $299.0 million.",True,Q3 2024 revenue of $309.6M matches expected answer exactly.
+What was NIW among low FICO (<620) loans?,"Primary NIW to <620 FICO borrowers (values in $ millions): $9M for Q3 2024 (three months); $19M YTD through Sep 30, 2024.","I'll help you find the NIW (Net Insurance Written) for low FICO (<620) loans. Let me search for the relevant data.Let me try a broader search:Perfect! I found the data. Now let me query for the <620 FICO bucket:Based on the data from **ACT (Enact Holdings) Q3 2024**, the NIW (Net Insurance Written) among low FICO (<620) loans was:
+
+- **$9 million** and **$19 million** for the nine-month and three-month periods ended September 30, 2024, respectively.
+
+The values appear to represent different time periods within Q3 2024 (likely three-month vs. nine-month cumulative figures). For comparison, in the same period of 2023, NIW for <620 FICO loans was $2 million (nine-month) and $10 million (three-month).",False,"Agent reversed the time periods; should be $9M for three months and $19M YTD, not vice versa."
+"What was Enact's risk-to-capital ratio as of Sep 30, 2024?","EMICO risk-to-capital ratio: 10.4:1. Combined mortgage insurance subsidiaries: 10.5:1. Both as of Sep 30, 2024.","I'll search for Enact's risk-to-capital ratio as of September 30, 2024.Great! I found the risk-to-capital ratio data. Let me query for the specific values as of September 30, 2024.**Enact's risk-to-capital ratios as of September 30, 2024:**
+
+- **EMICO risk-to-capital ratio: 10.4**
+- **Combined risk-to-capital ratio: 10.5**
+
+The EMICO ratio refers to Enact Mortgage Insurance Company (the primary operating subsidiary), while the combined ratio includes all mortgage insurance subsidiaries. Both ratios were well above regulatory minimums as of Q3 2024.",True,Both EMICO (10.4:1) and combined (10.5:1) ratios match expected answer exactly.
+How did the primary delinquency rate change between 2 and 11 missed payments from year-end 2023 to Q3 2024?,"Note: filing reports the 4-11 missed payments bucket (not 2-11). Delinquency count: 6,934 (YE 2023) -> 6,831 (Q3 2024). Risk in-force: $469M -> $477M. Reserves as % of RIF: 44% -> 39%.","I'll help you find the primary delinquency rate data for those specific delinquency buckets. Let me first search for the relevant delinquency metrics.Let me try a broader search:Perfect! I can see there's a ""Delinquency Analysis with Direct Primary Case Reserves and Risk In-Force by Payment Default Status"" table with a ""4 - 11 payments"" bucket. Let me query for the delinquency data by missed payments for both year-end 2023 and Q3 2024.Let me broaden the search to see all the data in that table:I see the data is from Q3 2023, not year-end 2023 or Q3 2024. Let me search more specifically for the periods you're asking about:I apologize, but I'm unable to answer your question as requested. The database currently contains only **ACT's 10-Q filing for Q3 2024 (fiscal period ending September 30, 2024)**, but the ""Delinquency Analysis with Direct Primary Case Reserves and Risk In-Force by Payment Default Status"" table in the loaded data only includes information from **Q3 2023 (September 30, 2023)**, not year-end 2023 or Q3 2024.
+
+To provide you with the comparison you're looking for between year-end 2023 and Q3 2024 for the 2-11 missed payments delinquency rate, I would need:
+- The December 31, 2023 data from ACT's 10-K filing, or
+- The September 30, 2024 data from the Q3 2024 10-Q filing
+
+These periods are not currently available in the database. Would you like me to help you with other delinquency metrics that are available, or do you have access to the 2024 10-K filing that could be loaded?",False,Agent failed to locate the required data despite it being available in the Q3 2024 10-Q filing.
+What share of Enact's investment portfolio is rated AAA vs. below-A?,"As of Sep 30, 2024: AAA = 11%; below-A (BB & below) = 1%. Full rating distribution: AAA 11, AA 22, A 31, BBB 35, BB & below 1.","I'll search for information about Enact's investment portfolio ratings.Let me try broader searches:Let me search for debt securities and ratings more directly:Let me try a more general search:Great! Now let me search for below-A ratings:Now let me query the investment portfolio ratings table:Based on Enact's Q3 2024 10-Q filing, here's the breakdown of their fixed maturity securities portfolio by credit rating:
+
+**AAA-rated securities:** 11%
+
+**Below-A-rated securities:** 1% (BB & below)
+
+For context, the full portfolio composition is:
+- **AAA:** 11%
+- **AA:** 22%
+- **A:** 31%
+- **BBB:** 35%
+- **BB & below:** 1%
+
+So Enact's investment portfolio is heavily weighted toward investment-grade securities, with 99% rated A or higher. The AAA-rated portion represents 11% of the portfolio, while the below-A-rated portion (BB & below) is minimal at just 1%.",True,"Exact match on AAA (11%), below-A (1%), and full rating distribution provided."

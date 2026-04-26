@@ -1,0 +1,26 @@
+[project]
+name = "rag-app-new"
+version = "0.1.0"
+description = "Simplified RAG agent using LangGraph + AWS AgentCore"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bedrock-agentcore>=1.2.0",
+    "bedrock-agentcore-starter-toolkit>=0.2.8",
+    "boto3>=1.42.0",
+    "chromadb>=0.5.0",
+    "dsrag[chroma]>=0.5.6",
+    "duckdb>=1.0.0",
+    "flashrank>=0.2.10",
+    "google-generativeai>=0.8.6",
+    "langchain>=0.3.0",
+    "langchain-aws>=0.2.0",
+    "langchain-deepseek>=1.0.1",
+    "langchain-openai>=1.2.0",
+    "langchain-text-splitters>=0.3.0",
+    "langgraph>=1.0.0",
+    "langgraph-checkpoint-aws>=1.0.4",
+    "loguru>=0.7.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+]

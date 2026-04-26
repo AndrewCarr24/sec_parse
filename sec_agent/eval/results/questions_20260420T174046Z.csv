@@ -1,0 +1,41 @@
+question,expected_answer,agent_answer,correct,rationale
+What was ACT's revenue in Q3 2024?,"Q3 2024 (three months ended Sep 30, 2024): $309.6M. YTD 2024 (nine months): $900.0M.","ACT's (Enact Holdings) **total revenue for Q3 2024 (July 1 – September 30, 2024)** was **$309.6 million**.
+
+For additional context:
+- **Q3 2024 (3 months):** $309.6 million
+- **YTD 2024 (9 months, Jan–Sep):** $900.0 million
+
+These figures are consistent across both the GAAP XBRL filing and the MD&A tables in the 10-Q.",True,Q3 2024 revenue of $309.6M and YTD 2024 of $900.0M match expected answer exactly.
+"What was Enact's primary NIW to borrowers with FICO <620 in Q3 2024 and YTD through Sep 30, 2024?","Primary NIW to <620 FICO borrowers (values in $ millions): $9M for Q3 2024 (three months); $19M YTD through Sep 30, 2024.","Here are Enact's (ACT) primary NIW figures for borrowers with FICO scores **below 620**:
+
+| Period | NIW ($ millions) |
+|---|---|
+| **Q3 2024** (Jul 1 – Sep 30, 2024) | **$9M** |
+| **YTD 2024** (Jan 1 – Sep 30, 2024) | **$19M** |
+
+For context, the prior-year comparisons were $2M in Q3 2023 and $10M YTD through Sep 30, 2023 — so sub-620 FICO NIW roughly **doubled year-over-year** on both a quarterly and YTD basis, though it remains a very small slice of Enact's overall primary NIW book.
+
+> *Source: ACT 10-Q, fiscal period ending 2024-09-30 — ""Primary Net Insurance Written (NIW) by FICO Score"" table. Values are in millions of USD.*",True,"Both Q3 2024 ($9M) and YTD through Sep 30, 2024 ($19M) figures match exactly."
+"What was Enact's risk-to-capital ratio as of Sep 30, 2024?","EMICO risk-to-capital ratio: 10.4:1. Combined mortgage insurance subsidiaries: 10.5:1. Both as of Sep 30, 2024.","As of **September 30, 2024**, Enact (ACT) reported the following risk-to-capital ratios:
+
+| Entity | Risk-to-Capital Ratio |
+|---|---|
+| **EMICO** (Enact Mortgage Insurance Corporation) | **10.4x** |
+| **Combined Mortgage Insurance Subsidiaries** | **10.5x** |
+
+Both ratios are well below the typical regulatory threshold of 25:1, reflecting a strong capital position. The combined ratio of **10.5x** accounts for all of Enact's mortgage insurance subsidiaries together, while the EMICO standalone ratio of **10.4x** reflects its primary operating entity.",True,"Both ratios match expected answer (EMICO 10.4:1, combined 10.5:1 as of Sep 30, 2024)."
+"What share of Enact's fixed maturity investment portfolio is rated AAA vs. BB & below as of Sep 30, 2024?","AAA = 11%; BB & below = 1%. Full rating distribution: AAA 11, AA 22, A 31, BBB 35, BB & below 1.","Here is the full credit-quality breakdown of **Enact's (ACT) fixed maturity securities portfolio as of September 30, 2024**:
+
+| Credit Rating | Share of Portfolio |
+|---|---|
+| **AAA** | **11%** |
+| AA | 22% |
+| A | 31% |
+| BBB | 35% |
+| **BB & below** | **1%** |
+| **Total** | **100%** |
+
+**Key takeaways:**
+- **AAA-rated securities** account for **11%** of the fixed maturity portfolio — the highest-quality tier.
+- **BB & below (below investment grade)** is a very small slice at just **1%**, indicating minimal exposure to speculative-grade credit risk.
+- The vast majority of the portfolio (**99%**) is investment-grade (BBB or higher), reflecting a conservative, high-quality investment posture. The largest single bucket is **BBB at 35%**, followed by **A at 31%**.",True,"All figures match exactly - AAA 11%, BB & below 1%, and full distribution provided."

@@ -16,6 +16,12 @@ sibling `table_extractor.py` outputs (prefix `extracted_`):
     xbrl_contexts.json   — period + dimensional context definitions
     xbrl_units.json      — unit definitions (USD, shares, USD/share, …)
     xbrl_metadata.json   — filing-level DEI (CIK, form, period, entity, …)
+
+Path convention: if `output_dir` is omitted, derived from accession_dir
+assuming the sec-edgar-downloader layout
+    .../{TICKER}/{FILING_TYPE}/{YYYY-MM-DD}/{accession_number}/
+to yield
+    data/extracted_facts_and_tables/{TICKER}/{FILING_TYPE}_{YYYY-MM-DD}/
 """
 
 import csv
@@ -29,11 +35,39 @@ from arelle import Cntlr
 
 
 SUBMISSION_FILE = "full-submission.txt"
+_REPO_ROOT = Path(__file__).resolve().parents[1]
+_FACTS_ROOT = _REPO_ROOT / "data" / "extracted_facts_and_tables"
+_ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 # Only unpack files Arelle might need to resolve the instance. Exhibits
 # (graphics, PDFs) are uuencoded inside the SGML wrapper and would corrupt
 # if written as text — we don't need them anyway.
 UNPACK_EXTENSIONS = {".htm", ".html", ".xml", ".xsd"}
+
+
+def derive_filing_id(accession_dir: Path) -> tuple[str, str, str]:
+    """Return (ticker, filing_type, period_end) from the accession_dir path.
+
+    Expects the sec-edgar-downloader layout: .../TICKER/FILING_TYPE/YYYY-MM-DD/ACC/.
+    Raises ValueError if the path doesn't match.
+    """
+    try:
+        period_end = accession_dir.parent.name
+        filing_type = accession_dir.parent.parent.name
+        ticker = accession_dir.parent.parent.parent.name
+    except AttributeError as e:
+        raise ValueError(f"Cannot derive filing id from {accession_dir}: {e}") from e
+    if not _ISO_DATE_RE.match(period_end):
+        raise ValueError(
+            f"Cannot derive filing id from {accession_dir}: "
+            f"expected .../TICKER/FORM/YYYY-MM-DD/ACC/, got period_end={period_end!r}"
+        )
+    return ticker, filing_type, period_end
+
+
+def default_output_dir(accession_dir: Path) -> Path:
+    ticker, filing_type, period_end = derive_filing_id(accession_dir)
+    return _FACTS_ROOT / ticker / f"{filing_type}_{period_end}"
 
 
 def extract_submission(submission_txt: Path, out_dir: Path) -> Path:
@@ -103,10 +137,15 @@ def _unit_string(unit) -> str:
     return f"{num} / {den}" if den else num
 
 
-def parse_filing(accession_dir: Path, output_dir: Path) -> None:
+def parse_filing(accession_dir: Path, output_dir: Path | None = None) -> None:
     accession_dir = Path(accession_dir)
-    output_dir = Path(output_dir)
+    ticker, filing_type, filing_period_end = derive_filing_id(accession_dir)
+    if output_dir is None:
+        output_dir = default_output_dir(accession_dir)
+    else:
+        output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
+    print(f"Filing: {ticker} {filing_type} {filing_period_end} → {output_dir}")
 
     submission = accession_dir / SUBMISSION_FILE
     if not submission.exists():
@@ -129,17 +168,22 @@ def parse_filing(accession_dir: Path, output_dir: Path) -> None:
                 if qname.startswith("dei:") and not fact.isNil:
                     dei[qname.split(":", 1)[1]] = str(fact.value)
 
+            # Filing-level identifiers: prefer path-derived values (authoritative,
+            # consistent with folder layout); fall back to DEI when needed.
             metadata = {
                 "source_submission": str(submission),
                 "primary_document": primary.name,
                 "entity_cik": dei.get("EntityCentralIndexKey"),
                 "entity_name": dei.get("EntityRegistrantName"),
-                "ticker": dei.get("TradingSymbol"),
-                "document_type": dei.get("DocumentType"),
-                "period_end_date": dei.get("DocumentPeriodEndDate"),
+                "ticker": ticker,
+                "document_type": filing_type,
+                "period_end_date": filing_period_end,
                 "fiscal_year_focus": dei.get("DocumentFiscalYearFocus"),
                 "fiscal_period_focus": dei.get("DocumentFiscalPeriodFocus"),
                 "amendment_flag": dei.get("AmendmentFlag"),
+                "dei_ticker": dei.get("TradingSymbol"),
+                "dei_document_type": dei.get("DocumentType"),
+                "dei_period_end_date": dei.get("DocumentPeriodEndDate"),
                 "dei_facts": dei,
             }
             (output_dir / "xbrl_metadata.json").write_text(json.dumps(metadata, indent=2))
@@ -164,12 +208,18 @@ def parse_filing(accession_dir: Path, output_dir: Path) -> None:
             (output_dir / "xbrl_units.json").write_text(json.dumps(units, indent=2))
 
             # --- Facts (long format) ---
+            # Filing-level columns (ticker/filing_type/filing_period_end) are
+            # stamped on every row so a single DuckDB `read_csv` glob across
+            # the facts tree can WHERE-filter by filing.
             rows = []
             for fact in model.facts:
                 ctx = fact.context
                 period_type, period_start, period_end = _period_fields(ctx)
                 dims = _dimensions(ctx)
                 rows.append({
+                    "ticker": ticker,
+                    "filing_type": filing_type,
+                    "filing_period_end": filing_period_end,
                     "concept": str(fact.qname),
                     "value": None if fact.isNil else fact.value,
                     "is_nil": fact.isNil,
@@ -202,7 +252,14 @@ def parse_filing(accession_dir: Path, output_dir: Path) -> None:
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: ixbrl_parser.py <accession_dir> <output_dir>", file=sys.stderr)
+    if len(sys.argv) not in (2, 3):
+        print(
+            "Usage: ixbrl_parser.py <accession_dir> [<output_dir>]\n"
+            "  output_dir defaults to "
+            "data/extracted_facts_and_tables/<TICKER>/<FORM>_<YYYY-MM-DD>/",
+            file=sys.stderr,
+        )
         sys.exit(1)
-    parse_filing(Path(sys.argv[1]), Path(sys.argv[2]))
+    accession = Path(sys.argv[1])
+    out = Path(sys.argv[2]) if len(sys.argv) == 3 else None
+    parse_filing(accession, out)

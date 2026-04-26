@@ -1,0 +1,593 @@
+ticker,filing_type,filing_period_end,source,source_table_index,source_heading,source_title,concept,label,raw_display,value,unit,period_type,period_start,period_end,dimensions
+BA,10-K,2018-12-31,extracted,11,,Union Representation Percentages,,The International Association of Machinists and Aerospace Workers (IAM),22%,22,percent,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,11,,Union Representation Percentages,,The Society of Professional Engineering Employees in Aerospace (SPEEA),11%,11,percent,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,11,,Union Representation Percentages,,"The United Automobile, Aerospace and Agricultural Implement Workers of America (UAW)",1%,1,percent,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,Commercial Airplanes,"40,822",40822000,count,instant,,2018-12-31,"{""segment"": ""Commercial Airplanes"", ""property_type"": ""Owned""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,Commercial Airplanes,"2,264",2264000,count,instant,,2018-12-31,"{""segment"": ""Commercial Airplanes"", ""property_type"": ""Leased""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,Commercial Airplanes,"43,086",43086000,count,instant,,2018-12-31,"{""segment"": ""Commercial Airplanes"", ""property_type"": ""Total""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,"Defense, Space & Security","25,991",25991000,count,instant,,2018-12-31,"{""segment"": ""Defense, Space & Security"", ""property_type"": ""Owned""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,"Defense, Space & Security","5,315",5315000,count,instant,,2018-12-31,"{""segment"": ""Defense, Space & Security"", ""property_type"": ""Leased""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,"Defense, Space & Security","31,306",31306000,count,instant,,2018-12-31,"{""segment"": ""Defense, Space & Security"", ""property_type"": ""Total""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,Global Services,684,684000,count,instant,,2018-12-31,"{""segment"": ""Global Services"", ""property_type"": ""Owned""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,Global Services,"8,140",8140000,count,instant,,2018-12-31,"{""segment"": ""Global Services"", ""property_type"": ""Leased""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,Global Services,"8,824",8824000,count,instant,,2018-12-31,"{""segment"": ""Global Services"", ""property_type"": ""Total""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,Other (2),"2,499",2499000,count,instant,,2018-12-31,"{""segment"": ""Other"", ""property_type"": ""Owned""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,Other (2),"1,777",1777000,count,instant,,2018-12-31,"{""segment"": ""Other"", ""property_type"": ""Leased""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,Other (2),318,318000,count,instant,,2018-12-31,"{""segment"": ""Other"", ""property_type"": ""Government Owned""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,Other (2),"4,594",4594000,count,instant,,2018-12-31,"{""segment"": ""Other"", ""property_type"": ""Total""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,Total,"69,996",69996000,count,instant,,2018-12-31,"{""segment"": ""Total"", ""property_type"": ""Owned""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,Total,"17,496",17496000,count,instant,,2018-12-31,"{""segment"": ""Total"", ""property_type"": ""Leased""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,Total,318,318000,count,instant,,2018-12-31,"{""segment"": ""Total"", ""property_type"": ""Government Owned""}"
+BA,10-K,2018-12-31,extracted,23,Item 2. Properties,"Floor Space by Business as of December 31, 2018 (Square feet in thousands)",,Total,"87,810",87810000,count,instant,,2018-12-31,"{""segment"": ""Total"", ""property_type"": ""Total""}"
+BA,10-K,2018-12-31,extracted,28,"Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",Issuer Purchases of Equity Securities,,10/1/2018 thru 10/31/2018,"1,567,983",1567983,shares,duration,2018-10-01,2018-10-31,"{""column"": ""a"", ""measure"": ""Total Number of Shares Purchased""}"
+BA,10-K,2018-12-31,extracted,28,"Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",Issuer Purchases of Equity Securities,,10/1/2018 thru 10/31/2018,$374.79,374.79,USD_per_share,duration,2018-10-01,2018-10-31,"{""column"": ""b"", ""measure"": ""Average Price Paid per Share""}"
+BA,10-K,2018-12-31,extracted,28,"Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",Issuer Purchases of Equity Securities,,10/1/2018 thru 10/31/2018,"1,560,854",1560854,shares,duration,2018-10-01,2018-10-31,"{""column"": ""c"", ""measure"": ""Total Number of Shares Purchased as Part of Publicly Announced Plans or Programs""}"
+BA,10-K,2018-12-31,extracted,28,"Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",Issuer Purchases of Equity Securities,,10/1/2018 thru 10/31/2018,"$9,000",9000000000,USD,duration,2018-10-01,2018-10-31,"{""column"": ""d"", ""measure"": ""Approximate Dollar Value of Shares That May Yet be Purchased Under the Plans or Programs""}"
+BA,10-K,2018-12-31,extracted,28,"Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",Issuer Purchases of Equity Securities,,11/1/2018 thru 11/30/2018,"16,910",16910,shares,duration,2018-11-01,2018-11-30,"{""column"": ""a"", ""measure"": ""Total Number of Shares Purchased""}"
+BA,10-K,2018-12-31,extracted,28,"Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",Issuer Purchases of Equity Securities,,11/1/2018 thru 11/30/2018,334.84,334.84,USD_per_share,duration,2018-11-01,2018-11-30,"{""column"": ""b"", ""measure"": ""Average Price Paid per Share""}"
+BA,10-K,2018-12-31,extracted,28,"Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",Issuer Purchases of Equity Securities,,11/1/2018 thru 11/30/2018,"9,000",9000000000,USD,duration,2018-11-01,2018-11-30,"{""column"": ""d"", ""measure"": ""Approximate Dollar Value of Shares That May Yet be Purchased Under the Plans or Programs""}"
+BA,10-K,2018-12-31,extracted,28,"Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",Issuer Purchases of Equity Securities,,12/1/2018 thru 12/31/2018,"4,295",4295,shares,duration,2018-12-01,2018-12-31,"{""column"": ""a"", ""measure"": ""Total Number of Shares Purchased""}"
+BA,10-K,2018-12-31,extracted,28,"Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",Issuer Purchases of Equity Securities,,12/1/2018 thru 12/31/2018,328.26,328.26,USD_per_share,duration,2018-12-01,2018-12-31,"{""column"": ""b"", ""measure"": ""Average Price Paid per Share""}"
+BA,10-K,2018-12-31,extracted,28,"Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",Issuer Purchases of Equity Securities,,12/1/2018 thru 12/31/2018,"20,000",20000000000,USD,duration,2018-12-01,2018-12-31,"{""column"": ""d"", ""measure"": ""Approximate Dollar Value of Shares That May Yet be Purchased Under the Plans or Programs""}"
+BA,10-K,2018-12-31,extracted,28,"Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",Issuer Purchases of Equity Securities,,Total,"1,589,188",1589188,shares,duration,2018-10-01,2018-12-31,"{""column"": ""a"", ""measure"": ""Total Number of Shares Purchased""}"
+BA,10-K,2018-12-31,extracted,28,"Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",Issuer Purchases of Equity Securities,,Total,$374.24,374.24,USD_per_share,duration,2018-10-01,2018-12-31,"{""column"": ""b"", ""measure"": ""Average Price Paid per Share""}"
+BA,10-K,2018-12-31,extracted,28,"Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",Issuer Purchases of Equity Securities,,Total,"1,560,854",1560854,shares,duration,2018-10-01,2018-12-31,"{""column"": ""c"", ""measure"": ""Total Number of Shares Purchased as Part of Publicly Announced Plans or Programs""}"
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Revenues,"$101,127",101127000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Revenues,"$94,005",94005000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Revenues,"$93,496",93496000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Revenues,"$96,114",96114000000,USD,duration,2015-01-01,2015-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Revenues,"$90,762",90762000000,USD,duration,2014-01-01,2014-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Net earnings from continuing operations,"$10,460",10460000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Net earnings from continuing operations,"$8,458",8458000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Net earnings from continuing operations,"$5,034",5034000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Net earnings from continuing operations,"$5,176",5176000000,USD,duration,2015-01-01,2015-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Net earnings from continuing operations,"$5,446",5446000000,USD,duration,2014-01-01,2014-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Basic earnings per share from continuing operations,$18.05,18.05,USD_per_share,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Basic earnings per share from continuing operations,$14.03,14.03,USD_per_share,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Basic earnings per share from continuing operations,$7.92,7.92,USD_per_share,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Basic earnings per share from continuing operations,$7.52,7.52,USD_per_share,duration,2015-01-01,2015-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Basic earnings per share from continuing operations,$7.47,7.47,USD_per_share,duration,2014-01-01,2014-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Diluted earnings per share from continuing operations,17.85,17.85,USD_per_share,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Diluted earnings per share from continuing operations,13.85,13.85,USD_per_share,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Diluted earnings per share from continuing operations,7.83,7.83,USD_per_share,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Diluted earnings per share from continuing operations,7.44,7.44,USD_per_share,duration,2015-01-01,2015-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Diluted earnings per share from continuing operations,7.38,7.38,USD_per_share,duration,2014-01-01,2014-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Dividends declared per share(1),7.19,7.19,USD_per_share,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Dividends declared per share(1),5.97,5.97,USD_per_share,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Dividends declared per share(1),4.69,4.69,USD_per_share,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Dividends declared per share(1),3.82,3.82,USD_per_share,duration,2015-01-01,2015-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Dividends declared per share(1),3.10,3.1,USD_per_share,duration,2014-01-01,2014-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Cash and cash equivalents,"$7,637",7637000000,USD,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Cash and cash equivalents,"$8,813",8813000000,USD,instant,,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Cash and cash equivalents,"$8,801",8801000000,USD,instant,,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Cash and cash equivalents,"$11,302",11302000000,USD,instant,,2015-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Cash and cash equivalents,"$11,733",11733000000,USD,instant,,2014-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Short-term and other investments,927,927000000,USD,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Short-term and other investments,"1,179",1179000000,USD,instant,,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Short-term and other investments,"1,228",1228000000,USD,instant,,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Short-term and other investments,750,750000000,USD,instant,,2015-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Short-term and other investments,"1,359",1359000000,USD,instant,,2014-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total assets,"117,359",117359000000,USD,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total assets,"112,362",112362000000,USD,instant,,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total assets,"109,076",109076000000,USD,instant,,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total assets,"94,408",94408000000,USD,instant,,2015-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total assets,"92,921",92921000000,USD,instant,,2014-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total debt,"13,847",13847000000,USD,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total debt,"11,117",11117000000,USD,instant,,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total debt,"9,952",9952000000,USD,instant,,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total debt,"9,964",9964000000,USD,instant,,2015-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total debt,"9,070",9070000000,USD,instant,,2014-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Operating cash flow,"$15,322",15322000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Operating cash flow,"$13,346",13346000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Operating cash flow,"$10,496",10496000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Operating cash flow,"$9,363",9363000000,USD,duration,2015-01-01,2015-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Operating cash flow,"$8,858",8858000000,USD,duration,2014-01-01,2014-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total backlog,"$490,481",490481000000,USD,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total backlog,"$474,640",474640000000,USD,instant,,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total backlog,"$473,492",473492000000,USD,instant,,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total backlog,"$489,299",489299000000,USD,instant,,2015-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Total backlog,"$502,391",502391000000,USD,instant,,2014-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Year-end workforce,"153,000",153000,count,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Year-end workforce,"140,800",140800,count,instant,,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Year-end workforce,"150,500",150500,count,instant,,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Year-end workforce,"161,400",161400,count,instant,,2015-12-31,{}
+BA,10-K,2018-12-31,extracted,31,Item 6. Selected Financial Data,Five-Year Summary of Selected Financial Data,,Year-end workforce,"165,500",165500,count,instant,,2014-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Revenues,"$101,127",101127000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Earnings from operations,"11,987",11987000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Operating margins,11.9 %,11.9,percent,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Effective income tax rate,9.9 %,9.9,percent,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Net earnings,"$10,460",10460000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Diluted earnings per share,$17.85,17.85,USD_per_share,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Core operating earnings,"$10,660",10660000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Core operating margins,10.5 %,10.5,percent,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Core earnings per share,$16.01,16.01,USD_per_share,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Revenues,"$94,005",94005000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Earnings from operations,"10,344",10344000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Operating margins,11.0 %,11.0,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Effective income tax rate,16.3 %,16.3,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Net earnings,"$8,458",8458000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Diluted earnings per share,$13.85,13.85,USD_per_share,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Core operating earnings,"$8,906",8906000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Core operating margins,9.5 %,9.5,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Core earnings per share,$12.33,12.33,USD_per_share,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Revenues,"$93,496",93496000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Earnings from operations,"6,527",6527000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Operating margins,7.0 %,7.0,percent,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Effective income tax rate,13.0 %,13.0,percent,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Net earnings,"$5,034",5034000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Diluted earnings per share,$7.83,7.83,USD_per_share,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Core operating earnings,"$5,170",5170000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Core operating margins,5.5 %,5.5,percent,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,32,Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,Consolidated Results of Operations,,Core earnings per share,$6.94,6.94,USD_per_share,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,Commercial Airplanes,"$60,715",60715000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,Commercial Airplanes,"$58,014",58014000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,Commercial Airplanes,"$59,378",59378000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,"Defense, Space & Security","23,195",23195000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,"Defense, Space & Security","20,561",20561000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,"Defense, Space & Security","20,180",20180000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,Global Services,"17,018",17018000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,Global Services,"14,581",14581000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,Global Services,"13,819",13819000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,Boeing Capital,274,274000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,Boeing Capital,307,307000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,Boeing Capital,298,298000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,"Unallocated items, eliminations and other",(75),-75000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,"Unallocated items, eliminations and other",542,542000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,"Unallocated items, eliminations and other",(179),-179000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,Total,"$101,127",101127000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,Total,"$94,005",94005000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,34,,Revenues,,Total,"$93,496",93496000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Commercial Airplanes,"$7,879",7879000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,"Defense, Space & Security","1,594",1594000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Global Services,"2,522",2522000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Boeing Capital,79,79000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Segment Operating Profit,"12,074",12074000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Pension FAS/CAS service cost adjustment,"1,005",1005000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Postretirement FAS/CAS service cost adjustment,322,322000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,"Unallocated items, eliminations and other","(1,414)",-1414000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Earnings from operations (GAAP),"$11,987",11987000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,FAS/CAS service cost adjustment *,"(1,327)",-1327000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Core operating earnings (Non-GAAP) **,"$10,660",10660000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Commercial Airplanes,"$5,452",5452000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,"Defense, Space & Security","2,193",2193000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Global Services,"2,246",2246000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Boeing Capital,114,114000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Segment Operating Profit,"10,005",10005000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Pension FAS/CAS service cost adjustment,"1,127",1127000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Postretirement FAS/CAS service cost adjustment,311,311000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,"Unallocated items, eliminations and other","(1,099)",-1099000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Earnings from operations (GAAP),"$10,344",10344000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,FAS/CAS service cost adjustment *,"(1,438)",-1438000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Core operating earnings (Non-GAAP) **,"$8,906",8906000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Commercial Airplanes,"$1,981",1981000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,"Defense, Space & Security","1,678",1678000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Global Services,"2,159",2159000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Boeing Capital,59,59000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Segment Operating Profit,"5,877",5877000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Pension FAS/CAS service cost adjustment,"1,029",1029000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Postretirement FAS/CAS service cost adjustment,328,328000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,"Unallocated items, eliminations and other",(707),-707000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Earnings from operations (GAAP),"$6,527",6527000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,FAS/CAS service cost adjustment *,"(1,357)",-1357000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,35,,Earnings from Operations,,Core operating earnings (Non-GAAP) **,"$5,170",5170000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,38,,"Unallocated Items, Eliminations and Other",,Share-based plans,($76),-76000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,38,,"Unallocated Items, Eliminations and Other",,Share-based plans,($77),-77000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,38,,"Unallocated Items, Eliminations and Other",,Share-based plans,($66),-66000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,38,,"Unallocated Items, Eliminations and Other",,Deferred compensation,(19),-19000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,38,,"Unallocated Items, Eliminations and Other",,Deferred compensation,(240),-240000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,38,,"Unallocated Items, Eliminations and Other",,Deferred compensation,(46),-46000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,38,,"Unallocated Items, Eliminations and Other",,Eliminations and other unallocated items,"(1,319)",-1319000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,38,,"Unallocated Items, Eliminations and Other",,Eliminations and other unallocated items,(782),-782000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,38,,"Unallocated Items, Eliminations and Other",,Eliminations and other unallocated items,(595),-595000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,38,,"Unallocated Items, Eliminations and Other",,"Unallocated items, eliminations and other","($1,414)",-1414000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,38,,"Unallocated Items, Eliminations and Other",,"Unallocated items, eliminations and other","($1,099)",-1099000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,38,,"Unallocated Items, Eliminations and Other",,"Unallocated items, eliminations and other",($707),-707000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,39,,Net periodic pension benefit costs included in Earnings from operations,,Allocated to business segments,"($1,318)",-1318000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,39,,Net periodic pension benefit costs included in Earnings from operations,,Allocated to business segments,"($1,637)",-1637000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,39,,Net periodic pension benefit costs included in Earnings from operations,,Allocated to business segments,"($2,286)",-2286000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,39,,Net periodic pension benefit costs included in Earnings from operations,,Pension FAS/CAS service cost adjustment,"1,005",1005000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,39,,Net periodic pension benefit costs included in Earnings from operations,,Pension FAS/CAS service cost adjustment,"1,127",1127000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,39,,Net periodic pension benefit costs included in Earnings from operations,,Pension FAS/CAS service cost adjustment,"1,029",1029000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,39,,Net periodic pension benefit costs included in Earnings from operations,,Net periodic benefit cost included in Earnings from operations,($313),-313000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,39,,Net periodic pension benefit costs included in Earnings from operations,,Net periodic benefit cost included in Earnings from operations,($510),-510000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,39,,Net periodic pension benefit costs included in Earnings from operations,,Net periodic benefit cost included in Earnings from operations,"($1,257)",-1257000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Earnings from operations,"$11,987",11987000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Earnings from operations,"$10,344",10344000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Earnings from operations,"$6,527",6527000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,"Other income/(loss), net",92,92000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,"Other income/(loss), net",123,123000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,"Other income/(loss), net",(438),-438000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Interest and debt expense,(475),-475000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Interest and debt expense,(360),-360000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Interest and debt expense,(306),-306000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Earnings before income taxes,"11,604",11604000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Earnings before income taxes,"10,107",10107000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Earnings before income taxes,"5,783",5783000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Income tax expense,"(1,144)",-1144000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Income tax expense,"(1,649)",-1649000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Income tax expense,(749),-749000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Net earnings from continuing operations,"$10,460",10460000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Net earnings from continuing operations,"$8,458",8458000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,40,,Other Earnings Items,,Net earnings from continuing operations,"$5,034",5034000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,41,,Cost of Sales Summary,,Cost of sales,"$81,490",81490000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,41,,Cost of Sales Summary,,Cost of sales,"$76,612",76612000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,41,,Cost of Sales Summary,,Cost of sales,"$4,878",4878000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,41,,Cost of Sales Summary,,Cost of sales,"$76,612",76612000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,41,,Cost of Sales Summary,,Cost of sales,"$79,026",79026000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,41,,Cost of Sales Summary,,Cost of sales,"($2,414)",-2414000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,41,,Cost of Sales Summary,,Cost of sales as a % of revenues,80.6%,80.6,percent,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,41,,Cost of Sales Summary,,Cost of sales as a % of revenues,81.5%,81.5,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,41,,Cost of Sales Summary,,Cost of sales as a % of revenues,(0.9%),-0.9,percent,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,41,,Cost of Sales Summary,,Cost of sales as a % of revenues,81.5%,81.5,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,41,,Cost of Sales Summary,,Cost of sales as a % of revenues,84.5%,84.5,percent,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,41,,Cost of Sales Summary,,Cost of sales as a % of revenues,(3.0)%,-3.0,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,Commercial Airplanes,"$2,188",2188000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,Commercial Airplanes,"$2,247",2247000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,Commercial Airplanes,"$3,706",3706000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,"Defense, Space & Security",788,788000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,"Defense, Space & Security",834,834000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,"Defense, Space & Security",816,816000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,Global Services,161,161000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,Global Services,140,140000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,Global Services,152,152000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,Other,132,132000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,Other,(42),-42000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,Other,(48),-48000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,Total,"$3,269",3269000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,Total,"$3,179",3179000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,42,,Research and Development expense,,Total,"$4,626",4626000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,43,,Backlog,,Commercial Airplanes,"$412,307",412307000000,USD,duration,2018-01-01,2018-12-31,"{""segment"": ""Commercial Airplanes""}"
+BA,10-K,2018-12-31,extracted,43,,Backlog,,Commercial Airplanes,"$410,986",410986000000,USD,duration,2017-01-01,2017-12-31,"{""segment"": ""Commercial Airplanes""}"
+BA,10-K,2018-12-31,extracted,43,,Backlog,,"Defense, Space & Security","57,166",57166000000,USD,duration,2018-01-01,2018-12-31,"{""segment"": ""Defense, Space & Security""}"
+BA,10-K,2018-12-31,extracted,43,,Backlog,,"Defense, Space & Security","44,049",44049000000,USD,duration,2017-01-01,2017-12-31,"{""segment"": ""Defense, Space & Security""}"
+BA,10-K,2018-12-31,extracted,43,,Backlog,,Global Services,"21,008",21008000000,USD,duration,2018-01-01,2018-12-31,"{""segment"": ""Global Services""}"
+BA,10-K,2018-12-31,extracted,43,,Backlog,,Global Services,"19,605",19605000000,USD,duration,2017-01-01,2017-12-31,"{""segment"": ""Global Services""}"
+BA,10-K,2018-12-31,extracted,43,,Backlog,,Total Backlog,"$490,481",490481000000,USD,duration,2018-01-01,2018-12-31,"{""segment"": ""Total""}"
+BA,10-K,2018-12-31,extracted,43,,Backlog,,Total Backlog,"$474,640",474640000000,USD,duration,2017-01-01,2017-12-31,"{""segment"": ""Total""}"
+BA,10-K,2018-12-31,extracted,43,,Backlog,,Contractual backlog,"462,070",462070000000,USD,duration,2018-01-01,2018-12-31,"{""backlog_type"": ""Contractual""}"
+BA,10-K,2018-12-31,extracted,43,,Backlog,,Contractual backlog,"456,984",456984000000,USD,duration,2017-01-01,2017-12-31,"{""backlog_type"": ""Contractual""}"
+BA,10-K,2018-12-31,extracted,43,,Backlog,,Unobligated backlog,"28,411",28411000000,USD,duration,2018-01-01,2018-12-31,"{""backlog_type"": ""Unobligated""}"
+BA,10-K,2018-12-31,extracted,43,,Backlog,,Unobligated backlog,"$17,656",17656000000,USD,duration,2017-01-01,2017-12-31,"{""backlog_type"": ""Unobligated""}"
+BA,10-K,2018-12-31,extracted,43,,Backlog,,Total Backlog,"$490,481",490481000000,USD,duration,2018-01-01,2018-12-31,"{""backlog_type"": ""Total""}"
+BA,10-K,2018-12-31,extracted,43,,Backlog,,Total Backlog,"$474,640",474640000000,USD,duration,2017-01-01,2017-12-31,"{""backlog_type"": ""Total""}"
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,Revenues,"$60,715",60715000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,Revenues,"$58,014",58014000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,Revenues,"$59,378",59378000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,% of total company revenues,60,60,percent,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,% of total company revenues,62,62,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,% of total company revenues,64,64,percent,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,Earnings from operations,"$7,879",7879000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,Earnings from operations,"$5,452",5452000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,Earnings from operations,"$1,981",1981000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,Operating margins,13.0,13,percent,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,Operating margins,9.4,9.4,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,Operating margins,3.3,3.3,percent,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,Research and development,"$2,188",2188000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,Research and development,"$2,247",2247000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,44,,Results of Operations,,Research and development,"$3,706",3706000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,"7,312",7312,count,instant,,2018-12-31,"{""model"": ""737"", ""year"": 2018}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,"1,548",1548,count,instant,,2018-12-31,"{""model"": ""747"", ""year"": 2018}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,"1,133",1133,count,instant,,2018-12-31,"{""model"": ""767"", ""year"": 2018}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,"1,582",1582,count,instant,,2018-12-31,"{""model"": ""777"", ""year"": 2018}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,781,781,count,instant,,2018-12-31,"{""model"": ""787"", ""year"": 2018}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,580,580,count,duration,2018-01-01,2018-12-31,"{""model"": ""737"", ""year"": 2018}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,6,6,count,duration,2018-01-01,2018-12-31,"{""model"": ""747"", ""year"": 2018}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,27,27,count,duration,2018-01-01,2018-12-31,"{""model"": ""767"", ""year"": 2018}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,48,48,count,duration,2018-01-01,2018-12-31,"{""model"": ""777"", ""year"": 2018}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,145,145,count,duration,2018-01-01,2018-12-31,"{""model"": ""787"", ""year"": 2018}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,806,806,count,duration,2018-01-01,2018-12-31,"{""model"": ""Total"", ""year"": 2018}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,"6,732",6732,count,instant,,2017-12-31,"{""model"": ""737"", ""year"": 2017}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,"1,542",1542,count,instant,,2017-12-31,"{""model"": ""747"", ""year"": 2017}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,"1,106",1106,count,instant,,2017-12-31,"{""model"": ""767"", ""year"": 2017}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,"1,534",1534,count,instant,,2017-12-31,"{""model"": ""777"", ""year"": 2017}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,636,636,count,instant,,2017-12-31,"{""model"": ""787"", ""year"": 2017}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,529,529,count,duration,2017-01-01,2017-12-31,"{""model"": ""737"", ""year"": 2017}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,14,14,count,duration,2017-01-01,2017-12-31,"{""model"": ""747"", ""year"": 2017}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,10,10,count,duration,2017-01-01,2017-12-31,"{""model"": ""767"", ""year"": 2017}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,74,74,count,duration,2017-01-01,2017-12-31,"{""model"": ""777"", ""year"": 2017}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,136,136,count,duration,2017-01-01,2017-12-31,"{""model"": ""787"", ""year"": 2017}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,763,763,count,duration,2017-01-01,2017-12-31,"{""model"": ""Total"", ""year"": 2017}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,"6,203",6203,count,instant,,2016-12-31,"{""model"": ""737"", ""year"": 2016}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,"1,528",1528,count,instant,,2016-12-31,"{""model"": ""747"", ""year"": 2016}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,"1,096",1096,count,instant,,2016-12-31,"{""model"": ""767"", ""year"": 2016}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,"1,460",1460,count,instant,,2016-12-31,"{""model"": ""777"", ""year"": 2016}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Cumulative deliveries,500,500,count,instant,,2016-12-31,"{""model"": ""787"", ""year"": 2016}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,490,490,count,duration,2016-01-01,2016-12-31,"{""model"": ""737"", ""year"": 2016}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,9,9,count,duration,2016-01-01,2016-12-31,"{""model"": ""747"", ""year"": 2016}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,13,13,count,duration,2016-01-01,2016-12-31,"{""model"": ""767"", ""year"": 2016}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,99,99,count,duration,2016-01-01,2016-12-31,"{""model"": ""777"", ""year"": 2016}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,137,137,count,duration,2016-01-01,2016-12-31,"{""model"": ""787"", ""year"": 2016}"
+BA,10-K,2018-12-31,extracted,45,,Commercial Airplanes deliveries,,Deliveries,748,748,count,duration,2016-01-01,2016-12-31,"{""model"": ""Total"", ""year"": 2016}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"10,400",10400,count,instant,,2018-12-31,"{""program"": ""737""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,574",1574,count,instant,,2018-12-31,"{""program"": ""747""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,195",1195,count,instant,,2018-12-31,"{""program"": ""767""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,680",1680,count,instant,,2018-12-31,"{""program"": ""777""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,600",1600,count,instant,,2018-12-31,"{""program"": ""787""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,"4,708",4708,count,instant,,2018-12-31,"{""program"": ""737""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,(75),-75,count,instant,,2018-12-31,"{""program"": ""747""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,24,24,count,instant,,2018-12-31,"{""program"": ""767""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,111,111,count,instant,,2018-12-31,"{""program"": ""777""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,100,100,count,instant,,2018-12-31,"{""program"": ""777X""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,(2),-2,count,instant,,2018-12-31,"{""program"": ""787""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,326,326,count,instant,,2018-12-31,"{""extra"": true}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,604,604,count,instant,,2018-12-31,"{""extra"": true}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,(30),-30,count,instant,,2018-12-31,"{""extra"": true}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"12,020",12020,count,instant,,2018-12-31,"{""program"": ""737""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,(75),-75,count,instant,,2018-12-31,"{""program"": ""747""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,572",1572,count,instant,,2018-12-31,"{""program"": ""767""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,244",1244,count,instant,,2018-12-31,"{""program"": ""777""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,682",1682,count,instant,,2018-12-31,"{""program"": ""777X""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,(2),-2,count,instant,,2018-12-31,"{""program"": ""787""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,326,326,count,instant,,2018-12-31,"{""extra"": true}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,385",1385,count,instant,,2018-12-31,"{""extra"": true}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,(30),-30,count,instant,,2018-12-31,"{""extra"": true}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"9,800",9800,count,instant,,2017-12-31,"{""program"": ""737""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,570",1570,count,instant,,2017-12-31,"{""program"": ""747""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,171",1171,count,instant,,2017-12-31,"{""program"": ""767""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,625",1625,count,instant,,2017-12-31,"{""program"": ""777""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,400",1400,count,instant,,2017-12-31,"{""program"": ""787""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,"4,613",4613,count,instant,,2017-12-31,"{""program"": ""737""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,12,12,count,instant,,2017-12-31,"{""program"": ""747""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,98,98,count,instant,,2017-12-31,"{""program"": ""767""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,97,97,count,instant,,2017-12-31,"{""program"": ""777""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,326,326,count,instant,,2017-12-31,"{""program"": ""777X""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,640,640,count,instant,,2017-12-31,"{""program"": ""787""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"11,345",11345,count,instant,,2017-12-31,"{""program"": ""737""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,554",1554,count,instant,,2017-12-31,"{""program"": ""747""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,204",1204,count,instant,,2017-12-31,"{""program"": ""767""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,631",1631,count,instant,,2017-12-31,"{""program"": ""777""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,326,326,count,instant,,2017-12-31,"{""program"": ""777X""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,276",1276,count,instant,,2017-12-31,"{""program"": ""787""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"9,000",9000,count,instant,,2016-12-31,"{""program"": ""737""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,555",1555,count,instant,,2016-12-31,"{""program"": ""747""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,159",1159,count,instant,,2016-12-31,"{""program"": ""767""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,625",1625,count,instant,,2016-12-31,"{""program"": ""777""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Program accounting quantities,"1,300",1300,count,instant,,2016-12-31,"{""program"": ""787""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,"4,452",4452,count,instant,,2016-12-31,"{""program"": ""737""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,28,28,count,instant,,2016-12-31,"{""program"": ""747""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,93,93,count,instant,,2016-12-31,"{""program"": ""767""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,136,136,count,instant,,2016-12-31,"{""program"": ""777""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,306,306,count,instant,,2016-12-31,"{""program"": ""777X""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Undelivered units under firm orders,700,700,count,instant,,2016-12-31,"{""program"": ""787""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"10,655",10655,count,instant,,2016-12-31,"{""program"": ""737""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,556",1556,count,instant,,2016-12-31,"{""program"": ""747""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,189",1189,count,instant,,2016-12-31,"{""program"": ""767""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,596",1596,count,instant,,2016-12-31,"{""program"": ""777""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,306,306,count,instant,,2016-12-31,"{""program"": ""777X""}"
+BA,10-K,2018-12-31,extracted,46,,Accounting quantities and firm orders by program as of December 31,,Cumulative firm orders,"1,200",1200,count,instant,,2016-12-31,"{""program"": ""787""}"
+BA,10-K,2018-12-31,extracted,47,,Program Development Go-ahead and Initial Delivery,,737 MAX 7,2011,2011,other,instant,,2018-12-31,"{""milestone"": ""Go-ahead""}"
+BA,10-K,2018-12-31,extracted,47,,Program Development Go-ahead and Initial Delivery,,737 MAX 7,2019,2019,other,instant,,2018-12-31,"{""milestone"": ""Initial Delivery""}"
+BA,10-K,2018-12-31,extracted,47,,Program Development Go-ahead and Initial Delivery,,737 MAX 8,2011,2011,other,instant,,2018-12-31,"{""milestone"": ""Go-ahead""}"
+BA,10-K,2018-12-31,extracted,47,,Program Development Go-ahead and Initial Delivery,,737 MAX 8,2017,2017,other,instant,,2018-12-31,"{""milestone"": ""Initial Delivery""}"
+BA,10-K,2018-12-31,extracted,47,,Program Development Go-ahead and Initial Delivery,,737 MAX 9,2011,2011,other,instant,,2018-12-31,"{""milestone"": ""Go-ahead""}"
+BA,10-K,2018-12-31,extracted,47,,Program Development Go-ahead and Initial Delivery,,737 MAX 9,2018,2018,other,instant,,2018-12-31,"{""milestone"": ""Initial Delivery""}"
+BA,10-K,2018-12-31,extracted,47,,Program Development Go-ahead and Initial Delivery,,737 MAX 10,2017,2017,other,instant,,2018-12-31,"{""milestone"": ""Go-ahead""}"
+BA,10-K,2018-12-31,extracted,47,,Program Development Go-ahead and Initial Delivery,,737 MAX 10,2020,2020,other,instant,,2018-12-31,"{""milestone"": ""Initial Delivery""}"
+BA,10-K,2018-12-31,extracted,47,,Program Development Go-ahead and Initial Delivery,,787-10,2013,2013,other,instant,,2018-12-31,"{""milestone"": ""Go-ahead""}"
+BA,10-K,2018-12-31,extracted,47,,Program Development Go-ahead and Initial Delivery,,787-10,2018,2018,other,instant,,2018-12-31,"{""milestone"": ""Initial Delivery""}"
+BA,10-K,2018-12-31,extracted,47,,Program Development Go-ahead and Initial Delivery,,777X,2013,2013,other,instant,,2018-12-31,"{""milestone"": ""Go-ahead""}"
+BA,10-K,2018-12-31,extracted,47,,Program Development Go-ahead and Initial Delivery,,777X,2020,2020,other,instant,,2018-12-31,"{""milestone"": ""Initial Delivery""}"
+BA,10-K,2018-12-31,extracted,48,,"Defense, Space & Security Results of Operations",,Revenues,"$23,195",23195000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,48,,"Defense, Space & Security Results of Operations",,Revenues,"$20,561",20561000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,48,,"Defense, Space & Security Results of Operations",,Revenues,"$20,180",20180000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,48,,"Defense, Space & Security Results of Operations",,% of total company revenues,23%,23,percent,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,48,,"Defense, Space & Security Results of Operations",,% of total company revenues,22%,22,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,48,,"Defense, Space & Security Results of Operations",,% of total company revenues,22%,22,percent,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,48,,"Defense, Space & Security Results of Operations",,Earnings from operations,"$1,594",1594000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,48,,"Defense, Space & Security Results of Operations",,Earnings from operations,"$2,193",2193000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,48,,"Defense, Space & Security Results of Operations",,Earnings from operations,"$1,678",1678000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,48,,"Defense, Space & Security Results of Operations",,Operating margins,6.9%,6.9,percent,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,48,,"Defense, Space & Security Results of Operations",,Operating margins,10.7%,10.7,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,48,,"Defense, Space & Security Results of Operations",,Operating margins,8.3%,8.3,percent,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,F/A-18 Models,17,17,count,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,F/A-18 Models,23,23,count,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,F/A-18 Models,25,25,count,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,F-15 Models,10,10,count,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,F-15 Models,16,16,count,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,F-15 Models,15,15,count,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,C-17 Globemaster III,4,4,count,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,CH-47 Chinook (New),13,13,count,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,CH-47 Chinook (New),9,9,count,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,CH-47 Chinook (New),25,25,count,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,CH-47 Chinook (Renewed),17,17,count,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,CH-47 Chinook (Renewed),35,35,count,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,CH-47 Chinook (Renewed),25,25,count,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,AH-64 Apache (New),11,11,count,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,AH-64 Apache (New),31,31,count,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,AH-64 Apache (Remanufactured),23,23,count,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,AH-64 Apache (Remanufactured),57,57,count,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,AH-64 Apache (Remanufactured),34,34,count,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,P-8 Models,16,16,count,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,P-8 Models,19,19,count,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,P-8 Models,18,18,count,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,C-40A,1,1,count,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,Total,96,96,count,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,Total,170,170,count,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,49,,Deliveries of New-Build Production Aircraft,,Total,178,178,count,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,50,,New-build satellite deliveries,,Commercial and civil satellites,1,1,count,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,50,,New-build satellite deliveries,,Commercial and civil satellites,3,3,count,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,50,,New-build satellite deliveries,,Commercial and civil satellites,5,5,count,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,50,,New-build satellite deliveries,,Military satellites,1,1,count,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,50,,New-build satellite deliveries,,Military satellites,1,1,count,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,50,,New-build satellite deliveries,,Military satellites,2,2,count,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,51,,Global Services Results of Operations,,Revenues,"$17,018",17018000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,51,,Global Services Results of Operations,,Revenues,"$14,581",14581000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,51,,Global Services Results of Operations,,Revenues,"$13,819",13819000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,51,,Global Services Results of Operations,,% of total company revenues,17%,17,percent,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,51,,Global Services Results of Operations,,% of total company revenues,16%,16,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,51,,Global Services Results of Operations,,% of total company revenues,15%,15,percent,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,51,,Global Services Results of Operations,,Earnings from operations,"$2,522",2522000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,51,,Global Services Results of Operations,,Earnings from operations,"$2,246",2246000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,51,,Global Services Results of Operations,,Earnings from operations,"$2,159",2159000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,51,,Global Services Results of Operations,,Operating margins,14.8%,14.8,percent,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,51,,Global Services Results of Operations,,Operating margins,15.4%,15.4,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,51,,Global Services Results of Operations,,Operating margins,15.6%,15.6,percent,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,52,,Results of Operations,,Revenues,$274,274000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,52,,Results of Operations,,Revenues,$307,307000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,52,,Results of Operations,,Revenues,$298,298000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,52,,Results of Operations,,Earnings from operations,$79,79000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,52,,Results of Operations,,Earnings from operations,$114,114000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,52,,Results of Operations,,Earnings from operations,$59,59000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,52,,Results of Operations,,Operating margins,29%,29,percent,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,52,,Results of Operations,,Operating margins,37%,37,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,52,,Results of Operations,,Operating margins,20%,20,percent,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,"Customer financing and investment portfolio, net","$2,790",2790000000,USD,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,"Customer financing and investment portfolio, net","$3,003",3003000000,USD,instant,,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,"Other assets, primarily cash and short-term investments",717,717000000,USD,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,"Other assets, primarily cash and short-term investments",677,677000000,USD,instant,,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,Total assets,"$3,507",3507000000,USD,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,Total assets,"$3,680",3680000000,USD,instant,,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,"Other liabilities, primarily deferred income taxes",$523,523000000,USD,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,"Other liabilities, primarily deferred income taxes",$653,653000000,USD,instant,,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,"Debt, including intercompany loans","2,487",2487000000,USD,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,"Debt, including intercompany loans","2,523",2523000000,USD,instant,,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,Equity,497,497000000,USD,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,Equity,504,504000000,USD,instant,,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,Total liabilities and equity,"$3,507",3507000000,USD,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,Total liabilities and equity,"$3,680",3680000000,USD,instant,,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,Debt-to-equity ratio,5.0-to-1,5.0,ratio,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,53,,Selected Financial Data for BCC,,Debt-to-equity ratio,5.0-to-1,5.0,ratio,instant,,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Net earnings,"$10,460",10460000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Net earnings,"$8,458",8458000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Net earnings,"$5,034",5034000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Non-cash items,"2,578",2578000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Non-cash items,"2,636",2636000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Non-cash items,"2,540",2540000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Changes in working capital,"2,284",2284000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Changes in working capital,"2,252",2252000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Changes in working capital,"2,922",2922000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Net cash provided by operating activities,"15,322",15322000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Net cash provided by operating activities,"13,346",13346000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Net cash provided by operating activities,"10,496",10496000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Net cash used by investing activities,"(4,621)",-4621000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Net cash used by investing activities,"(2,058)",-2058000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Net cash used by investing activities,"(3,378)",-3378000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Net cash used by financing activities,"(11,722)",-11722000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Net cash used by financing activities,"(11,350)",-11350000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Net cash used by financing activities,"(9,587)",-9587000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Effect of exchange rate changes on cash and cash equivalents,(53),-53000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Effect of exchange rate changes on cash and cash equivalents,80,80000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,Effect of exchange rate changes on cash and cash equivalents,(33),-33000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,"Net (decrease) / increase in cash & cash equivalents, including restricted","(1,074)",-1074000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,"Net (decrease) / increase in cash & cash equivalents, including restricted",18,18000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,"Net (decrease) / increase in cash & cash equivalents, including restricted","(2,502)",-2502000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,"Cash & cash equivalents, including restricted, at beginning of year","8,887",8887000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,"Cash & cash equivalents, including restricted, at beginning of year","8,869",8869000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,"Cash & cash equivalents, including restricted, at beginning of year","11,371",11371000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,"Cash & cash equivalents, including restricted, at end of year","$7,813",7813000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,"Cash & cash equivalents, including restricted, at end of year","$8,887",8887000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,54,,Cash Flow Summary,,"Cash & cash equivalents, including restricted, at end of year","$8,869",8869000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Long-term debt (including current portion),"$13,932",13932000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Total""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Long-term debt (including current portion),"$3,137",3137000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Less than 1 year""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Long-term debt (including current portion),"$1,927",1927000000,USD,instant,,2018-12-31,"{""maturity_range"": ""1-3 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Long-term debt (including current portion),"$1,326",1326000000,USD,instant,,2018-12-31,"{""maturity_range"": ""3-5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Long-term debt (including current portion),"$7,542",7542000000,USD,instant,,2018-12-31,"{""maturity_range"": ""After 5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Interest on debt,"6,458",6458000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Total""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Interest on debt,523,523000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Less than 1 year""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Interest on debt,891,891000000,USD,instant,,2018-12-31,"{""maturity_range"": ""1-3 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Interest on debt,752,752000000,USD,instant,,2018-12-31,"{""maturity_range"": ""3-5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Interest on debt,"4,292",4292000000,USD,instant,,2018-12-31,"{""maturity_range"": ""After 5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Pension and other postretirement cash requirements,"14,379",14379000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Total""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Pension and other postretirement cash requirements,606,606000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Less than 1 year""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Pension and other postretirement cash requirements,"1,627",1627000000,USD,instant,,2018-12-31,"{""maturity_range"": ""1-3 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Pension and other postretirement cash requirements,"5,050",5050000000,USD,instant,,2018-12-31,"{""maturity_range"": ""3-5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Pension and other postretirement cash requirements,"7,096",7096000000,USD,instant,,2018-12-31,"{""maturity_range"": ""After 5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Capital lease obligations,164,164000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Total""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Capital lease obligations,58,58000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Less than 1 year""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Capital lease obligations,75,75000000,USD,instant,,2018-12-31,"{""maturity_range"": ""1-3 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Capital lease obligations,20,20000000,USD,instant,,2018-12-31,"{""maturity_range"": ""3-5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Capital lease obligations,11,11000000,USD,instant,,2018-12-31,"{""maturity_range"": ""After 5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Operating lease obligations,"1,850",1850000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Total""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Operating lease obligations,278,278000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Less than 1 year""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Operating lease obligations,432,432000000,USD,instant,,2018-12-31,"{""maturity_range"": ""1-3 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Operating lease obligations,291,291000000,USD,instant,,2018-12-31,"{""maturity_range"": ""3-5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Operating lease obligations,849,849000000,USD,instant,,2018-12-31,"{""maturity_range"": ""After 5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Purchase obligations not recorded on the Consolidated Statements of Financial Position,"126,693",126693000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Total""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Purchase obligations not recorded on the Consolidated Statements of Financial Position,"51,784",51784000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Less than 1 year""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Purchase obligations not recorded on the Consolidated Statements of Financial Position,"41,470",41470000000,USD,instant,,2018-12-31,"{""maturity_range"": ""1-3 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Purchase obligations not recorded on the Consolidated Statements of Financial Position,"22,649",22649000000,USD,instant,,2018-12-31,"{""maturity_range"": ""3-5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Purchase obligations not recorded on the Consolidated Statements of Financial Position,"10,790",10790000000,USD,instant,,2018-12-31,"{""maturity_range"": ""After 5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Purchase obligations recorded on the Consolidated Statements of Financial Position,"19,900",19900000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Total""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Purchase obligations recorded on the Consolidated Statements of Financial Position,"19,076",19076000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Less than 1 year""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Purchase obligations recorded on the Consolidated Statements of Financial Position,716,716000000,USD,instant,,2018-12-31,"{""maturity_range"": ""1-3 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Purchase obligations recorded on the Consolidated Statements of Financial Position,80,80000000,USD,instant,,2018-12-31,"{""maturity_range"": ""3-5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Purchase obligations recorded on the Consolidated Statements of Financial Position,28,28000000,USD,instant,,2018-12-31,"{""maturity_range"": ""After 5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Total contractual obligations (1),"$183,376",183376000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Total""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Total contractual obligations (1),"$75,462",75462000000,USD,instant,,2018-12-31,"{""maturity_range"": ""Less than 1 year""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Total contractual obligations (1),"$47,138",47138000000,USD,instant,,2018-12-31,"{""maturity_range"": ""1-3 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Total contractual obligations (1),"$30,168",30168000000,USD,instant,,2018-12-31,"{""maturity_range"": ""3-5 years""}"
+BA,10-K,2018-12-31,extracted,55,,"Contractual Obligations as of December 31, 2018",,Total contractual obligations (1),"$30,608",30608000000,USD,instant,,2018-12-31,"{""maturity_range"": ""After 5 years""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Standby letters of credit and surety bonds,"$3,761",3761000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""Total Amounts Committed/Maximum Amount of Loss""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Standby letters of credit and surety bonds,"$1,274",1274000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""Less than 1 year""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Standby letters of credit and surety bonds,"$1,703",1703000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""1-3 years""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Standby letters of credit and surety bonds,$1,1000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""4-5 years""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Standby letters of credit and surety bonds,$783,783000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""After 5 years""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Commercial aircraft financing commitments,"19,462",19462000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""Total Amounts Committed/Maximum Amount of Loss""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Commercial aircraft financing commitments,"2,331",2331000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""Less than 1 year""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Commercial aircraft financing commitments,"6,216",6216000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""1-3 years""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Commercial aircraft financing commitments,"5,189",5189000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""4-5 years""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Commercial aircraft financing commitments,"5,726",5726000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""After 5 years""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Total commercial commitments,"$23,223",23223000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""Total Amounts Committed/Maximum Amount of Loss""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Total commercial commitments,"$3,605",3605000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""Less than 1 year""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Total commercial commitments,"$7,919",7919000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""1-3 years""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Total commercial commitments,"$5,190",5190000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""4-5 years""}"
+BA,10-K,2018-12-31,extracted,57,,"Summary of Commercial Commitments as of December 31, 2018",,Total commercial commitments,"$6,509",6509000000,USD,instant,,2018-12-31,"{""maturity_bucket"": ""After 5 years""}"
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Revenues,"$101,127",101127000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Revenues,"$94,005",94005000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Revenues,"$93,496",93496000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,"Earnings from operations, as reported","$11,987",11987000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,"Earnings from operations, as reported","$10,344",10344000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,"Earnings from operations, as reported","$6,527",6527000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Operating margins,11.9%,11.9,percent,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Operating margins,11.0%,11.0,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Operating margins,7.0%,7.0,percent,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Pension FAS/CAS service cost adjustment,"($1,005)",-1005000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Pension FAS/CAS service cost adjustment,"($1,127)",-1127000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Pension FAS/CAS service cost adjustment,"($1,029)",-1029000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Postretirement FAS/CAS service cost adjustment,($322),-322000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Postretirement FAS/CAS service cost adjustment,($311),-311000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Postretirement FAS/CAS service cost adjustment,($328),-328000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,FAS/CAS service cost adjustment,"($1,327)",-1327000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,FAS/CAS service cost adjustment,"($1,438)",-1438000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,FAS/CAS service cost adjustment,"($1,357)",-1357000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Core operating earnings (non-GAAP),"$10,660",10660000000,USD,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Core operating earnings (non-GAAP),"$8,906",8906000000,USD,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Core operating earnings (non-GAAP),"$5,170",5170000000,USD,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Core operating margins (non-GAAP),10.5%,10.5,percent,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Core operating margins (non-GAAP),9.5%,9.5,percent,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Core operating margins (non-GAAP),5.5%,5.5,percent,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,"Diluted earnings per share, as reported",$17.85,17.85,USD_per_share,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,"Diluted earnings per share, as reported",$13.85,13.85,USD_per_share,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,"Diluted earnings per share, as reported",$7.83,7.83,USD_per_share,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Pension FAS/CAS service cost adjustment,($1.71),-1.71,USD_per_share,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Pension FAS/CAS service cost adjustment,($1.84),-1.84,USD_per_share,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Pension FAS/CAS service cost adjustment,($1.60),-1.6,USD_per_share,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Postretirement FAS/CAS service cost adjustment,($0.55),-0.55,USD_per_share,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Postretirement FAS/CAS service cost adjustment,($0.51),-0.51,USD_per_share,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Postretirement FAS/CAS service cost adjustment,($0.51),-0.51,USD_per_share,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Non-operating pension expense,($0.24),-0.24,USD_per_share,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Non-operating pension expense,($0.19),-0.19,USD_per_share,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Non-operating pension expense,$0.51,0.51,USD_per_share,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Non-operating postretirement expense,$0.17,0.17,USD_per_share,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Non-operating postretirement expense,$0.20,0.2,USD_per_share,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Non-operating postretirement expense,$0.23,0.23,USD_per_share,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Provision for deferred income taxes on adjustments,$0.49,0.49,USD_per_share,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Provision for deferred income taxes on adjustments,$0.82,0.82,USD_per_share,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Provision for deferred income taxes on adjustments,$0.48,0.48,USD_per_share,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Core earnings per share (non-GAAP),$16.01,16.01,USD_per_share,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Core earnings per share (non-GAAP),$12.33,12.33,USD_per_share,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Core earnings per share (non-GAAP),$6.94,6.94,USD_per_share,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Weighted average diluted shares (in millions),586.2,586200000,shares,duration,2018-01-01,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Weighted average diluted shares (in millions),610.7,610700000,shares,duration,2017-01-01,2017-12-31,{}
+BA,10-K,2018-12-31,extracted,58,,Reconciliation of GAAP Measures to Non-GAAP Measures,,Weighted average diluted shares (in millions),643.8,643800000,shares,duration,2016-01-01,2016-12-31,{}
+BA,10-K,2018-12-31,extracted,62,,Sensitivity of Pension Plan Liability and Net Periodic Cost to Change in Discount Rate,,Projected benefit obligation,"($1,947)",-1947000000,USD,instant,,2018-12-31,"{""change"": ""Increase 25 bps""}"
+BA,10-K,2018-12-31,extracted,62,,Sensitivity of Pension Plan Liability and Net Periodic Cost to Change in Discount Rate,,Projected benefit obligation,"$2,408",2408000000,USD,instant,,2018-12-31,"{""change"": ""Decrease 25 bps""}"
+BA,10-K,2018-12-31,extracted,62,,Sensitivity of Pension Plan Liability and Net Periodic Cost to Change in Discount Rate,,Net periodic pension cost,(30),-30000000,USD,instant,,2018-12-31,"{""change"": ""Increase 25 bps""}"
+BA,10-K,2018-12-31,extracted,62,,Sensitivity of Pension Plan Liability and Net Periodic Cost to Change in Discount Rate,,Net periodic pension cost,29,29000000,USD,instant,,2018-12-31,"{""change"": ""Decrease 25 bps""}"
+BA,10-K,2018-12-31,extracted,176,Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters,Equity Compensation Plan Information,,Stock options,"3,252,083",3252083,shares,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,176,Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters,Equity Compensation Plan Information,,Stock options,$72.47,72.47,USD_per_share,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,176,Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters,Equity Compensation Plan Information,,Deferred compensation,"1,849,852",1849852,shares,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,176,Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters,Equity Compensation Plan Information,,Other stock units,"4,843,820",4843820,shares,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,176,Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters,Equity Compensation Plan Information,,Total,"9,945,755",9945755,shares,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,176,Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters,Equity Compensation Plan Information,,Total,$72.47,72.47,USD_per_share,instant,,2018-12-31,{}
+BA,10-K,2018-12-31,extracted,176,Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters,Equity Compensation Plan Information,,Total,"14,244,836",14244836,shares,instant,,2018-12-31,{}

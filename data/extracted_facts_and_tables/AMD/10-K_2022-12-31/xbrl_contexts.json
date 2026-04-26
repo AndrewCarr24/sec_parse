@@ -1,0 +1,3703 @@
+{
+  "i96116e34be7c423cac35e7f5b85fba43_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {}
+  },
+  "i9d56115c4d9240b591cdac6fed7658b8_I20220625": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-06-26",
+    "dimensions": {}
+  },
+  "ieebe001273ef430fa61555bee6e1ca77_I20230222": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-02-23",
+    "dimensions": {}
+  },
+  "i00953504a6f34895bd117e53a2f8cee3_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:ConcentrationRiskByBenchmarkAxis": "us-gaap:RevenueFromContractWithCustomerMember",
+      "srt:MajorCustomersAxis": "amd:CustomerAMember",
+      "us-gaap:ConcentrationRiskByTypeAxis": "us-gaap:CustomerConcentrationRiskMember"
+    }
+  },
+  "i61b8f7b17f4044d4838051368d8cf4a1_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {}
+  },
+  "ia8f6e969dc334170b157817adb525187_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {}
+  },
+  "if4693e9cf7fa416db4292d6a606a53a8_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {}
+  },
+  "i404f32e1aa744cbca6486b574df07088_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {}
+  },
+  "i97e435db1fc642fc84a099a77968b436_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:CommonStockMember"
+    }
+  },
+  "i5bf8555fd0964cce8095ec9e947e4e87_I20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:CommonStockMember"
+    }
+  },
+  "i06c7c04e502e4a9790833c6d2cdfcbfa_I20191228": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2019-12-29",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:CommonStockMember"
+    }
+  },
+  "i4f1d4fce8c2947acb283ded01cfd260b_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:CommonStockMember"
+    }
+  },
+  "i80490e0d1b55437a96b37c9fcaccb3f1_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:CommonStockMember"
+    }
+  },
+  "id29ccbc354ac4131b1d835ab9663f93a_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:CommonStockMember"
+    }
+  },
+  "ib1b6610d25924364b6df65775710e1ca_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:CommonStockMember"
+    }
+  },
+  "i6c98cbcd418a48bbb1ee8440bbe39df6_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AdditionalPaidInCapitalMember"
+    }
+  },
+  "if92c4c91422c4b799b6f0ce917e91c51_I20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AdditionalPaidInCapitalMember"
+    }
+  },
+  "i6a9d8d8c46934d7e87c5898519b1f310_I20191228": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2019-12-29",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AdditionalPaidInCapitalMember"
+    }
+  },
+  "i22aa1d93e97a43428b75d950fdd7b65d_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AdditionalPaidInCapitalMember"
+    }
+  },
+  "i955415c3a7be4c2eac5a8058267f6505_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AdditionalPaidInCapitalMember"
+    }
+  },
+  "icd62493ab0f1468e903644d5cecae992_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AdditionalPaidInCapitalMember"
+    }
+  },
+  "ic7fb267733fa47edb0d4a2c966878c1d_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:FairValueOfCommonStockIssuedAsAcquisitionConsiderationMember",
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AdditionalPaidInCapitalMember"
+    }
+  },
+  "i7f1089610df540d4833cdf9c69770dd6_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:FairValueOfCommonStockIssuedAsAcquisitionConsiderationMember",
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AdditionalPaidInCapitalMember"
+    }
+  },
+  "i6345aa652e4447f7a98fa4ebec8ae3f7_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AdditionalPaidInCapitalMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:PreCombinationUnvestedRestrictedStockUnitsAssumedMember"
+    }
+  },
+  "i89bd5a23ae024f81a1b4d7cd81d23a09_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AdditionalPaidInCapitalMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:PreCombinationUnvestedRestrictedStockUnitsAssumedMember"
+    }
+  },
+  "ibd5f204e89cd4a138bcec56def4c1cd9_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AdditionalPaidInCapitalMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:PreCombinationUnvestedRestrictedStockUnitsAssumedMember"
+    }
+  },
+  "iba5adb0b3e12418192e11121cbc5a60c_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AdditionalPaidInCapitalMember"
+    }
+  },
+  "i208674b24966453c972993dbf4557d2c_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:TreasuryStockMember"
+    }
+  },
+  "i409375195c4e40db8974782c6f37cb93_I20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:TreasuryStockMember"
+    }
+  },
+  "i2e4c515672cc45c7bda701251dd70693_I20191228": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2019-12-29",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:TreasuryStockMember"
+    }
+  },
+  "i7260d32251ad4f8392cc62a02be4d498_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:TreasuryStockMember"
+    }
+  },
+  "i58437495b5794db29df2c7d2f89b7cb6_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:TreasuryStockMember"
+    }
+  },
+  "ied6d9a4533cc4567a016be8b4ec23ee4_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:TreasuryStockMember"
+    }
+  },
+  "i4fc579efdeae4613b2672879a3574397_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:TreasuryStockMember"
+    }
+  },
+  "i220dabc0f9334b13a2a2257744052862_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:RetainedEarningsMember"
+    }
+  },
+  "i56441a3efb064347bd43ff47e9e7efd3_I20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:RetainedEarningsMember"
+    }
+  },
+  "i7f4d1eacc435407fac686b4763e3e67d_I20191228": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2019-12-29",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:RetainedEarningsMember"
+    }
+  },
+  "ie4d078008d6441128c5e8b0a94cc2bf4_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:RetainedEarningsMember"
+    }
+  },
+  "i5e6568c9d72f417e8733b3b0fe34988a_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:RetainedEarningsMember"
+    }
+  },
+  "ia21b813dfa4b41919ee14473eb13693e_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:RetainedEarningsMember"
+    }
+  },
+  "ie788956aca254d26892b290373a47e00_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:RetainedEarningsMember"
+    }
+  },
+  "ibd6df6c3582b402ebbe6c6ac41090b52_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+    }
+  },
+  "i30c0b02de9b74116b4acf875b7f2cb5e_I20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+    }
+  },
+  "iaf82c90cd939424081a4dbf64d483d78_I20191228": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2019-12-29",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+    }
+  },
+  "iee252f05ebe94c3092621060bcf7a73d_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+    }
+  },
+  "i4b93c4239b3c4658958389e07ea0e707_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+    }
+  },
+  "if3d1b5b499b84aceb82da926147b49b4_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+    }
+  },
+  "i3b2f6656a93445518e5988b727774402_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementEquityComponentsAxis": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+    }
+  },
+  "i71618d41a66a41e59c0fba1c1fc785f4_I20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2020-12-27",
+    "dimensions": {}
+  },
+  "if53bcbad8dfd4163abf0fe049714e2fb_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:AmortizationOfInventoryFVAdjustmentMember"
+    }
+  },
+  "i5e42b88460694f289a3bea9ab1963d1a_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:AmortizationOfInventoryFVAdjustmentMember"
+    }
+  },
+  "i3afe90bd87b04591a6feca2975f6eb39_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:AmortizationOfInventoryFVAdjustmentMember"
+    }
+  },
+  "i03f6fee36e13410bb849619694d82def_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "i23c24f07611b4c2bb5e2115b2995a541_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "i32a29439e3f847a8bcca7e47b06f1b7f_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "idc8ca92c1f2b4560801c22a78e3afc8c_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember"
+    }
+  },
+  "ieb484bfa72c74760a528f3a17b563cf8_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember"
+    }
+  },
+  "i953074f7a4ec429c9efebb40850e6757_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember"
+    }
+  },
+  "i8ef237559404482badfd8cca0a966ee1_I20191228": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2019-12-29",
+    "dimensions": {}
+  },
+  "icc8336a916b84761ad243ca065daa49d_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:CommonAndTreasuryStockIssuedMember"
+    }
+  },
+  "ibd12829cd3e04c859b19f7a0b9d3cb1f_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:CommonAndTreasuryStockIssuedMember"
+    }
+  },
+  "i0ac13de868cf4553bc7e6881aa28a178_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:CommonAndTreasuryStockIssuedMember"
+    }
+  },
+  "ifab0a61def314d3baf2a69f6db1fddad_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PreCombinationUnvestedRestrictedStockUnitsAssumedMember"
+    }
+  },
+  "i8e78de776412403283bc469ca9f7ae91_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PreCombinationUnvestedRestrictedStockUnitsAssumedMember"
+    }
+  },
+  "i4defd7616da4433daa2dd3f8709523c9_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PreCombinationUnvestedRestrictedStockUnitsAssumedMember"
+    }
+  },
+  "ieede3c872c4644bb868fe30610dbd48e_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:RangeAxis": "srt:MinimumMember"
+    }
+  },
+  "i8a5653ab1c334e05a880b59fb898d4a8_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:RangeAxis": "srt:MaximumMember"
+    }
+  },
+  "i52ef7145c5fd46a2992dd2cdb0e2895e_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:RevenueRemainingPerformanceObligationExpectedTimingOfSatisfactionStartDateAxis": "2021-12-25"
+    }
+  },
+  "ib731fb46b2094660a08b1be606a5832a_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:TimingOfTransferOfGoodOrServiceAxis": "us-gaap:TransferredOverTimeMember"
+    }
+  },
+  "ie671176bc9a5465497da5a792485e96c_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:TimingOfTransferOfGoodOrServiceAxis": "us-gaap:TransferredOverTimeMember"
+    }
+  },
+  "i777680b8a0194a1295769afcdb2db312_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:TimingOfTransferOfGoodOrServiceAxis": "us-gaap:TransferredOverTimeMember"
+    }
+  },
+  "i0dfd10e59b8e4996817a3e6ced5c624a_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:DatacenterMember"
+    }
+  },
+  "idc0cf57c51624322a2c88f4010779cea_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:DatacenterMember"
+    }
+  },
+  "ia0b6f933ebc34c06bdff9b31e0e50900_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:DatacenterMember"
+    }
+  },
+  "i5d82e1c8073643ea8ba5e0c4550181a0_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:ClientMember"
+    }
+  },
+  "i9a538b6bab8e4b7da3a43cfa4832709d_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:ClientMember"
+    }
+  },
+  "ibf40586dee8344ed93544c14c7021107_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:ClientMember"
+    }
+  },
+  "i96f29fd7b66e4019a3061a0cb64e4b68_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:GamingMember"
+    }
+  },
+  "i7c4e4b18e45a4bcc90339f1b85e37298_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:GamingMember"
+    }
+  },
+  "i008d9625b9314c0081012eff8ee5d80f_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:GamingMember"
+    }
+  },
+  "i793a1490624a4a83b19cc05b51ae9fb9_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:EmbeddedMember"
+    }
+  },
+  "ifbbc228d00a342d2899e7b8fb13f01ea_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:EmbeddedMember"
+    }
+  },
+  "idc38371b8f4d49a7a77b2a251b8ca7af_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:EmbeddedMember"
+    }
+  },
+  "i96cd9c2ca2b74a04ac73c2094adc6620_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:DatacenterMember",
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember"
+    }
+  },
+  "if245a9b5c6b3471fade662fdb91516f7_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:DatacenterMember",
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember"
+    }
+  },
+  "if461be90323b4e91b640a9861ac2b8db_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:DatacenterMember",
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember"
+    }
+  },
+  "ifef687afdd0446308ff8dc16a7ca5d14_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember",
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:ClientMember"
+    }
+  },
+  "ia1b055a4b5cc42beb88fc706ff519a8d_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember",
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:ClientMember"
+    }
+  },
+  "i3ffefe3fce56480ba6f85e8942c8c7f1_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember",
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:ClientMember"
+    }
+  },
+  "i8ae0a31104bd4b2e89612a6844d589fd_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember",
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:GamingMember"
+    }
+  },
+  "i593c4b2c241043fdb4f7a0056d5cc121_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember",
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:GamingMember"
+    }
+  },
+  "ie5aae8f67e454030bf331c075df54fea_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember",
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:GamingMember"
+    }
+  },
+  "i461ee5bebd2141a2869068ef76df3c10_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:EmbeddedMember",
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember"
+    }
+  },
+  "i108989fa467c4e9ea7cd4882a73f1527_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:EmbeddedMember",
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember"
+    }
+  },
+  "ie3f950f820ef4383a5c748bd98271d3f_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:EmbeddedMember",
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember"
+    }
+  },
+  "ie12f4806dc8149aaafa20ef072eec769_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember"
+    }
+  },
+  "i70a78e5a2e274f0595444a170ade6d18_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember"
+    }
+  },
+  "id74c73e6d4a342a9800234a4ac1934c9_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "srt:ConsolidationItemsAxis": "us-gaap:OperatingSegmentsMember"
+    }
+  },
+  "i3ae2a5d79509470d809000f86a97ab44_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:ConsolidationItemsAxis": "us-gaap:MaterialReconcilingItemsMember"
+    }
+  },
+  "ia627bb1570894b00996037945006b353_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:ConsolidationItemsAxis": "us-gaap:MaterialReconcilingItemsMember"
+    }
+  },
+  "i4f43c175d0c74fbe948400ed3b3657c7_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "srt:ConsolidationItemsAxis": "us-gaap:MaterialReconcilingItemsMember"
+    }
+  },
+  "i4c2b051b2bd24644bc5feff7d0248218_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:US"
+    }
+  },
+  "i5c182f61fa5f4a9da3b838b9fea5f3cb_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:US"
+    }
+  },
+  "id252cf67e6824618b12df282c25f3cd7_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:US"
+    }
+  },
+  "ib3d52536d12541f79fb5a5d8d8591b64_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:CN"
+    }
+  },
+  "ieef817c259fb4f258c487d15f86db42b_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:CN"
+    }
+  },
+  "id9eb4db0cdc04ee9806cd487bf81bf69_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:CN"
+    }
+  },
+  "ib87bf72bc0cf450aa71b282a5cd1c698_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:JP"
+    }
+  },
+  "i4ce72508aa9a4eafb1385204f8ee66e8_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:JP"
+    }
+  },
+  "i6ffcbbcb755b43d1b1fe462e332018da_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:JP"
+    }
+  },
+  "i2c554057a5b44ca7bd1a06fda905faf0_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "srt:EuropeMember"
+    }
+  },
+  "i4f846ce90ee54e03870290235832fb81_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "srt:EuropeMember"
+    }
+  },
+  "i0d05125b62b047e996a0c275c42ad78d_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "srt:EuropeMember"
+    }
+  },
+  "ie08969bf6e004740884373e691948e0d_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:TW"
+    }
+  },
+  "i9f4b8c28707a4befa62a26c961232f7a_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:TW"
+    }
+  },
+  "ia2ebd395e70d4526b1a636e1c51997b9_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:TW"
+    }
+  },
+  "ie89eb34c7e3b4d709ebf65305e5b2fec_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:SG"
+    }
+  },
+  "i40741c861e4147b296502b73a423bdd7_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:SG"
+    }
+  },
+  "i56362d8d02894b8f9954e771d18f3dcf_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:SG"
+    }
+  },
+  "i4df3d08d435d436495c3f727a4ef12c0_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "amd:OtherCountriesMember"
+    }
+  },
+  "ib6fd5f88e7f64276976759d55c30929f_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "amd:OtherCountriesMember"
+    }
+  },
+  "i9142f154589845109a35e7717ad86d57_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "amd:OtherCountriesMember"
+    }
+  },
+  "i5c55a3041e3f49219fd26dc3b4b93ccd_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:ConcentrationRiskByBenchmarkAxis": "us-gaap:RevenueFromContractWithCustomerMember",
+      "srt:MajorCustomersAxis": "amd:CustomerAMember",
+      "us-gaap:ConcentrationRiskByTypeAxis": "us-gaap:CustomerConcentrationRiskMember"
+    }
+  },
+  "i7960bd4de8cb4de68f2bd45dc5cb7f33_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:MajorCustomersAxis": "amd:CustomerBMember",
+      "us-gaap:ConcentrationRiskByBenchmarkAxis": "us-gaap:RevenueFromContractWithCustomerMember",
+      "us-gaap:ConcentrationRiskByTypeAxis": "us-gaap:CustomerConcentrationRiskMember"
+    }
+  },
+  "i87102a2735e14ed48b16e1bceb99c805_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:US"
+    }
+  },
+  "i3f46199c22e244f4bdb0c0c859158698_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:US"
+    }
+  },
+  "i1b9388f1542f413fb604216190020b84_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:CA"
+    }
+  },
+  "ief800fa1e846460092cf01ac075f52c0_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:CA"
+    }
+  },
+  "ic63a195371db48a8ab413e15d6b95c8a_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:CN"
+    }
+  },
+  "i63495dbf882f46b284bcc17ed8e18a54_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:CN"
+    }
+  },
+  "ib36d6f572ca34a24bedefd4f4dbd6784_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:SG"
+    }
+  },
+  "ieae62634963a4169a72a37681e7869b5_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:SG"
+    }
+  },
+  "i06c9e829ebb94af585358ce6d5287a5b_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:IN"
+    }
+  },
+  "i3f567163c072463b87c9fb61254fe986_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:IN"
+    }
+  },
+  "i988e4952fcc7423eb4cc339dde3e6b47_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:IE"
+    }
+  },
+  "i5962168016984711878c83d2aea0549c_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "country:IE"
+    }
+  },
+  "iced66cf6010942c1983e982a3339ad1d_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "amd:OtherCountriesMember"
+    }
+  },
+  "ieeb2ea62a551405a98b1f0152be9e4da_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:StatementGeographicalAxis": "amd:OtherCountriesMember"
+    }
+  },
+  "i9113b58960f24ce7a7693ae7d527db80_I20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember"
+    }
+  },
+  "i846b50a8091e4926b9e11cd1bd231f47_D20220526-20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-05-26",
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember"
+    }
+  },
+  "i90804f3d40a74eec93fbece9646195e1_I20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember",
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:DevelopedTechnologyRightsMember"
+    }
+  },
+  "i319478fc3f994fc3b38bd7b2d84d65f6_D20220526-20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-05-26",
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember",
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:DevelopedTechnologyRightsMember"
+    }
+  },
+  "ib3ee4c35e7914b95a20611a37745f073_I20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember",
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:CustomerRelationshipsMember"
+    }
+  },
+  "i7a252b6fbda44fb3bbfb505797813180_D20220526-20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-05-26",
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember",
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:CustomerRelationshipsMember"
+    }
+  },
+  "ie0c629a089714894ae69360708a5c439_I20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:CustomerContractsMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember"
+    }
+  },
+  "ic7a96fe26bc64e7cae777a76fe06dadf_D20220526-20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-05-26",
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:CustomerContractsMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember"
+    }
+  },
+  "i3640eb35a65a4ccc85de708d583364b8_I20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:TrademarksMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember"
+    }
+  },
+  "ie44edf10b8c745ca8a24c52f380c845f_D20220526-20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-05-26",
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:TrademarksMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember"
+    }
+  },
+  "i286b742fd3104259b01d3fc37ce547c0_I20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember",
+      "us-gaap:IndefiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:OtherIntangibleAssetsMember"
+    }
+  },
+  "i29f70a136ccf44a6aec1e68afc1d0551_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PensandoMember",
+      "srt:ConsolidationItemsAxis": "us-gaap:MaterialReconcilingItemsMember"
+    }
+  },
+  "i750050b99c124a8394e21bc55806d0c2_D20220526-20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-05-26",
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "ibb36c86c41414091841062f97e1d11a6_D20220214-20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-02-14",
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "i2d6f836b41664167b7e382c79af33229_D20220214-20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-02-14",
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:CommonAndTreasuryStockIssuedMember"
+    }
+  },
+  "i8c3160eb097249baba1335330cbbcaff_D20220214-20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-02-14",
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PreCombinationUnvestedRestrictedStockUnitsAssumedMember"
+    }
+  },
+  "i2d2b70f07acf4a0abf2e149aead60699_I20220211": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-02-12",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:FairValueOfCommonStockIssuedAsAcquisitionConsiderationMember"
+    }
+  },
+  "i47da42ee1a3d4a9e9e8c3c90f8962830_I20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "i742a68b7d0ff40f1887c64d1f41fa6ca_I20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:OperatingLeaseRightOfUseAssetAcquiredMember"
+    }
+  },
+  "i3b72e60783a6447da8e9c81a31d8cb5b_I20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:DevelopedTechnologyRightsMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "i57036cee14ed42d6bc76d1ad82445acb_D20220214-20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-02-14",
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:DevelopedTechnologyRightsMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "idd300f8bcca44cc589e54126a58dfe96_I20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:CustomerRelationshipsMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "i83c6ed050c684d28a043d3856eeac890_D20220214-20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-02-14",
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:CustomerRelationshipsMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "ied97ce02db0344ba9079d3b25a4048f4_I20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:CustomerContractsMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "i77ad469d05834766b7ab3d939bded1f3_D20220214-20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-02-14",
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:CustomerContractsMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "ia49a2a6bc7d24139ac68aaad19bd019a_I20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember",
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:TradeNamesMember"
+    }
+  },
+  "i47d088625b1648c88b694deb7884b5e3_D20220214-20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-02-14",
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember",
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:TradeNamesMember"
+    }
+  },
+  "i2c6eb13634f84b2489f5ccbaf4c55a1c_I20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:TrademarksMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "id8dc3932d58942e7bc3d099288e8b4d0_D20220214-20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-02-14",
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:TrademarksMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "iefdcb943b47a4e71b7c21f5c69af6b7b_I20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:IndefiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:OtherIntangibleAssetsMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "i2d534b7feaeb4d81ae632b9b16598b46_D20220214-20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-02-14",
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:TotalAssumedUnvestedRestrictedStockUnitsMember"
+    }
+  },
+  "i0c3c2f7c7e3b4a0f87ccd93e1b9afae6_I20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PostCombinationUnvestedRestrictedStockUnitMember"
+    }
+  },
+  "ia6f6143219b64c378d298345a2fee2ad_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:ConsolidationItemsAxis": "us-gaap:MaterialReconcilingItemsMember",
+      "us-gaap:BusinessAcquisitionAxis": "amd:XilinxIncMember"
+    }
+  },
+  "i8ea69306b81b4b2a94b61b06c1da8b5f_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:NonrecurringAdjustmentAxis": "us-gaap:FairValueAdjustmentToInventoryMember"
+    }
+  },
+  "i651fe78717af46338933323a97e9b230_D20221231-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-12-31",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:DevelopedTechnologyRightsMember"
+    }
+  },
+  "if8c25e6592f44eadb3fb136718d8ec25_I20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:DevelopedTechnologyRightsMember"
+    }
+  },
+  "i8d26c98b00f0440495beb1b045904512_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:DevelopedTechnologyRightsMember"
+    }
+  },
+  "ic9d9cccf287c49b79549b890893a468e_D20221231-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-12-31",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:CustomerRelationshipsMember"
+    }
+  },
+  "i9e5d3cfa61864acd8092344b11750b61_I20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:CustomerRelationshipsMember"
+    }
+  },
+  "iaf50447225ac448ba62cc74835eb23b7_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:CustomerRelationshipsMember"
+    }
+  },
+  "id90abb27e2da4d02824d2c4f42dfa949_D20221231-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-12-31",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:CustomerContractsMember"
+    }
+  },
+  "idbc2dd2a65d94428ab864c866537f2a4_I20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:CustomerContractsMember"
+    }
+  },
+  "ic41b11f706f246c79d8d4729cf69eb29_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:CustomerContractsMember"
+    }
+  },
+  "i86ef6974a21647bf9081e1d474d59d74_D20221231-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-12-31",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:TradeNamesMember"
+    }
+  },
+  "i740479ae5a3a4f07a69f9e9b46a1a124_I20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:TradeNamesMember"
+    }
+  },
+  "iefa0b4bfedee4e3f8a8815880cfd9d8e_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:TradeNamesMember"
+    }
+  },
+  "ifb27c05f6b8e4afb91644d71bea1c238_D20221231-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2022-12-31",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:TrademarksMember"
+    }
+  },
+  "i1fb3bc947b484597b032286bc2236835_I20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:TrademarksMember"
+    }
+  },
+  "ibabf9028dc174b55acff996cd1faf306_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:TrademarksMember"
+    }
+  },
+  "ib29cb99c07974630a4c38cf39e997073_I20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-05-27",
+    "dimensions": {}
+  },
+  "i6fb9bced404a4a9b9b3358693f937b09_I20220526": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-05-27",
+    "dimensions": {
+      "us-gaap:IndefiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:OtherIntangibleAssetsMember"
+    }
+  },
+  "ia23d792233f14a35af857df09399a399_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:IndefiniteLivedIntangibleAssetsByMajorClassAxis": "us-gaap:OtherIntangibleAssetsMember"
+    }
+  },
+  "ia2f92c0e038e48ba86205b70375b3af4_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:EnterpriseEmbeddedAndSemiCustomsMember"
+    }
+  },
+  "i57c030aa365e45bf8352a78b4c91da46_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:EnterpriseEmbeddedAndSemiCustomsMember"
+    }
+  },
+  "i80c87e2cc65c448fbb347087f17ed2a4_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:EnterpriseEmbeddedAndSemiCustomsMember"
+    }
+  },
+  "i5d54b75c696f4ce19d4df7cbaf5220a2_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:XilinxIncMember"
+    }
+  },
+  "i5b4ba912319f430488f34ae2842334eb_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:XilinxIncMember"
+    }
+  },
+  "i061d988c3e6f4145b7a2bd83d07826a3_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:XilinxIncMember"
+    }
+  },
+  "ibe4ba755ece448b596a6a41c47766858_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:DatacenterMember"
+    }
+  },
+  "iad4736b364f0418cb9e5483cd918c053_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:DatacenterMember"
+    }
+  },
+  "i5924a843cb0e408a89566ef4a565cc21_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:GamingMember"
+    }
+  },
+  "i04bff70c348f4b1889f040aa4f6b842f_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:GamingMember"
+    }
+  },
+  "i495b903a7f2b45689a4baf789cc9106d_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:EmbeddedMember"
+    }
+  },
+  "i66187a0c6c5e42deb95858d50b2df13f_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementBusinessSegmentsAxis": "amd:EmbeddedMember"
+    }
+  },
+  "icc080ae1551e442088ec8cbe68682590_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis": "amd:ATMPJVMember",
+      "us-gaap:RelatedPartyTransactionsByRelatedPartyAxis": "us-gaap:CorporateJointVentureMember"
+    }
+  },
+  "ib9830134f58a45ffbc883697336b4da7_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis": "amd:ATMPJVMember",
+      "us-gaap:RelatedPartyTransactionsByRelatedPartyAxis": "us-gaap:CorporateJointVentureMember"
+    }
+  },
+  "i4a7dee63447d4e6a9b504feaaad48955_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis": "amd:ATMPJVMember",
+      "us-gaap:RelatedPartyTransactionsByRelatedPartyAxis": "us-gaap:CorporateJointVentureMember"
+    }
+  },
+  "i8fb9ca275db245b9a382d3bf861c9fa3_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis": "amd:ATMPJVMember",
+      "us-gaap:RelatedPartyTransactionsByRelatedPartyAxis": "us-gaap:CorporateJointVentureMember"
+    }
+  },
+  "i9d83334aa2264b0cbdbfe777c2d27514_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis": "amd:ATMPJVMember"
+    }
+  },
+  "id27c268bdd0c429382ec71f95985a83b_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis": "amd:ATMPJVMember"
+    }
+  },
+  "i183c632e260d4cc6b4881a6b581fca6a_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis": "amd:THATICJVMember",
+      "us-gaap:RelatedPartyTransactionsByRelatedPartyAxis": "us-gaap:CorporateJointVentureMember"
+    }
+  },
+  "i2433e1f9ce624a2d9f4427adf3b54265_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:LongtermDebtTypeAxis": "us-gaap:SeniorNotesMember",
+      "us-gaap:DebtInstrumentAxis": "amd:A750SeniorNotesDue2022Member"
+    }
+  },
+  "ia94771881366472382fa50e720562879_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:LongtermDebtTypeAxis": "us-gaap:SeniorNotesMember",
+      "us-gaap:DebtInstrumentAxis": "amd:A750SeniorNotesDue2022Member"
+    }
+  },
+  "iaac32887b981419d9c217a0a8b58ddb6_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:LongtermDebtTypeAxis": "us-gaap:SeniorNotesMember",
+      "us-gaap:DebtInstrumentAxis": "amd:A2950SeniorNotesDue2024Member"
+    }
+  },
+  "i8c66cd5db6ad45deb828f5bc2893a3cd_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:LongtermDebtTypeAxis": "us-gaap:SeniorNotesMember",
+      "us-gaap:DebtInstrumentAxis": "amd:A2950SeniorNotesDue2024Member"
+    }
+  },
+  "if7ff0ff460d34eec87eda0907fee591f_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:DebtInstrumentAxis": "amd:A2.125ConvertibleSeniorNotesDue2026Member",
+      "us-gaap:LongtermDebtTypeAxis": "us-gaap:SeniorNotesMember"
+    }
+  },
+  "i4d4221d7ff4a4cd39ee101df0ae72d0e_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:DebtInstrumentAxis": "amd:A2.125ConvertibleSeniorNotesDue2026Member",
+      "us-gaap:LongtermDebtTypeAxis": "us-gaap:SeniorNotesMember"
+    }
+  },
+  "i8ef8037fe0e04b32be8c2b758acc4e48_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:DebtInstrumentAxis": "amd:A2375SeniorNotesDue2030Member",
+      "us-gaap:LongtermDebtTypeAxis": "us-gaap:SeniorNotesMember"
+    }
+  },
+  "i7abd36ed76ed4669963f2ca956862684_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:DebtInstrumentAxis": "amd:A2375SeniorNotesDue2030Member",
+      "us-gaap:LongtermDebtTypeAxis": "us-gaap:SeniorNotesMember"
+    }
+  },
+  "ib383d922c6b141bea41b8782eb0a012b_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:LongtermDebtTypeAxis": "us-gaap:SeniorNotesMember",
+      "us-gaap:DebtInstrumentAxis": "amd:A3924SeniorNoteDue2032Member"
+    }
+  },
+  "i189a7cfd00eb4857bb43978b57e7a068_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:LongtermDebtTypeAxis": "us-gaap:SeniorNotesMember",
+      "us-gaap:DebtInstrumentAxis": "amd:A3924SeniorNoteDue2032Member"
+    }
+  },
+  "iafc444575d7d4a9f8cae2e62cfe5efeb_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:DebtInstrumentAxis": "amd:A4393SeniorNotesMember",
+      "us-gaap:LongtermDebtTypeAxis": "us-gaap:SeniorNotesMember"
+    }
+  },
+  "i6207bde8cad142eaba4d75d5ce96559a_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:DebtInstrumentAxis": "amd:A4393SeniorNotesMember",
+      "us-gaap:LongtermDebtTypeAxis": "us-gaap:SeniorNotesMember"
+    }
+  },
+  "ia6d2d286a9c24a568916d7e1ef81c6a2_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:DebtInstrumentAxis": "amd:PrincipleBalanceDueMember"
+    }
+  },
+  "i162648c6c5374902936e08272f784b42_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:DebtInstrumentAxis": "amd:PrincipleBalanceDueMember"
+    }
+  },
+  "i026801acc7f0490db8a4fff26a00ba2d_I20220214": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2022-02-15",
+    "dimensions": {
+      "us-gaap:BusinessAcquisitionAxis": "amd:PrincipalBalanceOfNotesAssumedMember"
+    }
+  },
+  "id4f7ca7b3f1a488488687b18a77b3349_I20120815": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2012-08-16",
+    "dimensions": {
+      "us-gaap:LongtermDebtTypeAxis": "amd:A750SeniorNotesDue2022Member"
+    }
+  },
+  "id5ac3f381b3b4c17822210a852a86226_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:MoneyMarketFundsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "i57a750e188104c9a83562d95279d39d9_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:MoneyMarketFundsMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "ic444d706902942839f679e7209f8dfdf_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:MoneyMarketFundsMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "i43e6c67ef319452f8dc2aa8026abe09b_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:MoneyMarketFundsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "iee9ac9bf040448128acc40f37841563e_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:MoneyMarketFundsMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "id12ce0183747419ea8518267c7f6d5ea_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:MoneyMarketFundsMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "ica80ad73c73f45cbaa0221b36837f774_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:CommercialPaperMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "ib24554760b624a089efa70cec7bd600d_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:CommercialPaperMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "i36c15ebcae1447c39f6fc37fe2b052a3_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:CommercialPaperMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "i13da74e75b0d418c8edf8d476bc91b75_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:CommercialPaperMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "i81b51a1c0b3140a38e4d3175517e18ee_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:CommercialPaperMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "ic438b34cbae148aabf22505a5d10b0b3_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:CommercialPaperMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "i1f409ee4980b434da835511a1244ee48_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "i82906aacfe694025ac65e35e0901637d_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "i5b830fdfb4884bfc8fa2c2c3f49b5d6c_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "if0bad484d70248e9bde2eb99d0be06d1_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "i7345dd7e7aa34e1caa6697756d1cdafd_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "i1372325c06fc4641ac927a28980c66cd_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:CashEquivalentsMember"
+    }
+  },
+  "ie63b25785e034e80bb83d40d1720dfee_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:CommercialPaperMember"
+    }
+  },
+  "ibb63bfd4883243a8b564b6a8c6ac13c2_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:CommercialPaperMember"
+    }
+  },
+  "ica99437a621d4d23978c12fb5ed02f36_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:CommercialPaperMember"
+    }
+  },
+  "i48768ac628ca4d3383b2718e21b2d130_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:CommercialPaperMember"
+    }
+  },
+  "i0b33251e0a014a91bde1554b2332364c_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:CommercialPaperMember"
+    }
+  },
+  "i3383999a75874fc188b554345dce0a83_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:CommercialPaperMember"
+    }
+  },
+  "i97ea9b7bba2e4bf5b15538dab0e4b0d1_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember"
+    }
+  },
+  "i4fdc05039b41463abcc22f5f8b9de9f6_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember"
+    }
+  },
+  "i39724a3d91984c769688f55dc764fd60_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember"
+    }
+  },
+  "i25b966125689492d96cafa6e9393df0b_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember"
+    }
+  },
+  "i6c2e0de85891435eb1a4d73a041dc624_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember"
+    }
+  },
+  "i7ead1147fdc7423dae3496645813496e_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember"
+    }
+  },
+  "ie59c0f3292704936afd7152be690d4c8_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:AssetBackedSecuritiesMember"
+    }
+  },
+  "i469b4e1aa17d4b8ab0b8e7f89ae32ea1_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:AssetBackedSecuritiesMember"
+    }
+  },
+  "i8c40faeb6e87498b93edecde7b77e924_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:AssetBackedSecuritiesMember"
+    }
+  },
+  "if0a70fd35442481ea923985f139e2ca5_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:AssetBackedSecuritiesMember"
+    }
+  },
+  "i7405e1f8ef984e50a8ba9f7e3c65fb47_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:AssetBackedSecuritiesMember"
+    }
+  },
+  "i77c26bdd8cf14ae7a6d336b038cd419a_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:AssetBackedSecuritiesMember"
+    }
+  },
+  "i83fdef262f844e089353c8366ef4527e_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:USGovernmentAgenciesDebtSecuritiesMember"
+    }
+  },
+  "if501a86eb87b40de9c128956f8a6e531_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:USGovernmentAgenciesDebtSecuritiesMember"
+    }
+  },
+  "i73246d38066d45c3ad9826f6f20af84e_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:USGovernmentAgenciesDebtSecuritiesMember"
+    }
+  },
+  "ied6009e87ec647039b0fc3c0c2859cc8_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:USGovernmentAgenciesDebtSecuritiesMember"
+    }
+  },
+  "ib7f00eccb0604c609fe4c4e818caa46b_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:USGovernmentAgenciesDebtSecuritiesMember"
+    }
+  },
+  "if8f227a5c1e04832a9debba238537123_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:USGovernmentAgenciesDebtSecuritiesMember"
+    }
+  },
+  "i0073ae570a0843daa1d695466de71b10_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:SovereignDebtSecuritiesMember"
+    }
+  },
+  "i06731bae920a4de9ad292a4dfa16f913_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:SovereignDebtSecuritiesMember"
+    }
+  },
+  "ia8f0407f348a44c49697918f2ddbf96e_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:SovereignDebtSecuritiesMember"
+    }
+  },
+  "i5da0d377866144b8a83ab659433267f4_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:SovereignDebtSecuritiesMember"
+    }
+  },
+  "i4685f0da2e0a4beb9aaf791274922a82_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:SovereignDebtSecuritiesMember"
+    }
+  },
+  "ia3a5051a638e459fa0d342c5c212f4be_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:SovereignDebtSecuritiesMember"
+    }
+  },
+  "i9b5dd872147c42b0ae9ed82a7a489ecc_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember"
+    }
+  },
+  "i15dc8c533e554563a04aa22338b131fb_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember"
+    }
+  },
+  "id5db8a4107bb4698892e06818dc25c05_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember"
+    }
+  },
+  "icd1e33f91f384453ada386696e0c7100_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember"
+    }
+  },
+  "i6b2c006c49b7491b8cd8e699b1a98543_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember"
+    }
+  },
+  "i44284e9abb2e4b2f96b4684658a05761_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:BankTimeDepositsMember"
+    }
+  },
+  "i1524602b352b46d89dfbee577bc9b2a2_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:EquitySecuritiesMember"
+    }
+  },
+  "if58b15f3410a45a98f49cab14dee09c8_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:EquitySecuritiesMember"
+    }
+  },
+  "i667cfb1fbf19437383892169ae57534d_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:EquitySecuritiesMember"
+    }
+  },
+  "i1142b479233a41c1a7ba6a014f73e845_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:EquitySecuritiesMember"
+    }
+  },
+  "i452b60500550467ba0994a1c382bb6e6_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:EquitySecuritiesMember"
+    }
+  },
+  "i005da36d70ea41d08d31bacfa0e071e9_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:EquitySecuritiesMember"
+    }
+  },
+  "iaf25deb7ed724afeacd6735ae58b7bad_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:DeferredCompensationArrangementWithIndividualByTypeOfCompensationPensionAndOtherPostretirementBenefitsMember"
+    }
+  },
+  "i969d2628318e4924ac7137de6761ccea_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:DeferredCompensationArrangementWithIndividualByTypeOfCompensationPensionAndOtherPostretirementBenefitsMember"
+    }
+  },
+  "i54302b1edbcf40039545b9e22b6863e4_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:DeferredCompensationArrangementWithIndividualByTypeOfCompensationPensionAndOtherPostretirementBenefitsMember"
+    }
+  },
+  "i2957c2725d5c4937a368b8f20f87d9ff_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:DeferredCompensationArrangementWithIndividualByTypeOfCompensationPensionAndOtherPostretirementBenefitsMember"
+    }
+  },
+  "i1f33911c551a48a4a6f18b185e18d88f_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:DeferredCompensationArrangementWithIndividualByTypeOfCompensationPensionAndOtherPostretirementBenefitsMember"
+    }
+  },
+  "ia8f59abfb8004b1fa9ab3e76ed4ed7f6_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember",
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:OtherNoncurrentAssetsMember",
+      "us-gaap:FairValueByAssetClassAxis": "us-gaap:DeferredCompensationArrangementWithIndividualByTypeOfCompensationPensionAndOtherPostretirementBenefitsMember"
+    }
+  },
+  "ide7d719158ff46eeaa411543a3b013be_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member"
+    }
+  },
+  "i9679262c014a4cacb8557b647d0bb96f_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member"
+    }
+  },
+  "i31f97b48250441e1887fcaf2f5bcb039_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember"
+    }
+  },
+  "i722e7645600942cba9a8684e720c5010_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel1Member"
+    }
+  },
+  "i71ec211fbeb246fd872921b984f974bf_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member"
+    }
+  },
+  "ifa7a6fc6a4b7487b965e5c96e79c400b_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementFrequencyAxis": "us-gaap:FairValueMeasurementsRecurringMember"
+    }
+  },
+  "ibccbbe367d9c437fa3d64a612e0581da_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FinancialInstrumentAxis": "us-gaap:AssetBackedSecuritiesMember"
+    }
+  },
+  "i21a250597a764a7a8f02a1b5d3ead374_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FinancialInstrumentAxis": "us-gaap:CommercialPaperMember"
+    }
+  },
+  "ie05349980f6a493f9b1e51bc445e5b26_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FinancialInstrumentAxis": "us-gaap:MoneyMarketFundsMember"
+    }
+  },
+  "i03ce63e6eac54f7daaf56643e57886c6_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FinancialInstrumentAxis": "us-gaap:BankTimeDepositsMember"
+    }
+  },
+  "iee59b07d0363407685278e0b753e4377_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FinancialInstrumentAxis": "us-gaap:USGovernmentAgenciesDebtSecuritiesMember"
+    }
+  },
+  "i726c3a82f60046958ce6f6fb964dbf99_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FinancialInstrumentAxis": "us-gaap:SovereignDebtSecuritiesMember"
+    }
+  },
+  "i380a02c7285e476899926f79daa52a5d_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember"
+    }
+  },
+  "i97c870747cce446985a2bedd1ba1301b_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:BalanceSheetLocationAxis": "us-gaap:ShortTermInvestmentsMember"
+    }
+  },
+  "if813dbba022646dfa30acba9926d0d7a_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementBasisAxis": "us-gaap:CarryingReportedAmountFairValueDisclosureMember"
+    }
+  },
+  "i2feb8e93557d42f88fd0e36f59cc47b0_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementBasisAxis": "us-gaap:EstimateOfFairValueFairValueDisclosureMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member"
+    }
+  },
+  "i69f998cd257b46ef9ee0d66d57278239_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementBasisAxis": "us-gaap:CarryingReportedAmountFairValueDisclosureMember"
+    }
+  },
+  "i4999d5fc9b6641078167540c9c4ea9a4_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementBasisAxis": "us-gaap:EstimateOfFairValueFairValueDisclosureMember",
+      "us-gaap:FairValueByFairValueHierarchyLevelAxis": "us-gaap:FairValueInputsLevel2Member"
+    }
+  },
+  "ie88103ea99e5462d9d2e90098e517192_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementBasisAxis": "us-gaap:EstimateOfFairValueFairValueDisclosureMember"
+    }
+  },
+  "id0918d9e40884deea6134a0621e6d4cf_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:FairValueByMeasurementBasisAxis": "us-gaap:EstimateOfFairValueFairValueDisclosureMember"
+    }
+  },
+  "icd6f23bf67a54efaae43f2277b6277a1_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:DerivativeInstrumentRiskAxis": "us-gaap:ForeignExchangeContractMember",
+      "us-gaap:HedgingDesignationAxis": "us-gaap:DesignatedAsHedgingInstrumentMember"
+    }
+  },
+  "i09b6e657eef5460d9d14858b33d86f07_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:DerivativeInstrumentRiskAxis": "us-gaap:ForeignExchangeContractMember",
+      "us-gaap:HedgingDesignationAxis": "us-gaap:DesignatedAsHedgingInstrumentMember"
+    }
+  },
+  "i8fe788e302f84151be32d0f646b65b9c_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:DerivativeInstrumentsGainLossByHedgingRelationshipAxis": "us-gaap:CashFlowHedgingMember",
+      "us-gaap:DerivativeInstrumentRiskAxis": "us-gaap:ForeignExchangeContractMember"
+    }
+  },
+  "i6c58748dd4c44e3990840ba4324c2f0e_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:HedgingDesignationAxis": "us-gaap:NondesignatedMember",
+      "us-gaap:DerivativeInstrumentRiskAxis": "us-gaap:ForeignExchangeContractMember"
+    }
+  },
+  "ib068705395a14a88ac66224d4c017cfa_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:HedgingDesignationAxis": "us-gaap:NondesignatedMember",
+      "us-gaap:DerivativeInstrumentRiskAxis": "us-gaap:ForeignExchangeContractMember"
+    }
+  },
+  "idc293d0aa4e24c079a58a06ace819eb6_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:ConcentrationRiskByBenchmarkAxis": "us-gaap:AccountsReceivableMember",
+      "srt:MajorCustomersAxis": "amd:TopCustomerOneMember",
+      "us-gaap:ConcentrationRiskByTypeAxis": "us-gaap:CustomerConcentrationRiskMember"
+    }
+  },
+  "i2798652a59354dca9234b9b903ac67cb_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:ConcentrationRiskByBenchmarkAxis": "us-gaap:AccountsReceivableMember",
+      "srt:MajorCustomersAxis": "amd:TopCustomerOneMember",
+      "us-gaap:ConcentrationRiskByTypeAxis": "us-gaap:CustomerConcentrationRiskMember"
+    }
+  },
+  "i887f00b3027a4646b1a3606353d1fafd_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:ConcentrationRiskByBenchmarkAxis": "us-gaap:AccountsReceivableMember",
+      "us-gaap:ConcentrationRiskByTypeAxis": "us-gaap:CustomerConcentrationRiskMember",
+      "srt:MajorCustomersAxis": "amd:TopCustomerTwoMember"
+    }
+  },
+  "ib72300d1a54046558b0b647a066d17f5_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:DebtInstrumentAxis": "amd:A2.125ConvertibleSeniorNotesDue2026Member",
+      "us-gaap:LongtermDebtTypeAxis": "us-gaap:ConvertibleDebtMember"
+    }
+  },
+  "id6ce5f69228c477c91aa4e7bea62a777_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareByAntidilutiveSecuritiesAxis": "us-gaap:ConvertibleDebtSecuritiesMember"
+    }
+  },
+  "i2264297a6db643dd9d12787eb9b2caf5_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareByAntidilutiveSecuritiesAxis": "us-gaap:ConvertibleDebtSecuritiesMember"
+    }
+  },
+  "if3ca7e98c25941aba1a2e98ef75c15fe_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementClassOfStockAxis": "us-gaap:CommonStockMember"
+    }
+  },
+  "ibe49fcd1ef9742eb8c29b78359e808ef_I20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementClassOfStockAxis": "us-gaap:CommonStockMember"
+    }
+  },
+  "ie9e5e0c65e854f90a63ab386dd8196de_I20191228": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2019-12-29",
+    "dimensions": {
+      "us-gaap:StatementClassOfStockAxis": "us-gaap:CommonStockMember"
+    }
+  },
+  "i495bc32bf4cc41118d8ac9d7a2f7825c_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementClassOfStockAxis": "us-gaap:CommonStockMember"
+    }
+  },
+  "ia61b060d47cc4240b406e96ff20e6b52_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:StatementClassOfStockAxis": "us-gaap:CommonStockMember"
+    }
+  },
+  "ie60289d6bd924e7095a023d20f26df36_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:StatementClassOfStockAxis": "us-gaap:CommonStockMember"
+    }
+  },
+  "ief47ff370d2944cab738a28697c81508_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:StatementClassOfStockAxis": "us-gaap:CommonStockMember"
+    }
+  },
+  "i2bd80c76c9174d209da7dab4cd6dfaf9_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockOptionMember"
+    }
+  },
+  "id3a2c9f4d82649a6bbd36175ce39622f_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:RangeAxis": "srt:MinimumMember",
+      "us-gaap:AwardTypeAxis": "us-gaap:PerformanceSharesMember"
+    }
+  },
+  "if8cfb53b82a54620ad73a683ba739ecb_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:PerformanceSharesMember",
+      "srt:RangeAxis": "srt:MaximumMember"
+    }
+  },
+  "ia8636055a04146f89995b22b25514255_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockMember"
+    }
+  },
+  "i21ecbb356935404e9384a6ccdf2229be_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockMember"
+    }
+  },
+  "i3c040c0e99e041a0894874964ae18906_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:CommonStockMember",
+      "us-gaap:PlanNameAxis": "amd:A2004PlanMember"
+    }
+  },
+  "ie7ce7216eddc4e84865460f0809cbfa5_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:PlanNameAxis": "amd:A2017PlanMember",
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockMember"
+    }
+  },
+  "i926797f6cdcd44d888ebf206e7517c4b_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:CommonStockMember",
+      "us-gaap:PlanNameAxis": "amd:Xilinx2007PlanMember"
+    }
+  },
+  "i4d54e83a65e94f8fb0c88edc80da043a_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:IncomeStatementLocationAxis": "us-gaap:CostOfSalesMember"
+    }
+  },
+  "i731b099b9c4f4543a25ff08bd0717f4f_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:IncomeStatementLocationAxis": "us-gaap:CostOfSalesMember"
+    }
+  },
+  "i470b2a80b037467b86610233f40b2615_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:IncomeStatementLocationAxis": "us-gaap:CostOfSalesMember"
+    }
+  },
+  "i4d68e2a3a49246168f3821e1aa127e83_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:IncomeStatementLocationAxis": "us-gaap:ResearchAndDevelopmentExpenseMember"
+    }
+  },
+  "if883d5c151b7416497853739aad53850_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:IncomeStatementLocationAxis": "us-gaap:ResearchAndDevelopmentExpenseMember"
+    }
+  },
+  "iece8a5f7165347978b81e5bb76dfb9a0_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:IncomeStatementLocationAxis": "us-gaap:ResearchAndDevelopmentExpenseMember"
+    }
+  },
+  "i548e6f5b36e24132a9fe29a30f9cfd88_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:IncomeStatementLocationAxis": "us-gaap:SellingGeneralAndAdministrativeExpensesMember"
+    }
+  },
+  "ib69d4955aa324db78d6c4321db417d96_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:IncomeStatementLocationAxis": "us-gaap:SellingGeneralAndAdministrativeExpensesMember"
+    }
+  },
+  "i183b8a068c4f4822baa0e57f5ae0d6ef_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:IncomeStatementLocationAxis": "us-gaap:SellingGeneralAndAdministrativeExpensesMember"
+    }
+  },
+  "i9f9c85eb540a462ab696e5474d4889e1_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockOptionMember"
+    }
+  },
+  "ide497073e5fe40b19d7050036d11a0b9_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockOptionMember"
+    }
+  },
+  "i70b3345b089b400abfe3c88d8e76a10b_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockOptionMember"
+    }
+  },
+  "i041cd80e2efe4c659450c58f7a5e6d59_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockOptionMember"
+    }
+  },
+  "i5a55292c6928477fac00d246a31d9c84_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "amd:TimeBasedRestrictedStockUnitsMember"
+    }
+  },
+  "ied365f474ede4e03b84a6b48da6b766d_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "amd:TimeBasedRestrictedStockUnitsMember"
+    }
+  },
+  "i76e30f3723314f91b02cde3b125f2d5c_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "amd:TimeBasedRestrictedStockUnitsMember"
+    }
+  },
+  "ic4a1a5634a1c4d919a52fa6096893557_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "amd:TimeBasedRestrictedStockUnitsMember"
+    }
+  },
+  "i5f8e8183661248d2a901d80777d75431_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "amd:TimeBasedRestrictedStockUnitsMember"
+    }
+  },
+  "i1421fc60aae646f3b95d2df8cbfbf778_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:PerformanceSharesMember"
+    }
+  },
+  "ib2d3f41af4834314ae871b6655624d9c_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:PerformanceSharesMember"
+    }
+  },
+  "i35bcd5e7329648d1b9a4405de48ed29f_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:PerformanceSharesMember"
+    }
+  },
+  "ieb72d26398384a148f0941c929caf0ca_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "srt:RangeAxis": "srt:MinimumMember",
+      "us-gaap:AwardTypeAxis": "us-gaap:PerformanceSharesMember"
+    }
+  },
+  "i917213c562a24d36a6a8c439f5cc6a48_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:PerformanceSharesMember",
+      "srt:RangeAxis": "srt:MaximumMember"
+    }
+  },
+  "i045f9f1e58ff4d9385b3dc3a54476896_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:PerformanceSharesMember"
+    }
+  },
+  "i658e6510626f48ba89778ce1532f2c75_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:PerformanceSharesMember"
+    }
+  },
+  "i1fa605b5497c41cfb27d7ae0fbe6c337_I20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockMember"
+    }
+  },
+  "ic8db1e6d753c4736ac3c83ff1e3258be_I20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockMember"
+    }
+  },
+  "ic44d42301b214b3581be58d2f5908fb4_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:RangeAxis": "srt:MinimumMember",
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockMember"
+    }
+  },
+  "i5ae65b344af24ed1894b8f2c00ff5fe9_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "srt:RangeAxis": "srt:MaximumMember",
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockMember"
+    }
+  },
+  "i9d93142d4ebd4557a5b4edb60491d257_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:RangeAxis": "srt:MinimumMember",
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockMember"
+    }
+  },
+  "ic5d101f4824f49319b8f1c04c74ecc6d_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "srt:RangeAxis": "srt:MaximumMember",
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockMember"
+    }
+  },
+  "i6f6ab1347b3f407d9ce0104fe30b9cbc_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "srt:RangeAxis": "srt:MinimumMember",
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockMember"
+    }
+  },
+  "idb3e17506fbf4d5ba27aef930af79b1b_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "srt:RangeAxis": "srt:MaximumMember",
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockMember"
+    }
+  },
+  "ib930f101737c44f998946716f77e71a3_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockMember"
+    }
+  },
+  "i33384d73c40a425b901a6cc76fb1079e_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:AwardTypeAxis": "us-gaap:EmployeeStockMember"
+    }
+  },
+  "ic314a4fc2df74e87b8a29494f99eed77_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis": "amd:ExpenseAndOtherAccountsMember"
+    }
+  },
+  "idbaec795e7404082b3ddc3edba040831_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis": "amd:ExpenseAndOtherAccountsMember"
+    }
+  },
+  "i6b7408db4bf24bb38bd52fba2c234652_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis": "amd:ExpenseAndOtherAccountsMember"
+    }
+  },
+  "id322a72cba8a4a6da05ffbfb0473179c_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis": "us-gaap:AcquisitionRelatedCostsMember"
+    }
+  },
+  "i6753142253db4b1d8086583494bce93f_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis": "us-gaap:AcquisitionRelatedCostsMember"
+    }
+  },
+  "i3738e15e3cbc49c5a7e1afe8f7adec20_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis": "us-gaap:AcquisitionRelatedCostsMember"
+    }
+  },
+  "i0d48c511d2714c27a3b9818550404495_D20211226-20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2021-12-26",
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis": "amd:DeductionsRecoveriesMember"
+    }
+  },
+  "i8efce17711b64bfdb3af7dc19a4e262f_D20201227-20211225": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2020-12-27",
+    "period_end": "2021-12-26",
+    "dimensions": {
+      "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis": "amd:DeductionsRecoveriesMember"
+    }
+  },
+  "ie11f6e5d13a244e9b237461b1d048091_D20191229-20201226": {
+    "entity_identifier": "0000002488",
+    "period_type": "duration",
+    "period_start": "2019-12-29",
+    "period_end": "2020-12-27",
+    "dimensions": {
+      "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis": "amd:DeductionsRecoveriesMember"
+    }
+  },
+  "i2667f1fc3b404a06ae373f8b26461e91_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:IncomeTaxAuthorityAxis": "us-gaap:DomesticCountryMember"
+    }
+  },
+  "i0a894e7ddfa14132954c6c60ee355fa0_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:IncomeTaxAuthorityAxis": "us-gaap:StateAndLocalJurisdictionMember"
+    }
+  },
+  "ibc2902e7c9eb4057b6b766b9d21f26cf_I20221231": {
+    "entity_identifier": "0000002488",
+    "period_type": "instant",
+    "period_start": null,
+    "period_end": "2023-01-01",
+    "dimensions": {
+      "us-gaap:IncomeTaxAuthorityAxis": "us-gaap:ForeignCountryMember"
+    }
+  }
+}

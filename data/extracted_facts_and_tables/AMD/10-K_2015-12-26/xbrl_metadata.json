@@ -1,0 +1,16 @@
+{
+  "source_submission": "data/raw/sec-edgar-filings/AMD/10-K/2015-12-26/0000002488-16-000111/full-submission.txt",
+  "primary_document": "amd-12262015x10k.htm",
+  "entity_cik": null,
+  "entity_name": null,
+  "ticker": "AMD",
+  "document_type": "10-K",
+  "period_end_date": "2015-12-26",
+  "fiscal_year_focus": null,
+  "fiscal_period_focus": null,
+  "amendment_flag": null,
+  "dei_ticker": null,
+  "dei_document_type": null,
+  "dei_period_end_date": null,
+  "dei_facts": {}
+}

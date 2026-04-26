@@ -1,0 +1,8 @@
+{
+  "shares": "xbrli:shares",
+  "usd": "iso4217:USD",
+  "usdPerShare": "iso4217:USD / xbrli:shares",
+  "number": "xbrli:pure",
+  "state": "act:state",
+  "security": "act:security"
+}

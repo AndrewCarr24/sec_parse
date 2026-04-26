@@ -23,6 +23,9 @@ cdk.out/
 # Large/external data — re-downloadable from SEC
 data/raw/
 
+# Regenerable vector store (rebuild with data_pipeline/narrative_indexer.py)
+data/narrative_store/
+
 # Env / secrets
 .env
 .env.*
@@ -36,3 +39,16 @@ credentials.*
 .idea/
 .vscode/
 *.swp
+
+# Claude Code local state
+.claude/
+
+# Local reference data (FinanceBench etc.) — not for repo
+ref_data/
+
+# Ad-hoc scratch
+tmp.txt
+tmp.*.txt
+
+# External repos cloned for reference
+sec_agent/dsRAG/

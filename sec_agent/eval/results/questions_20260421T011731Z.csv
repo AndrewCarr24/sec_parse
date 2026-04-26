@@ -1,0 +1,80 @@
+question,expected_answer,agent_answer,correct,rationale
+What was ACT's revenue in Q3 2024?,"Q3 2024 (three months ended Sep 30, 2024): $309.6M. YTD 2024 (nine months): $900.0M.","ACT's (Enact Holdings) **total revenue for Q3 2024** (the three months ended September 30, 2024) was **$309.6 million**.
+
+For additional context, revenue for the nine months ended September 30, 2024 was approximately **$900.0 million**.",True,Both Q3 2024 ($309.6M) and YTD 2024 ($900.0M) figures match exactly.
+"What was Enact's primary NIW to borrowers with FICO <620 in Q3 2024 and YTD through Sep 30, 2024?","Primary NIW to <620 FICO borrowers (values in $ millions): $9M for Q3 2024 (three months); $19M YTD through Sep 30, 2024.","I'll look up the NIW by FICO score data simultaneously with a targeted query. Let me search for the right concept and pull the numbers at the same time.The raw values are in the display scale of the source table (millions of dollars). Here are the results for ACT (Enact Holdings):
+
+### Primary NIW — FICO Score < 620
+
+| Period | NIW |
+|---|---|
+| **Q3 2024** (Jul 1 – Sep 30, 2024) | **$9 million** |
+| **YTD 2024** (Jan 1 – Sep 30, 2024) | **$19 million** |
+
+For context, here are the prior-year comparables:
+| Period | NIW |
+|---|---|
+| Q3 2023 (Jul 1 – Sep 30, 2023) | $2 million |
+| YTD 2023 (Jan 1 – Sep 30, 2023) | $10 million |
+
+**Key takeaways:**
+- Sub-620 FICO NIW in Q3 2024 was **$9M**, up significantly from just $2M in Q3 2023.
+- On a YTD basis, sub-620 FICO NIW of **$19M** nearly doubled compared to $10M in the same period of 2023.
+- That said, this segment represents a very small slice of Enact's overall primary NIW, reflecting the company's focus on creditworthy borrowers.",True,"Agent provides exact figures ($9M Q3 2024, $19M YTD) matching expected answer with proper context."
+"What was Enact's risk-to-capital ratio as of Sep 30, 2024?","EMICO risk-to-capital ratio: 10.4:1. Combined mortgage insurance subsidiaries: 10.5:1. Both as of Sep 30, 2024.","As of **September 30, 2024**, Enact reported the following risk-to-capital ratios (ACT, Q3 2024):
+
+| Entity | Risk-to-Capital Ratio |
+|---|---|
+| **EMICO** (Enact Mortgage Insurance Corporation) | **10.4x** |
+| **Combined Mortgage Insurance Subsidiaries** | **10.5x** |
+
+Both ratios remain well below the typical regulatory threshold of 25:1, reflecting a strong statutory capital position. The slight difference between EMICO standalone and the combined subsidiaries is minimal, indicating consistent capitalization across Enact's mortgage insurance entities.",True,Both EMICO (10.4:1) and combined subsidiaries (10.5:1) ratios match expected answer exactly.
+"What share of Enact's fixed maturity investment portfolio is rated AAA vs. BB & below as of Sep 30, 2024?","AAA = 11%; BB & below = 1%. Full rating distribution: AAA 11, AA 22, A 31, BBB 35, BB & below 1.","Here is the full breakdown of Enact's fixed maturity securities portfolio by credit rating as of **September 30, 2024 (ACT, Q3 2024)**:
+
+| Credit Rating | Share of Portfolio |
+|---|---|
+| **AAA** | **11%** |
+| AA | 22% |
+| A | 31% |
+| BBB | 35% |
+| **BB & below** | **1%** |
+| **Total** | **100%** |
+
+**Key takeaways:**
+- **AAA-rated securities** represent **11%** of the fixed maturity portfolio — the highest-quality tier.
+- **BB & below (below investment grade)** is a very modest **1%**, reflecting Enact's conservative, high-quality investment posture.
+- The vast majority of the portfolio (**64%**) is concentrated in the investment-grade A and BBB categories, with an additional 22% in AA.
+- Overall, **99% of the portfolio is investment grade**, underscoring a strong credit quality profile.",True,"All figures match exactly - AAA 11%, BB & below 1%, and full distribution provided."
+"How much remained available under Enact's May 2024 $250 million share repurchase authorization as of Sep 30, 2024?","$166.8 million remained available under the May 2024 $250 million share repurchase program as of Sep 30, 2024.","As of September 30, 2024, **$166.8 million** remained available under Enact's (ACT) May 1, 2024 share repurchase authorization of $250 million.
+
+To put that in context:
+- The program was announced on **May 1, 2024**, authorizing repurchases of up to **$250 million** of EHI common stock with no expiration date.
+- During the **nine months ended September 30, 2024**, the company repurchased **5,477,586 shares** at an average price of **$30.86 per share**, which accounts for the drawdown from the $250 million authorization.
+- In Q3 2024 alone, Enact bought back **2,096,329 shares** at an average price of **$34.04 per share**.
+- Subsequent to quarter-end, an additional **837,777 shares** were purchased at an average price of **$35.89** through October 31, 2024, further reducing the remaining availability beyond the $166.8 million figure.",True,Core figure of $166.8 million remaining matches expected answer exactly with appropriate context.
+"How many shares did Enact repurchase during Q3 2024, and at what average price?","2,096,329 shares at an average price of $34.04 per share (excluding commissions) during the three months ended Sep 30, 2024.","Here's a summary of Enact's (ACT) share repurchase activity for **Q3 2024 (July 1 – September 30, 2024)**:
+
+| Metric | Value |
+|---|---|
+| **Shares Repurchased** | 2,096,329 shares |
+| **Total Repurchase Value** | ~$71.3 million |
+| **Average Price per Share** | ~**$34.00** |
+
+> **How the average price is derived:** The total repurchase cost was approximately $71.3 million (comprising ~$71.25M in repurchase value plus ~$22K in related costs), divided by 2,096,329 shares, yields an average price of roughly **$34.00 per share**.
+
+These shares were retired upon repurchase, as reflected in Enact's equity statement for the period.",True,"Shares (2,096,329) and average price ($34.04 vs $34.00) match within rounding tolerance."
+"What was Enact's revenue in Q3 2024, and how many of its own shares did it repurchase during that quarter?","Q3 2024 revenue: $309.6M. Shares repurchased in Q3 2024: 2,096,329 at an average price of $34.04 per share.","Here's a summary of Enact's (ACT) key figures for **Q3 2024 (July 1 – September 30, 2024)**:
+
+---
+
+### 📊 Revenue
+**Total Revenues: $309.6 million**
+
+---
+
+### 🔁 Share Repurchases
+Enact repurchased and retired **~2,096,329 shares** during Q3 2024, at a total cost of approximately **$71.3 million** (comprised of ~$71.3M in repurchase cost, with a nominal par value component of ~$22K reflected separately in equity accounting).
+
+---
+
+In short, Enact generated solid revenues of ~$310M in the quarter while returning meaningful capital to shareholders through a ~$71M buyback of roughly 2.1 million shares.",True,Revenue and share repurchase quantity match expected answer exactly.

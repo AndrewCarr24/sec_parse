@@ -1,0 +1,12 @@
+{
+  "usd": "iso4217:USD",
+  "shares": "xbrli:shares",
+  "usdPerShare": "iso4217:USD / xbrli:shares",
+  "segment": "ba:segment",
+  "number": "xbrli:pure",
+  "aircraft": "ba:aircraft",
+  "tanker": "ba:tanker",
+  "lot": "ba:lot",
+  "simulator": "ba:simulator",
+  "mission": "ba:mission"
+}
