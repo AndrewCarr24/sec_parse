@@ -52,3 +52,8 @@ tmp.*.txt
 
 # External repos cloned for reference
 sec_agent/dsRAG/
+
+# agent_fin/ has its own git repo (pushed to AndrewCarr24/mi_bot).
+# Ignored here so the outer repo doesn't see it as untracked or
+# treat its .git as a submodule pointer.
+agent_fin/
